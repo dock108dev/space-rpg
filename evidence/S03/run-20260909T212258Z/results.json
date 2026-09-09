@@ -1,0 +1,24 @@
+{
+  "version": "4.6.2.stable.official.71f334935",
+  "runtime_manifest_sha256": "581d066406d115200c200e5311c04eab72549b0c5d8cb2a2cf0a21a984cd5026",
+  "results": [
+    {
+      "name": "fresh-import",
+      "exit": 0,
+      "passed": true,
+      "tool_wall_seconds": 3.7809369580063503
+    },
+    {
+      "name": "s03-behavior",
+      "exit": 0,
+      "passed": true,
+      "tool_wall_seconds": 2.550452540977858
+    },
+    {
+      "name": "s02-regression",
+      "exit": 0,
+      "passed": true,
+      "tool_wall_seconds": 0.5857179579907097
+    }
+  ]
+}

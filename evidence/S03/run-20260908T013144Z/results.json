@@ -1,0 +1,17 @@
+{
+  "version": "4.6.2.stable.official.71f334935",
+  "results": [
+    {
+      "name": "fresh-import",
+      "exit": 0,
+      "passed": true,
+      "tool_wall_seconds": 3.584046291973209
+    },
+    {
+      "name": "s03-behavior",
+      "exit": 1,
+      "passed": false,
+      "tool_wall_seconds": 2.438667499984149
+    }
+  ]
+}

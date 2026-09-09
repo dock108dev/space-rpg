@@ -1,0 +1,141 @@
+Godot Engine v4.6.2.stable.official.71f334935 - https://godotengine.org
+
+PASS select blast
+PASS before learning cannot fetch
+PASS before reaching package cannot collect
+PASS legal direct movement
+PASS legal direct movement
+PASS safe movement costs no AP
+PASS collect package teaches fetch
+PASS learning autosave valid
+PASS explicitly begin assessment
+PASS legal direct movement
+PASS legal direct movement
+PASS legal direct movement
+PASS legal direct movement
+PASS integrated legal attack
+PASS integrated legal attack
+PASS selected power used in journey
+PASS actual fresh fight reaches shelter phase
+PASS assigned shelter walk starts
+PASS assigned route finishes beside shelter
+PASS shelter reached before rewards
+PASS choose distinct reward security
+PASS prevent repeated/cross reward security
+PASS prevent repeated/cross reward equipment
+PASS prevent repeated/cross reward opportunity
+PASS learned pet fetch starts
+PASS fetch save/reset/load rejected in flight
+PASS pause freezes fetching pet
+PASS pet delivers useful kit without moving player
+PASS cache duplicate prevented
+PASS completed journey manual save
+PASS resume restores reward learning inventory
+PASS full health kit does not spend
+PASS recovery kit useful and persisted
+PASS fresh practice preserves saves
+PASS inconsistent learning rejected
+PASS unknown reward rejected
+PASS excess inventory rejected
+PASS select shield
+PASS before learning cannot fetch
+PASS before reaching package cannot collect
+PASS legal direct movement
+PASS legal direct movement
+PASS safe movement costs no AP
+PASS collect package teaches fetch
+PASS learning autosave valid
+PASS explicitly begin assessment
+PASS legal direct movement
+PASS legal direct movement
+PASS legal direct movement
+PASS legal direct movement
+PASS integrated legal attack
+PASS integrated legal attack
+PASS integrated legal attack
+PASS selected power used in journey
+PASS actual fresh fight reaches shelter phase
+PASS assigned shelter walk starts
+PASS assigned route finishes beside shelter
+PASS shelter reached before rewards
+PASS choose distinct reward equipment
+PASS prevent repeated/cross reward security
+PASS prevent repeated/cross reward equipment
+PASS prevent repeated/cross reward opportunity
+PASS learned pet fetch starts
+PASS fetch save/reset/load rejected in flight
+PASS pause freezes fetching pet
+PASS pet delivers useful kit without moving player
+PASS cache duplicate prevented
+PASS completed journey manual save
+PASS resume restores reward learning inventory
+PASS full health kit does not spend
+PASS recovery kit useful and persisted
+PASS fresh practice preserves saves
+PASS inconsistent learning rejected
+PASS unknown reward rejected
+PASS excess inventory rejected
+PASS select dash
+PASS before learning cannot fetch
+PASS before reaching package cannot collect
+PASS legal direct movement
+PASS legal direct movement
+PASS safe movement costs no AP
+PASS collect package teaches fetch
+PASS learning autosave valid
+PASS explicitly begin assessment
+PASS legal direct movement
+PASS legal direct movement
+PASS legal direct movement
+PASS legal direct movement
+PASS integrated legal attack
+PASS legal direct movement
+PASS integrated legal attack
+PASS integrated legal attack
+PASS selected power used in journey
+PASS actual fresh fight reaches shelter phase
+PASS assigned shelter walk starts
+PASS assigned route finishes beside shelter
+PASS shelter reached before rewards
+PASS choose distinct reward opportunity
+PASS prevent repeated/cross reward security
+PASS prevent repeated/cross reward equipment
+PASS prevent repeated/cross reward opportunity
+PASS learned pet fetch starts
+PASS fetch save/reset/load rejected in flight
+PASS pause freezes fetching pet
+PASS pet delivers useful kit without moving player
+PASS cache duplicate prevented
+PASS completed journey manual save
+PASS resume restores reward learning inventory
+PASS full health kit does not spend
+PASS recovery kit useful and persisted
+PASS fresh practice preserves saves
+PASS inconsistent learning rejected
+PASS unknown reward rejected
+PASS excess inventory rejected
+PASS select blast
+PASS assigned package walk starts
+PASS pause freezes assigned motion
+PASS paused mutations rejected
+PASS manual control after cancel
+PASS focus loss pauses integrated scene
+PASS assignment can resume
+PASS integrated mid-turn manual
+PASS defeat retries latest integrated state
+PASS truncated schema fallback
+PASS legal direct movement
+PASS legal direct movement
+PASS legal direct movement
+PASS integrated legal attack
+PASS integrated legal attack
+PASS selected power used in journey
+PASS actual fresh fight reaches shelter phase
+PASS assigned shelter walk starts
+PASS assigned route finishes beside shelter
+PASS shelter reached before rewards
+PASS failed reward write rolls back
+PASS reward can retry after writer cleared
+PASS pet has no blocking collision
+PASS audience is display only
+S04 RESULTS 138 checks; 0 failed

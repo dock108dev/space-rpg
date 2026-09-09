@@ -1,0 +1,19 @@
+{
+  "exit": 0,
+  "passed": true,
+  "tool_wall_seconds": 87.72236008298933,
+  "arguments": [
+    "/Applications/Godot.app/Contents/MacOS/Godot",
+    "--path",
+    "/Users/michaelfuscoletti/Desktop/space-opera-rpg/game",
+    "--resolution",
+    "640x360",
+    "--disable-vsync",
+    "--write-movie",
+    "/Users/michaelfuscoletti/Desktop/space-opera-rpg/evidence/S03/capture-20260908T013621Z/encounter.avi",
+    "--fixed-fps",
+    "30",
+    "--script",
+    "res://tests/visible_s03.gd"
+  ]
+}

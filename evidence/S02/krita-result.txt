@@ -1,0 +1,141 @@
+PASS: Krita 5.3.3 (git 858d352) opened originals, authored six cutout layers per direction, saved/reopened KRA and exported RGBA PNG.
+[
+  {
+    "facing": "toward",
+    "source": "source-assets/S02/originals/human-toward-v1.png",
+    "source_dimensions": [
+      1254,
+      1254
+    ],
+    "export_dimensions": [
+      1254,
+      1254
+    ],
+    "foot": [
+      623,
+      1180
+    ],
+    "top": 34,
+    "pivots": {
+      "far_leg": [
+        555,
+        580
+      ],
+      "near_leg": [
+        688,
+        580
+      ],
+      "far_arm": [
+        478,
+        274
+      ],
+      "near_arm": [
+        759,
+        274
+      ],
+      "torso": [
+        623,
+        551
+      ],
+      "head": [
+        624,
+        219
+      ]
+    },
+    "removed_background_pixels": 1290636,
+    "seconds": 1.6968612910131924,
+    "master_reopened": true
+  },
+  {
+    "facing": "away",
+    "source": "source-assets/S02/originals/human-away-v1.png",
+    "source_dimensions": [
+      1254,
+      1254
+    ],
+    "export_dimensions": [
+      1254,
+      1254
+    ],
+    "foot": [
+      623,
+      1180
+    ],
+    "top": 34,
+    "pivots": {
+      "far_leg": [
+        555,
+        580
+      ],
+      "near_leg": [
+        688,
+        580
+      ],
+      "far_arm": [
+        478,
+        274
+      ],
+      "near_arm": [
+        759,
+        274
+      ],
+      "torso": [
+        623,
+        551
+      ],
+      "head": [
+        624,
+        219
+      ]
+    },
+    "removed_background_pixels": 1266655,
+    "seconds": 1.7661691250104923,
+    "master_reopened": true
+  },
+  {
+    "facing": "side",
+    "source": "source-assets/S02/originals/human-side-v1.png",
+    "source_dimensions": [
+      1254,
+      1254
+    ],
+    "export_dimensions": [
+      1254,
+      1254
+    ],
+    "foot": [
+      603,
+      1176
+    ],
+    "top": 34,
+    "pivots": {
+      "far_leg": [
+        594,
+        556
+      ],
+      "near_leg": [
+        578,
+        556
+      ],
+      "torso": [
+        600,
+        540
+      ],
+      "head": [
+        600,
+        202
+      ],
+      "far_arm": [
+        545,
+        265
+      ],
+      "near_arm": [
+        545,
+        265
+      ]
+    },
+    "removed_background_pixels": 1381425,
+    "seconds": 1.670341582997935,
+    "master_reopened": true
+  }
+]

@@ -1,0 +1,12 @@
+{
+  "recorded_stage_seconds": 202.5396617489839,
+  "generation_tool_wait_seconds": 188.778,
+  "active_agent_authoring_seconds": "UNAVAILABLE - not separately timed",
+  "owner_hands_on_seconds": "UNAVAILABLE - text feedback recorded, activity duration unmeasured",
+  "session_start_utc": "2026-09-08T00:28:23.858372+00:00",
+  "as_of_utc": "2026-09-08T00:59:16.716445+00:00",
+  "warning": "Recorded stage total is not total labor or a productivity estimate.",
+  "completed_record_utc": "2026-09-08T01:06:00.849844+00:00",
+  "session_wall_seconds": 2256.991472,
+  "session_wall_note": "Elapsed session time includes generation, tool execution, engineering and owner waits; not active labor."
+}

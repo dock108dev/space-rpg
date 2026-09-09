@@ -1,0 +1,31 @@
+Godot Engine v4.6.2.stable.official.71f334935 - https://godotengine.org
+
+VISIBLE_ENV {"renderer":"gl_compatibility","scale":1.0,"screen":"(0, 0)","window":"(0, 0)"}
+PASS actual normalized diagonal displacement
+PASS released input stops player
+PASS diagonal tie and idle facing retention
+PASS wall collision blocks displacement
+PASS cabinet footprint blocks displacement
+PASS facing left
+PASS facing right
+PASS facing away
+PASS facing toward
+PASS pet corners around cabinet and follows through doorway
+PASS pet reverses through doorway and follows back
+PASS pet footprint stays outside every wall and cabinet
+PASS pet motion continuous without wall warps
+PASS blocked doorway leaves pet safely outside
+PASS pet recovers route after doorway reopens
+PASS nearby interaction available
+PASS out-of-range interaction absent and inert
+PASS creature preparation held for ten seconds without input
+PASS explicit pause halts actors creature effects and interaction
+PASS repeated action input does not duplicate creature action
+PASS creature action and recovery return to idle
+PASS 100 repeated effects and interactions retire without node growth
+ERROR: reset restores actors demo effects and interaction state
+   at: push_error (core/variant/variant_utility.cpp:1024)
+   GDScript backtrace (most recent call first):
+       [0] check (res://tests/run_s02.gd:9)
+       [1] run (res://tests/run_s02.gd:78)
+       [2] frames (res://tests/run_s02.gd:11)

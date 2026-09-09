@@ -1,0 +1,182 @@
+Godot Engine v4.6.2.stable.official.71f334935 - https://godotengine.org
+
+PASS action resolves within bounded frames
+PASS action resolves within bounded frames
+PASS action resolves within bounded frames
+PASS all demonstrations leave encounter state untouched
+PASS choose blast
+PASS action resolves within bounded frames
+PASS walk through encounter
+PASS action resolves within bounded frames
+PASS walk through encounter
+PASS action resolves within bounded frames
+PASS walk through encounter
+PASS action resolves within bounded frames
+PASS walk through encounter
+PASS action resolves within bounded frames
+PASS action resolves within bounded frames
+PASS legal attack in complete encounter
+PASS action resolves within bounded frames
+PASS legal attack in complete encounter
+PASS blast completes encounter from actual fresh selection
+PASS success save loads
+PASS success rejects repeated attacks and ending turn
+PASS action resolves within bounded frames
+PASS action resolves within bounded frames
+PASS action resolves within bounded frames
+PASS all demonstrations leave encounter state untouched
+PASS choose shield
+PASS action resolves within bounded frames
+PASS walk through encounter
+PASS action resolves within bounded frames
+PASS walk through encounter
+PASS action resolves within bounded frames
+PASS walk through encounter
+PASS action resolves within bounded frames
+PASS walk through encounter
+PASS action resolves within bounded frames
+PASS action resolves within bounded frames
+PASS shield used during complete encounter
+PASS action resolves within bounded frames
+PASS legal attack in complete encounter
+PASS action resolves within bounded frames
+PASS action resolves within bounded frames
+PASS legal attack in complete encounter
+PASS action resolves within bounded frames
+PASS legal attack in complete encounter
+PASS shield completes encounter from actual fresh selection
+PASS success save loads
+PASS success rejects repeated attacks and ending turn
+PASS action resolves within bounded frames
+PASS action resolves within bounded frames
+PASS action resolves within bounded frames
+PASS all demonstrations leave encounter state untouched
+PASS choose dash
+PASS action resolves within bounded frames
+PASS dash used during complete encounter
+PASS action resolves within bounded frames
+PASS walk through encounter
+PASS action resolves within bounded frames
+PASS walk through encounter
+PASS action resolves within bounded frames
+PASS action resolves within bounded frames
+PASS legal attack in complete encounter
+PASS action resolves within bounded frames
+PASS legal attack in complete encounter
+PASS action resolves within bounded frames
+PASS action resolves within bounded frames
+PASS legal attack in complete encounter
+PASS dash completes encounter from actual fresh selection
+PASS success save loads
+PASS success rejects repeated attacks and ending turn
+PASS action resolves within bounded frames
+PASS action resolves within bounded frames
+PASS action resolves within bounded frames
+PASS all demonstrations leave encounter state untouched
+PASS choose blast
+PASS out-of-range bolt atomic
+PASS nonadjacent move atomic
+PASS cancellation atomic
+PASS key echo ignored
+PASS rapid repeat during committed action ignored
+PASS save and reset rejected in motion
+PASS action resolves within bounded frames
+PASS action resolves within bounded frames
+PASS action resolves within bounded frames
+PASS action resolves within bounded frames
+PASS zero AP does not automatically end turn
+PASS insufficient AP atomic
+PASS turn ownership and duplicate end
+PASS enemy save rejected
+PASS action resolves within bounded frames
+PASS enemy returns 4 AP
+PASS action resolves within bounded frames
+PASS action resolves within bounded frames
+PASS action resolves within bounded frames
+PASS all demonstrations leave encounter state untouched
+PASS choose dash
+PASS dash cannot cross cabinet
+PASS walk cannot enter cabinet
+PASS arena boundary
+PASS dash cannot land on enemy
+PASS dash cannot cross enemy
+PASS bolt blocked sight
+PASS action resolves within bounded frames
+PASS action resolves within bounded frames
+PASS action resolves within bounded frames
+PASS all demonstrations leave encounter state untouched
+PASS choose blast
+PASS blast blocked sight
+PASS blast insufficient resources
+PASS action resolves within bounded frames
+PASS action resolves within bounded frames
+PASS action resolves within bounded frames
+PASS all demonstrations leave encounter state untouched
+PASS choose shield
+PASS action resolves within bounded frames
+PASS shield costs 1 AP
+PASS duplicate shield does not spend
+PASS mid-turn shield manual save
+PASS action resolves within bounded frames
+PASS shield absorbs 2 and expires after enemy turn
+PASS latest manual restores AP shield preparation and health
+PASS action resolves within bounded frames
+PASS action resolves within bounded frames
+PASS fixed prepared strike misses after movement; shield expires
+PASS pause halts enemy timer creature and pet
+PASS paused actions/save/load/reset rejected
+PASS action resolves within bounded frames
+PASS enemy resumes after pause
+PASS focus loss pauses
+PASS action resolves within bounded frames
+PASS action resolves within bounded frames
+PASS action resolves within bounded frames
+PASS all demonstrations leave encounter state untouched
+PASS choose blast
+PASS action resolves within bounded frames
+PASS blocked enemy path waits without softlock
+PASS action resolves within bounded frames
+PASS route recovery after blockage removal
+PASS action resolves within bounded frames
+PASS action resolves within bounded frames
+PASS action resolves within bounded frames
+PASS all demonstrations leave encounter state untouched
+PASS choose dash
+PASS action resolves within bounded frames
+PASS bounded spatial control interaction
+PASS control cannot apply twice
+PASS manual persists changed world
+PASS defeat visible before retry
+PASS pause halts retry countdown
+PASS action resolves within bounded frames
+PASS defeat loads actual latest manual, not encounter reset
+PASS fresh runtime loads supported manual
+PASS malformed unsupported interrupted fallback visible
+PASS bad files retained
+PASS concurrent or interrupted writer blocks save visibly
+PASS new save does not overwrite bad files
+PASS blocked-cell save invalid
+PASS fractional health invalid
+PASS inconsistent preparation invalid
+PASS reset preserves saves and clears choice
+PASS reset can resume latest state
+PASS action resolves within bounded frames
+PASS action resolves within bounded frames
+PASS action resolves within bounded frames
+PASS all demonstrations leave encounter state untouched
+PASS choose blast
+PASS action resolves within bounded frames
+PASS action resolves within bounded frames
+PASS defeat loads start autosave when no manual exists
+PASS empty save folder visible safe fresh state
+PASS all malformed saves do not partially apply
+PASS action resolves within bounded frames
+PASS action resolves within bounded frames
+PASS action resolves within bounded frames
+PASS all demonstrations leave encounter state untouched
+PASS choose dash
+PASS action resolves within bounded frames
+PET_TRACE (469.3805, 578.2198) start (359.0, 594.0) human (512.0, 574.0) ap 3 nav 34
+PASS pet follows without tactical occupancy
+PASS pet avoids cabinet footprint
+S03 RESULTS 178 checks; 0 failed

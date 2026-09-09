@@ -1,0 +1,12 @@
+{
+  "runtime_manifest_sha256": "581d066406d115200c200e5311c04eab72549b0c5d8cb2a2cf0a21a984cd5026",
+  "technical_run": "evidence/S03/run-20260908T013851Z",
+  "visible_run": "evidence/S03/capture-20260908T013852Z",
+  "s03_assertions": 178,
+  "s02_assertions": 23,
+  "s02_recorded_files_changed": [
+    "scripts/validate.sh"
+  ],
+  "explanation": "Only validation dispatcher now accepts S03; original S02 scene, controllers, assets and tests unchanged. New files are S03 runtime/tools and UID sidecars produced by Godot import. No historical evidence edited.",
+  "owner_play_assessment": "deferred at owner request; no acceptance inferred"
+}

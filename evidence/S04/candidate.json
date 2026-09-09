@@ -1,0 +1,41 @@
+{
+  "candidate": "S04-20260909-01",
+  "runtime_manifest_sha256": "9d95ff12d4bbd8936183ad273d67c8e781dbe992eed4e03c510aa891ee6f0e2a",
+  "engine": "4.6.2.stable.official.71f334935",
+  "owner_launcher": "Launch Owner Play.command",
+  "owner_launcher_sha256": "3374a7ad4ea9a7d48750cb7daf901ccc3fddaa207f0508623a4a8f4b8d822ef7",
+  "practice_state": "dev-state/S05-20260909-01",
+  "owner_session": "NOT STARTED",
+  "source_copy": "builds/S04-20260909-01",
+  "technical_evidence": "evidence/S04/run-20260909T213134Z",
+  "visual_evidence": "evidence/S04/capture-20260909T213323Z",
+  "counts": {
+    "S04": {
+      "checks": 138,
+      "failures": 0
+    },
+    "S03": {
+      "checks": 178,
+      "failures": 0
+    },
+    "S02": {
+      "checks": 23,
+      "failures": 0
+    }
+  },
+  "visual_media": {
+    "programs": [],
+    "stream_groups": [],
+    "streams": [
+      {
+        "width": 2560,
+        "height": 1440,
+        "r_frame_rate": "30/1",
+        "nb_frames": "1112"
+      }
+    ],
+    "format": {
+      "duration": "37.066667"
+    }
+  }
+}

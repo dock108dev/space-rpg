@@ -1,0 +1,17 @@
+# Generated engine and Python caches
+.godot/
+__pycache__/
+*.py[cod]
+.DS_Store
+
+# Local practice saves and credentials
+/dev-state/
+.env
+.env.*
+!.env.example
+
+# Editor backups; editable .kra masters remain tracked
+*~
+
+# Large raw captures stay local; compressed review videos remain tracked
+/evidence/**/*.avi

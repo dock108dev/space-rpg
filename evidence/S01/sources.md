@@ -1,0 +1,31 @@
+# S01 official source register
+
+Checked September 7, 2026 (America/New_York). Sources were opened through web research; findings below are compact paraphrases, not downloaded copies. Software/document versions are distinguished. These establish documented capabilities and terms, not sample performance or asset quality.
+
+| ID | Official source | Verified finding / limitation |
+|---|---|---|
+| G1 | [Godot 4.6.2 archive](https://godotengine.org/download/archive/4.6.2-stable/) | Official stable release dated April 1, 2026; Standard macOS universal arm64/x86_64 build. Matches locally observed version family; not a latest-version claim or binary checksum verification. |
+| G2 | [Godot 4.6 cutout animation](https://docs.godotengine.org/en/4.6/tutorials/animation/cutout_animation.html) | Layered sprite rigs, pivots, mixed animation techniques. Page explicitly says content may be outdated for 4.6; current class references support the selected primitives, not every illustrated editor step. |
+| G3 | [AnimationPlayer 4.6](https://docs.godotengine.org/en/4.6/classes/class_animationplayer.html) | Animation libraries and timed property playback. Sample rig quality is untested. |
+| G4 | [CanvasItem 4.6](https://docs.godotengine.org/en/4.6/classes/class_canvasitem.html#class-canvasitem-property-y-sort-enabled) | Higher Y draws in front under Y sorting; unsorted child subtrees can sort together; relative sorting requires the same Z index. |
+| G5 | [Godot 4.6 system requirements](https://docs.godotengine.org/en/4.6/about/system_requirements.html) | Apple Silicon supported; renderer-dependent macOS/GPU requirements; project testing still required. M3 Pro/18 GB appears suitable, not benchmarked. |
+| G6 | [Godot 4.6 command line](https://docs.godotengine.org/en/4.6/tutorials/editor/command_line_tutorial.html) | Headless mode, project path and SceneTree/MainLoop script runner; export templates needed for export. Installed `--help` independently confirmed planned flags. |
+| G7 | [Godot 4.6 saving games](https://docs.godotengine.org/en/4.6/tutorials/io/saving_games.html) | FileAccess and JSON/binary approaches. JSON needs explicit encoding for types such as Vector2. Latest-save policy is game work. |
+| G8 | [NavigationAgent2D 4.6](https://docs.godotengine.org/en/4.6/classes/class_navigationagent2d.html) | Pathfinding agent uses navigation data, must update path logic during physics; marked experimental. Game code must move the parent. |
+| G9 | [Godot license](https://godotengine.org/license/) | MIT, notice requirements on redistribution, separate third-party components and game content. No engine purchase needed. |
+| G10 | [AnimatedSprite2D 4.6](https://docs.godotengine.org/en/4.6/classes/class_animatedsprite2d.html) | SpriteFrames image-sequence playback supports the authored-frame fallback. |
+| G11 | [Godot 4.6 image import](https://docs.godotengine.org/en/4.6/tutorials/assets_pipeline/importing_images.html) | PNG import and compression/import controls; chosen filtering/mipmap settings are sample hypotheses. |
+| K1 | [Krita download](https://krita.org/en/download/) | Page offers 5.3.3, released July 29, 2026; macOS installer, macOS 10.15 baseline, 4 GB minimum/16 GB recommended RAM, free direct download. Not installed or Mac-launch tested. |
+| K2 | [Krita license](https://krita.org/en/about/license/) | GPLv3 application; art creation including commercial work permitted, artwork not required to adopt application GPL. Input-art rights still matter. |
+| K3 | [Krita render animation](https://docs.krita.org/en/reference_manual/render_animation.html) | 5.3.0 manual describes PNG image-sequence export; video encoder path is unnecessary for game PNG frames. |
+| K4 | [Krita layers and masks](https://docs.krita.org/en/reference_manual/layers_and_masks.html) | Separate color/line layers and masks for transparency/transforms support editable cleanup. This capability does not replace drawing skill. |
+| D1 | [Defold download](https://defold.com/download/) | Apple Silicon and Intel Mac downloads; macOS 11 minimum; free engine. No installation performed. |
+| D2 | [Defold 1.13.0 release](https://defold.com/2026/06/22/Defold-1-13-0/) | Official release dated June 22, 2026, used as comparison baseline; not claimed newest. |
+| D3 | [Defold sprites](https://defold.com/manuals/sprite/) | Sprites display images/flipbook animation using atlases or tile sources. Depth/following/gameplay still require implementation. |
+| D4 | [Defold system API](https://defold.com/ref/sys/) | sys.save/load for Lua tables; get_save_file provides path. Current docs list 512 KB serialized save limit and 65,536 table rows. |
+| D5 | [Defold Bob builder](https://defold.com/manuals/bob/) | Current rolling manual says Bob is a JAR and needs OpenJDK 25; not proven against the 1.13.0 archive, so reverify a matched toolchain before using it. |
+| D6 | [Defold License](https://defold.com/license/) | Games can be commercialized; engine/editor commercialization restricted; license and copyright notices required. Not ordinary Apache 2.0 without changes. |
+| A1 | [OpenAI image generation guide](https://developers.openai.com/api/docs/guides/image-generation) | Generation/editing capabilities; recurring-character consistency limitations. API docs do not identify the built-in tool's model or establish this account's allowance. |
+| A2 | [OpenAI individual Terms of Use](https://openai.com/policies/row-terms-of-use/) | Effective January 1, 2026; output assignment qualified by law, input permissions required, outputs may not be unique. Account-specific applicability not verified. The generic URL returned Europe terms; this row-specific page was separately opened. |
+
+Source handling limitations: the initially attempted Krita general animation URL returned an access error; the official Render Animation page was successfully opened instead. Search results and third-party anecdotes were not used as capability evidence. Godot references are pinned to 4.6; Krita manual labels 5.3.0 versus proposed application 5.3.3; Defold manuals are rolling. Local imagegen and OpenAI Docs skill instructions were read for planning the built-in workflow; no model/API call or image generation ran.

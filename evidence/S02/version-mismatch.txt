@@ -1,0 +1,2 @@
+exit=2
+Godot version mismatch: expected 4.6.2.stable.official.71f334935; received 9.9.other

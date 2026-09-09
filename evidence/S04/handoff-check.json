@@ -1,0 +1,16 @@
+{
+  "frozen_manifest_mismatches": [],
+  "recorded_working_source_mismatches": [],
+  "broken_current_document_links": [],
+  "owner_launcher_executable": true,
+  "owner_launcher_hash_matches": true,
+  "normal_launcher_engine_errors": false,
+  "practice_snapshots_before_owner_start": [],
+  "owner_session": "NOT STARTED",
+  "fresh_owner_launch_from_external_cwd": "PASS",
+  "ready_state": "fresh power selection; paused; no input sent to owner practice session",
+  "ready_window_evidence": "owner-launcher-check/ready-fresh-window.png",
+  "ready_runtime_log": "owner-launcher-check/ready-fresh-runtime.log",
+  "owner_practice_snapshot_count": 0,
+  "source_hashes_after_final_launch": "MATCH"
+}

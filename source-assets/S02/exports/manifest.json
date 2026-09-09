@@ -1,0 +1,164 @@
+[
+  {
+    "path": "game/art/cabinet_a/full.png",
+    "sha256": "ebea9626c753b22e6b0adef0eec2bcd6105fd106b02d1b3b307c1c022b2b1e04",
+    "import": "game/art/cabinet_a/full.png.import",
+    "settings": "lossless, no mipmaps; canvas linear filtering"
+  },
+  {
+    "path": "game/art/cabinet_b/full.png",
+    "sha256": "f301f10bd45e32324df4246f1299582bd34554c994ed7d0a999eb80353e589d7",
+    "import": "game/art/cabinet_b/full.png.import",
+    "settings": "lossless, no mipmaps; canvas linear filtering"
+  },
+  {
+    "path": "game/art/creature/full.png",
+    "sha256": "3f682ba0925ad46a0331c0b6e98721e64bc7664c5615b3e19adaa743d030735e",
+    "import": "game/art/creature/full.png.import",
+    "settings": "lossless, no mipmaps; canvas linear filtering"
+  },
+  {
+    "path": "game/art/doorway/full.png",
+    "sha256": "5535b34f348eace73fb33ef895a875c5dd30f33c02d5b78ce45ade824353dc1a",
+    "import": "game/art/doorway/full.png.import",
+    "settings": "lossless, no mipmaps; canvas linear filtering"
+  },
+  {
+    "path": "game/art/doorway/left.png",
+    "sha256": "d31b501718a17fee3effcb6d6591ee0c874dedd2abfad008fec7cd55bb7f2a9b",
+    "import": "game/art/doorway/left.png.import",
+    "settings": "lossless, no mipmaps; canvas linear filtering"
+  },
+  {
+    "path": "game/art/doorway/lintel.png",
+    "sha256": "a44630a883e93ec4b139cc804fa82b07382f0dba897e2fc3c54c6ce56826080e",
+    "import": "game/art/doorway/lintel.png.import",
+    "settings": "lossless, no mipmaps; canvas linear filtering"
+  },
+  {
+    "path": "game/art/doorway/right.png",
+    "sha256": "72a86fb846b4b2f29a9c65ef9a1db924fc447158f27c7bd20b3f349b181253d4",
+    "import": "game/art/doorway/right.png.import",
+    "settings": "lossless, no mipmaps; canvas linear filtering"
+  },
+  {
+    "path": "game/art/floor/full.png",
+    "sha256": "81f973551642696fee78704e7a42e5df9729be9968279f4e27fc807d38b818e1",
+    "import": "game/art/floor/full.png.import",
+    "settings": "lossless, no mipmaps; canvas linear filtering"
+  },
+  {
+    "path": "game/art/human/away/far_arm.png",
+    "sha256": "d477d65655e816c561615aec9ef110a00f49b9116cb9035a74f3f648f10ecfa3",
+    "import": "game/art/human/away/far_arm.png.import",
+    "settings": "lossless, no mipmaps; canvas linear filtering"
+  },
+  {
+    "path": "game/art/human/away/far_leg.png",
+    "sha256": "ff440b60a16af8bc65e7869ebc3534d9cc7a48fc89686c660a03c35dbe03644e",
+    "import": "game/art/human/away/far_leg.png.import",
+    "settings": "lossless, no mipmaps; canvas linear filtering"
+  },
+  {
+    "path": "game/art/human/away/head.png",
+    "sha256": "340e0718748fe6c9cc257600e3a853e3ee647068e825a14b3806673f8d2e0318",
+    "import": "game/art/human/away/head.png.import",
+    "settings": "lossless, no mipmaps; canvas linear filtering"
+  },
+  {
+    "path": "game/art/human/away/near_arm.png",
+    "sha256": "2567739213d0a7fabb4e93d307e4e76b5de9214659589162a4fef2d143137a4e",
+    "import": "game/art/human/away/near_arm.png.import",
+    "settings": "lossless, no mipmaps; canvas linear filtering"
+  },
+  {
+    "path": "game/art/human/away/near_leg.png",
+    "sha256": "11e075705d1e43669f9ea60a58f0a0589843a9438f72885456721c5155bff15d",
+    "import": "game/art/human/away/near_leg.png.import",
+    "settings": "lossless, no mipmaps; canvas linear filtering"
+  },
+  {
+    "path": "game/art/human/away/torso.png",
+    "sha256": "b2b6e0000d740d1dd97ef5340c9885a4db7f58dec9fde971f851623cb1b6c256",
+    "import": "game/art/human/away/torso.png.import",
+    "settings": "lossless, no mipmaps; canvas linear filtering"
+  },
+  {
+    "path": "game/art/human/side/far_arm.png",
+    "sha256": "dd749741906cd038d307e17ec14a078fee50b1672aff2ab06752cb1def8edfa8",
+    "import": "game/art/human/side/far_arm.png.import",
+    "settings": "lossless, no mipmaps; canvas linear filtering"
+  },
+  {
+    "path": "game/art/human/side/far_leg.png",
+    "sha256": "d43b4d883becf6233f7bc77fba2690f9d224d216c576fe02e08dad0bfd4d3322",
+    "import": "game/art/human/side/far_leg.png.import",
+    "settings": "lossless, no mipmaps; canvas linear filtering"
+  },
+  {
+    "path": "game/art/human/side/head.png",
+    "sha256": "97bc105a7ad57b30724e4f13b0b51d809442b3e410ad9717f469f3137feb86d1",
+    "import": "game/art/human/side/head.png.import",
+    "settings": "lossless, no mipmaps; canvas linear filtering"
+  },
+  {
+    "path": "game/art/human/side/near_arm.png",
+    "sha256": "dd749741906cd038d307e17ec14a078fee50b1672aff2ab06752cb1def8edfa8",
+    "import": "game/art/human/side/near_arm.png.import",
+    "settings": "lossless, no mipmaps; canvas linear filtering"
+  },
+  {
+    "path": "game/art/human/side/near_leg.png",
+    "sha256": "d43b4d883becf6233f7bc77fba2690f9d224d216c576fe02e08dad0bfd4d3322",
+    "import": "game/art/human/side/near_leg.png.import",
+    "settings": "lossless, no mipmaps; canvas linear filtering"
+  },
+  {
+    "path": "game/art/human/side/torso.png",
+    "sha256": "c2f5ac4673f824162f4a5af86247db463898d1069bb90835d0c5736d56f49505",
+    "import": "game/art/human/side/torso.png.import",
+    "settings": "lossless, no mipmaps; canvas linear filtering"
+  },
+  {
+    "path": "game/art/human/toward/far_arm.png",
+    "sha256": "047d49c2da378b2fa883b0faf9571f1edcdd0d2b7607990cc6027ed8be627deb",
+    "import": "game/art/human/toward/far_arm.png.import",
+    "settings": "lossless, no mipmaps; canvas linear filtering"
+  },
+  {
+    "path": "game/art/human/toward/far_leg.png",
+    "sha256": "1610dbba4bd0fdc9c0fdf4266889c183c32a6c6f5c99318b787d0c060666caae",
+    "import": "game/art/human/toward/far_leg.png.import",
+    "settings": "lossless, no mipmaps; canvas linear filtering"
+  },
+  {
+    "path": "game/art/human/toward/head.png",
+    "sha256": "295f03e33d1e9ba1b6c65333ee7802e09010e924a0b1a49b404801639af5c47b",
+    "import": "game/art/human/toward/head.png.import",
+    "settings": "lossless, no mipmaps; canvas linear filtering"
+  },
+  {
+    "path": "game/art/human/toward/near_arm.png",
+    "sha256": "9ababeb55b3227de3c24f4aa6167dfefefaa3331ff9dfdfb57dd6753f1876c01",
+    "import": "game/art/human/toward/near_arm.png.import",
+    "settings": "lossless, no mipmaps; canvas linear filtering"
+  },
+  {
+    "path": "game/art/human/toward/near_leg.png",
+    "sha256": "60e706443a765fb62593d0d89d4343cab84556c54e88b3e74e8a53687076d1c1",
+    "import": "game/art/human/toward/near_leg.png.import",
+    "settings": "lossless, no mipmaps; canvas linear filtering"
+  },
+  {
+    "path": "game/art/human/toward/torso.png",
+    "sha256": "d82fa7e975d510616a481537f52eba4644c9967f11f6ff60b3a3a2207162c302",
+    "import": "game/art/human/toward/torso.png.import",
+    "settings": "lossless, no mipmaps; canvas linear filtering"
+  },
+  {
+    "path": "game/art/pet/full.png",
+    "sha256": "4a97fb3483e08b535b7c31db7983296543f6caad89ecb727104014cca7b58af4",
+    "import": "game/art/pet/full.png.import",
+    "settings": "lossless, no mipmaps; canvas linear filtering"
+  }
+]

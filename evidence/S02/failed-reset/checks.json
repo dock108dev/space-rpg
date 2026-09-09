@@ -1,0 +1,33 @@
+{
+  "failed": [
+    "reset restores actors demo effects and interaction state"
+  ],
+  "not_run": [
+    "owner acceptance of complete scene"
+  ],
+  "passed": [
+    "actual normalized diagonal displacement",
+    "released input stops player",
+    "diagonal tie and idle facing retention",
+    "wall collision blocks displacement",
+    "cabinet footprint blocks displacement",
+    "facing left",
+    "facing right",
+    "facing away",
+    "facing toward",
+    "pet corners around cabinet and follows through doorway",
+    "pet reverses through doorway and follows back",
+    "pet footprint stays outside every wall and cabinet",
+    "pet motion continuous without wall warps",
+    "blocked doorway leaves pet safely outside",
+    "pet recovers route after doorway reopens",
+    "nearby interaction available",
+    "out-of-range interaction absent and inert",
+    "creature preparation held for ten seconds without input",
+    "explicit pause halts actors creature effects and interaction",
+    "repeated action input does not duplicate creature action",
+    "creature action and recovery return to idle",
+    "100 repeated effects and interactions retire without node growth"
+  ],
+  "scope": "S02 technical behavior; visual assessment separate"
+}

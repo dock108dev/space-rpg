@@ -1,0 +1,710 @@
+[
+  {
+    "name": "action resolves within bounded frames",
+    "passed": true
+  },
+  {
+    "name": "action resolves within bounded frames",
+    "passed": true
+  },
+  {
+    "name": "action resolves within bounded frames",
+    "passed": true
+  },
+  {
+    "name": "all demonstrations leave encounter state untouched",
+    "passed": true
+  },
+  {
+    "name": "choose blast",
+    "passed": true
+  },
+  {
+    "name": "action resolves within bounded frames",
+    "passed": true
+  },
+  {
+    "name": "walk through encounter",
+    "passed": true
+  },
+  {
+    "name": "action resolves within bounded frames",
+    "passed": true
+  },
+  {
+    "name": "walk through encounter",
+    "passed": true
+  },
+  {
+    "name": "action resolves within bounded frames",
+    "passed": true
+  },
+  {
+    "name": "walk through encounter",
+    "passed": true
+  },
+  {
+    "name": "action resolves within bounded frames",
+    "passed": true
+  },
+  {
+    "name": "walk through encounter",
+    "passed": true
+  },
+  {
+    "name": "action resolves within bounded frames",
+    "passed": true
+  },
+  {
+    "name": "action resolves within bounded frames",
+    "passed": true
+  },
+  {
+    "name": "legal attack in complete encounter",
+    "passed": true
+  },
+  {
+    "name": "action resolves within bounded frames",
+    "passed": true
+  },
+  {
+    "name": "legal attack in complete encounter",
+    "passed": true
+  },
+  {
+    "name": "blast completes encounter from actual fresh selection",
+    "passed": true
+  },
+  {
+    "name": "success save loads",
+    "passed": true
+  },
+  {
+    "name": "success rejects repeated attacks and ending turn",
+    "passed": true
+  },
+  {
+    "name": "action resolves within bounded frames",
+    "passed": true
+  },
+  {
+    "name": "action resolves within bounded frames",
+    "passed": true
+  },
+  {
+    "name": "action resolves within bounded frames",
+    "passed": true
+  },
+  {
+    "name": "all demonstrations leave encounter state untouched",
+    "passed": true
+  },
+  {
+    "name": "choose shield",
+    "passed": true
+  },
+  {
+    "name": "action resolves within bounded frames",
+    "passed": true
+  },
+  {
+    "name": "walk through encounter",
+    "passed": true
+  },
+  {
+    "name": "action resolves within bounded frames",
+    "passed": true
+  },
+  {
+    "name": "walk through encounter",
+    "passed": true
+  },
+  {
+    "name": "action resolves within bounded frames",
+    "passed": true
+  },
+  {
+    "name": "walk through encounter",
+    "passed": true
+  },
+  {
+    "name": "action resolves within bounded frames",
+    "passed": true
+  },
+  {
+    "name": "walk through encounter",
+    "passed": true
+  },
+  {
+    "name": "action resolves within bounded frames",
+    "passed": true
+  },
+  {
+    "name": "action resolves within bounded frames",
+    "passed": true
+  },
+  {
+    "name": "shield used during complete encounter",
+    "passed": true
+  },
+  {
+    "name": "action resolves within bounded frames",
+    "passed": true
+  },
+  {
+    "name": "legal attack in complete encounter",
+    "passed": true
+  },
+  {
+    "name": "action resolves within bounded frames",
+    "passed": true
+  },
+  {
+    "name": "action resolves within bounded frames",
+    "passed": true
+  },
+  {
+    "name": "legal attack in complete encounter",
+    "passed": true
+  },
+  {
+    "name": "action resolves within bounded frames",
+    "passed": true
+  },
+  {
+    "name": "legal attack in complete encounter",
+    "passed": true
+  },
+  {
+    "name": "shield completes encounter from actual fresh selection",
+    "passed": true
+  },
+  {
+    "name": "success save loads",
+    "passed": true
+  },
+  {
+    "name": "success rejects repeated attacks and ending turn",
+    "passed": true
+  },
+  {
+    "name": "action resolves within bounded frames",
+    "passed": true
+  },
+  {
+    "name": "action resolves within bounded frames",
+    "passed": true
+  },
+  {
+    "name": "action resolves within bounded frames",
+    "passed": true
+  },
+  {
+    "name": "all demonstrations leave encounter state untouched",
+    "passed": true
+  },
+  {
+    "name": "choose dash",
+    "passed": true
+  },
+  {
+    "name": "action resolves within bounded frames",
+    "passed": true
+  },
+  {
+    "name": "dash used during complete encounter",
+    "passed": true
+  },
+  {
+    "name": "action resolves within bounded frames",
+    "passed": true
+  },
+  {
+    "name": "walk through encounter",
+    "passed": true
+  },
+  {
+    "name": "action resolves within bounded frames",
+    "passed": true
+  },
+  {
+    "name": "walk through encounter",
+    "passed": true
+  },
+  {
+    "name": "action resolves within bounded frames",
+    "passed": true
+  },
+  {
+    "name": "action resolves within bounded frames",
+    "passed": true
+  },
+  {
+    "name": "legal attack in complete encounter",
+    "passed": true
+  },
+  {
+    "name": "action resolves within bounded frames",
+    "passed": true
+  },
+  {
+    "name": "legal attack in complete encounter",
+    "passed": true
+  },
+  {
+    "name": "action resolves within bounded frames",
+    "passed": true
+  },
+  {
+    "name": "action resolves within bounded frames",
+    "passed": true
+  },
+  {
+    "name": "legal attack in complete encounter",
+    "passed": true
+  },
+  {
+    "name": "dash completes encounter from actual fresh selection",
+    "passed": true
+  },
+  {
+    "name": "success save loads",
+    "passed": true
+  },
+  {
+    "name": "success rejects repeated attacks and ending turn",
+    "passed": true
+  },
+  {
+    "name": "action resolves within bounded frames",
+    "passed": true
+  },
+  {
+    "name": "action resolves within bounded frames",
+    "passed": true
+  },
+  {
+    "name": "action resolves within bounded frames",
+    "passed": true
+  },
+  {
+    "name": "all demonstrations leave encounter state untouched",
+    "passed": true
+  },
+  {
+    "name": "choose blast",
+    "passed": true
+  },
+  {
+    "name": "out-of-range bolt atomic",
+    "passed": true
+  },
+  {
+    "name": "nonadjacent move atomic",
+    "passed": true
+  },
+  {
+    "name": "cancellation atomic",
+    "passed": true
+  },
+  {
+    "name": "key echo ignored",
+    "passed": true
+  },
+  {
+    "name": "rapid repeat during committed action ignored",
+    "passed": true
+  },
+  {
+    "name": "save and reset rejected in motion",
+    "passed": true
+  },
+  {
+    "name": "action resolves within bounded frames",
+    "passed": true
+  },
+  {
+    "name": "action resolves within bounded frames",
+    "passed": true
+  },
+  {
+    "name": "action resolves within bounded frames",
+    "passed": true
+  },
+  {
+    "name": "action resolves within bounded frames",
+    "passed": true
+  },
+  {
+    "name": "zero AP does not automatically end turn",
+    "passed": true
+  },
+  {
+    "name": "insufficient AP atomic",
+    "passed": true
+  },
+  {
+    "name": "turn ownership and duplicate end",
+    "passed": true
+  },
+  {
+    "name": "enemy save rejected",
+    "passed": true
+  },
+  {
+    "name": "action resolves within bounded frames",
+    "passed": true
+  },
+  {
+    "name": "enemy returns 4 AP",
+    "passed": true
+  },
+  {
+    "name": "action resolves within bounded frames",
+    "passed": true
+  },
+  {
+    "name": "action resolves within bounded frames",
+    "passed": true
+  },
+  {
+    "name": "action resolves within bounded frames",
+    "passed": true
+  },
+  {
+    "name": "all demonstrations leave encounter state untouched",
+    "passed": true
+  },
+  {
+    "name": "choose dash",
+    "passed": true
+  },
+  {
+    "name": "dash cannot cross cabinet",
+    "passed": true
+  },
+  {
+    "name": "walk cannot enter cabinet",
+    "passed": true
+  },
+  {
+    "name": "arena boundary",
+    "passed": true
+  },
+  {
+    "name": "dash cannot land on enemy",
+    "passed": true
+  },
+  {
+    "name": "dash cannot cross enemy",
+    "passed": true
+  },
+  {
+    "name": "bolt blocked sight",
+    "passed": true
+  },
+  {
+    "name": "action resolves within bounded frames",
+    "passed": true
+  },
+  {
+    "name": "action resolves within bounded frames",
+    "passed": true
+  },
+  {
+    "name": "action resolves within bounded frames",
+    "passed": true
+  },
+  {
+    "name": "all demonstrations leave encounter state untouched",
+    "passed": true
+  },
+  {
+    "name": "choose blast",
+    "passed": true
+  },
+  {
+    "name": "blast blocked sight",
+    "passed": true
+  },
+  {
+    "name": "blast insufficient resources",
+    "passed": true
+  },
+  {
+    "name": "action resolves within bounded frames",
+    "passed": true
+  },
+  {
+    "name": "action resolves within bounded frames",
+    "passed": true
+  },
+  {
+    "name": "action resolves within bounded frames",
+    "passed": true
+  },
+  {
+    "name": "all demonstrations leave encounter state untouched",
+    "passed": true
+  },
+  {
+    "name": "choose shield",
+    "passed": true
+  },
+  {
+    "name": "action resolves within bounded frames",
+    "passed": true
+  },
+  {
+    "name": "shield costs 1 AP",
+    "passed": true
+  },
+  {
+    "name": "duplicate shield does not spend",
+    "passed": true
+  },
+  {
+    "name": "mid-turn shield manual save",
+    "passed": true
+  },
+  {
+    "name": "action resolves within bounded frames",
+    "passed": true
+  },
+  {
+    "name": "shield absorbs 2 and expires after enemy turn",
+    "passed": true
+  },
+  {
+    "name": "latest manual restores AP shield preparation and health",
+    "passed": true
+  },
+  {
+    "name": "action resolves within bounded frames",
+    "passed": true
+  },
+  {
+    "name": "action resolves within bounded frames",
+    "passed": true
+  },
+  {
+    "name": "fixed prepared strike misses after movement; shield expires",
+    "passed": true
+  },
+  {
+    "name": "pause halts enemy timer creature and pet",
+    "passed": true
+  },
+  {
+    "name": "paused actions/save/load/reset rejected",
+    "passed": true
+  },
+  {
+    "name": "action resolves within bounded frames",
+    "passed": true
+  },
+  {
+    "name": "enemy resumes after pause",
+    "passed": true
+  },
+  {
+    "name": "focus loss pauses",
+    "passed": true
+  },
+  {
+    "name": "action resolves within bounded frames",
+    "passed": true
+  },
+  {
+    "name": "action resolves within bounded frames",
+    "passed": true
+  },
+  {
+    "name": "action resolves within bounded frames",
+    "passed": true
+  },
+  {
+    "name": "all demonstrations leave encounter state untouched",
+    "passed": true
+  },
+  {
+    "name": "choose blast",
+    "passed": true
+  },
+  {
+    "name": "action resolves within bounded frames",
+    "passed": true
+  },
+  {
+    "name": "blocked enemy path waits without softlock",
+    "passed": true
+  },
+  {
+    "name": "action resolves within bounded frames",
+    "passed": true
+  },
+  {
+    "name": "route recovery after blockage removal",
+    "passed": true
+  },
+  {
+    "name": "action resolves within bounded frames",
+    "passed": true
+  },
+  {
+    "name": "action resolves within bounded frames",
+    "passed": true
+  },
+  {
+    "name": "action resolves within bounded frames",
+    "passed": true
+  },
+  {
+    "name": "all demonstrations leave encounter state untouched",
+    "passed": true
+  },
+  {
+    "name": "choose dash",
+    "passed": true
+  },
+  {
+    "name": "action resolves within bounded frames",
+    "passed": true
+  },
+  {
+    "name": "bounded spatial control interaction",
+    "passed": true
+  },
+  {
+    "name": "control cannot apply twice",
+    "passed": true
+  },
+  {
+    "name": "manual persists changed world",
+    "passed": true
+  },
+  {
+    "name": "defeat visible before retry",
+    "passed": true
+  },
+  {
+    "name": "pause halts retry countdown",
+    "passed": true
+  },
+  {
+    "name": "action resolves within bounded frames",
+    "passed": true
+  },
+  {
+    "name": "defeat loads actual latest manual, not encounter reset",
+    "passed": true
+  },
+  {
+    "name": "fresh runtime loads supported manual",
+    "passed": true
+  },
+  {
+    "name": "malformed unsupported interrupted fallback visible",
+    "passed": true
+  },
+  {
+    "name": "bad files retained",
+    "passed": true
+  },
+  {
+    "name": "new save does not overwrite bad files",
+    "passed": true
+  },
+  {
+    "name": "blocked-cell save invalid",
+    "passed": true
+  },
+  {
+    "name": "fractional health invalid",
+    "passed": true
+  },
+  {
+    "name": "inconsistent preparation invalid",
+    "passed": true
+  },
+  {
+    "name": "reset preserves saves and clears choice",
+    "passed": true
+  },
+  {
+    "name": "reset can resume latest state",
+    "passed": true
+  },
+  {
+    "name": "action resolves within bounded frames",
+    "passed": true
+  },
+  {
+    "name": "action resolves within bounded frames",
+    "passed": true
+  },
+  {
+    "name": "action resolves within bounded frames",
+    "passed": true
+  },
+  {
+    "name": "all demonstrations leave encounter state untouched",
+    "passed": true
+  },
+  {
+    "name": "choose blast",
+    "passed": true
+  },
+  {
+    "name": "action resolves within bounded frames",
+    "passed": true
+  },
+  {
+    "name": "action resolves within bounded frames",
+    "passed": true
+  },
+  {
+    "name": "defeat loads start autosave when no manual exists",
+    "passed": true
+  },
+  {
+    "name": "empty save folder visible safe fresh state",
+    "passed": true
+  },
+  {
+    "name": "all malformed saves do not partially apply",
+    "passed": true
+  },
+  {
+    "name": "action resolves within bounded frames",
+    "passed": true
+  },
+  {
+    "name": "action resolves within bounded frames",
+    "passed": true
+  },
+  {
+    "name": "action resolves within bounded frames",
+    "passed": true
+  },
+  {
+    "name": "all demonstrations leave encounter state untouched",
+    "passed": true
+  },
+  {
+    "name": "choose dash",
+    "passed": true
+  },
+  {
+    "name": "action resolves within bounded frames",
+    "passed": true
+  },
+  {
+    "name": "pet follows without tactical occupancy",
+    "passed": false
+  },
+  {
+    "name": "pet avoids cabinet footprint",
+    "passed": true
+  }
+]

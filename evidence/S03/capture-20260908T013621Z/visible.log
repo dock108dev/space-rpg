@@ -1,0 +1,13 @@
+Godot Engine v4.6.2.stable.official.71f334935 - https://godotengine.org
+OpenGL API 4.1 Metal - 90.5 - Compatibility - Using Device: Apple - Apple M3 Pro
+
+Movie Maker mode enabled, recording movie in 2560×1440 @ 30 FPS...
+S03_VISIBLE {"renderer":"gl_compatibility","scale":2.0,"screen":"(3024, 1964)","window":"(640, 360)"}
+TOUR_FINAL {"aim":[6,5],"ap":2,"enemy":[6,4],"enemy_hp":0,"hp":5,"phase":"success","player":[6,5],"power":"shield","prepared":true,"shield":0,"turn":5,"used":false}
+--------------------------------------------------------------------------------
+Done recording movie at path: /Users/michaelfuscoletti/Desktop/space-opera-rpg/evidence/S03/capture-20260908T013621Z/encounter.avi
+1503 frames at 30 FPS (movie length: 00:00:50:03), recorded in 00:01:27 (57% of real-time speed).
+CPU render time: 0.99 seconds (average: 0.66 ms/frame)
+GPU render time: 0.00 seconds (average: 0.00 ms/frame)
+Encoding time: 36.50 seconds (average: 24.28 ms/frame)
+--------------------------------------------------------------------------------

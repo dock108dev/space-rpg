@@ -1,0 +1,1 @@
+PASS: all available props saved, reopened and exported in Krita 5.3.3 (git 858d352)

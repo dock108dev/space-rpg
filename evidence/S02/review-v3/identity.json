@@ -1,0 +1,12 @@
+{
+  "artifact": "VIS-001 review-v3",
+  "manifest_sha256": "7f38d9a8a2fcc167aea90df3ee69ef3e1e76916cc3c77c1fad589f446d2bb6da",
+  "created_utc": "2026-09-08T00:58:13.734829+00:00",
+  "excludes": [
+    ".godot caches",
+    "Krita backup files"
+  ],
+  "owner_verdict": "Sample-scope continuation with recorded pet hovering and collar limitations; exact words in owner feedback record",
+  "runtime_manifest_sha256": "1b36c1c150480fbb15f29af5532dcb8f64210ae5147f5adb6d9f9d38537ed432",
+  "note": "Owner review binds runtime.sha256; manifest.sha256 also preserves provenance at launch. Later prose records do not alter runtime."
+}

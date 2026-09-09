@@ -1,0 +1,36 @@
+{
+  "version": "4.6.2.stable.official.71f334935",
+  "runtime_manifest_sha256": "9d95ff12d4bbd8936183ad273d67c8e781dbe992eed4e03c510aa891ee6f0e2a",
+  "results": [
+    {
+      "name": "fresh-import",
+      "exit": 0,
+      "passed": true,
+      "tool_wall_seconds": 3.8074839169858024
+    },
+    {
+      "name": "s04-behavior",
+      "exit": 0,
+      "passed": true,
+      "tool_wall_seconds": 2.1277791669999715
+    },
+    {
+      "name": "s04-full-restart",
+      "exit": 0,
+      "passed": true,
+      "tool_wall_seconds": 0.5034740839910228
+    },
+    {
+      "name": "s03-behavior",
+      "exit": 0,
+      "passed": true,
+      "tool_wall_seconds": 2.820485958014615
+    },
+    {
+      "name": "s02-regression",
+      "exit": 0,
+      "passed": true,
+      "tool_wall_seconds": 0.6881317920051515
+    }
+  ]
+}

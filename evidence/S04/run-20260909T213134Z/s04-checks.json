@@ -1,0 +1,554 @@
+[
+  {
+    "name": "select blast",
+    "passed": true
+  },
+  {
+    "name": "before learning cannot fetch",
+    "passed": true
+  },
+  {
+    "name": "before reaching package cannot collect",
+    "passed": true
+  },
+  {
+    "name": "legal direct movement",
+    "passed": true
+  },
+  {
+    "name": "legal direct movement",
+    "passed": true
+  },
+  {
+    "name": "safe movement costs no AP",
+    "passed": true
+  },
+  {
+    "name": "collect package teaches fetch",
+    "passed": true
+  },
+  {
+    "name": "learning autosave valid",
+    "passed": true
+  },
+  {
+    "name": "explicitly begin assessment",
+    "passed": true
+  },
+  {
+    "name": "legal direct movement",
+    "passed": true
+  },
+  {
+    "name": "legal direct movement",
+    "passed": true
+  },
+  {
+    "name": "legal direct movement",
+    "passed": true
+  },
+  {
+    "name": "legal direct movement",
+    "passed": true
+  },
+  {
+    "name": "integrated legal attack",
+    "passed": true
+  },
+  {
+    "name": "integrated legal attack",
+    "passed": true
+  },
+  {
+    "name": "selected power used in journey",
+    "passed": true
+  },
+  {
+    "name": "actual fresh fight reaches shelter phase",
+    "passed": true
+  },
+  {
+    "name": "assigned shelter walk starts",
+    "passed": true
+  },
+  {
+    "name": "assigned route finishes beside shelter",
+    "passed": true
+  },
+  {
+    "name": "shelter reached before rewards",
+    "passed": true
+  },
+  {
+    "name": "choose distinct reward security",
+    "passed": true
+  },
+  {
+    "name": "prevent repeated/cross reward security",
+    "passed": true
+  },
+  {
+    "name": "prevent repeated/cross reward equipment",
+    "passed": true
+  },
+  {
+    "name": "prevent repeated/cross reward opportunity",
+    "passed": true
+  },
+  {
+    "name": "learned pet fetch starts",
+    "passed": true
+  },
+  {
+    "name": "fetch save/reset/load rejected in flight",
+    "passed": true
+  },
+  {
+    "name": "pause freezes fetching pet",
+    "passed": true
+  },
+  {
+    "name": "pet delivers useful kit without moving player",
+    "passed": true
+  },
+  {
+    "name": "cache duplicate prevented",
+    "passed": true
+  },
+  {
+    "name": "completed journey manual save",
+    "passed": true
+  },
+  {
+    "name": "resume restores reward learning inventory",
+    "passed": true
+  },
+  {
+    "name": "full health kit does not spend",
+    "passed": true
+  },
+  {
+    "name": "recovery kit useful and persisted",
+    "passed": true
+  },
+  {
+    "name": "fresh practice preserves saves",
+    "passed": true
+  },
+  {
+    "name": "inconsistent learning rejected",
+    "passed": true
+  },
+  {
+    "name": "unknown reward rejected",
+    "passed": true
+  },
+  {
+    "name": "excess inventory rejected",
+    "passed": true
+  },
+  {
+    "name": "select shield",
+    "passed": true
+  },
+  {
+    "name": "before learning cannot fetch",
+    "passed": true
+  },
+  {
+    "name": "before reaching package cannot collect",
+    "passed": true
+  },
+  {
+    "name": "legal direct movement",
+    "passed": true
+  },
+  {
+    "name": "legal direct movement",
+    "passed": true
+  },
+  {
+    "name": "safe movement costs no AP",
+    "passed": true
+  },
+  {
+    "name": "collect package teaches fetch",
+    "passed": true
+  },
+  {
+    "name": "learning autosave valid",
+    "passed": true
+  },
+  {
+    "name": "explicitly begin assessment",
+    "passed": true
+  },
+  {
+    "name": "legal direct movement",
+    "passed": true
+  },
+  {
+    "name": "legal direct movement",
+    "passed": true
+  },
+  {
+    "name": "legal direct movement",
+    "passed": true
+  },
+  {
+    "name": "legal direct movement",
+    "passed": true
+  },
+  {
+    "name": "integrated legal attack",
+    "passed": true
+  },
+  {
+    "name": "integrated legal attack",
+    "passed": true
+  },
+  {
+    "name": "integrated legal attack",
+    "passed": true
+  },
+  {
+    "name": "selected power used in journey",
+    "passed": true
+  },
+  {
+    "name": "actual fresh fight reaches shelter phase",
+    "passed": true
+  },
+  {
+    "name": "assigned shelter walk starts",
+    "passed": true
+  },
+  {
+    "name": "assigned route finishes beside shelter",
+    "passed": true
+  },
+  {
+    "name": "shelter reached before rewards",
+    "passed": true
+  },
+  {
+    "name": "choose distinct reward equipment",
+    "passed": true
+  },
+  {
+    "name": "prevent repeated/cross reward security",
+    "passed": true
+  },
+  {
+    "name": "prevent repeated/cross reward equipment",
+    "passed": true
+  },
+  {
+    "name": "prevent repeated/cross reward opportunity",
+    "passed": true
+  },
+  {
+    "name": "learned pet fetch starts",
+    "passed": true
+  },
+  {
+    "name": "fetch save/reset/load rejected in flight",
+    "passed": true
+  },
+  {
+    "name": "pause freezes fetching pet",
+    "passed": true
+  },
+  {
+    "name": "pet delivers useful kit without moving player",
+    "passed": true
+  },
+  {
+    "name": "cache duplicate prevented",
+    "passed": true
+  },
+  {
+    "name": "completed journey manual save",
+    "passed": true
+  },
+  {
+    "name": "resume restores reward learning inventory",
+    "passed": true
+  },
+  {
+    "name": "full health kit does not spend",
+    "passed": true
+  },
+  {
+    "name": "recovery kit useful and persisted",
+    "passed": true
+  },
+  {
+    "name": "fresh practice preserves saves",
+    "passed": true
+  },
+  {
+    "name": "inconsistent learning rejected",
+    "passed": true
+  },
+  {
+    "name": "unknown reward rejected",
+    "passed": true
+  },
+  {
+    "name": "excess inventory rejected",
+    "passed": true
+  },
+  {
+    "name": "select dash",
+    "passed": true
+  },
+  {
+    "name": "before learning cannot fetch",
+    "passed": true
+  },
+  {
+    "name": "before reaching package cannot collect",
+    "passed": true
+  },
+  {
+    "name": "legal direct movement",
+    "passed": true
+  },
+  {
+    "name": "legal direct movement",
+    "passed": true
+  },
+  {
+    "name": "safe movement costs no AP",
+    "passed": true
+  },
+  {
+    "name": "collect package teaches fetch",
+    "passed": true
+  },
+  {
+    "name": "learning autosave valid",
+    "passed": true
+  },
+  {
+    "name": "explicitly begin assessment",
+    "passed": true
+  },
+  {
+    "name": "legal direct movement",
+    "passed": true
+  },
+  {
+    "name": "legal direct movement",
+    "passed": true
+  },
+  {
+    "name": "legal direct movement",
+    "passed": true
+  },
+  {
+    "name": "legal direct movement",
+    "passed": true
+  },
+  {
+    "name": "integrated legal attack",
+    "passed": true
+  },
+  {
+    "name": "legal direct movement",
+    "passed": true
+  },
+  {
+    "name": "integrated legal attack",
+    "passed": true
+  },
+  {
+    "name": "integrated legal attack",
+    "passed": true
+  },
+  {
+    "name": "selected power used in journey",
+    "passed": true
+  },
+  {
+    "name": "actual fresh fight reaches shelter phase",
+    "passed": true
+  },
+  {
+    "name": "assigned shelter walk starts",
+    "passed": true
+  },
+  {
+    "name": "assigned route finishes beside shelter",
+    "passed": true
+  },
+  {
+    "name": "shelter reached before rewards",
+    "passed": true
+  },
+  {
+    "name": "choose distinct reward opportunity",
+    "passed": true
+  },
+  {
+    "name": "prevent repeated/cross reward security",
+    "passed": true
+  },
+  {
+    "name": "prevent repeated/cross reward equipment",
+    "passed": true
+  },
+  {
+    "name": "prevent repeated/cross reward opportunity",
+    "passed": true
+  },
+  {
+    "name": "learned pet fetch starts",
+    "passed": true
+  },
+  {
+    "name": "fetch save/reset/load rejected in flight",
+    "passed": true
+  },
+  {
+    "name": "pause freezes fetching pet",
+    "passed": true
+  },
+  {
+    "name": "pet delivers useful kit without moving player",
+    "passed": true
+  },
+  {
+    "name": "cache duplicate prevented",
+    "passed": true
+  },
+  {
+    "name": "completed journey manual save",
+    "passed": true
+  },
+  {
+    "name": "resume restores reward learning inventory",
+    "passed": true
+  },
+  {
+    "name": "full health kit does not spend",
+    "passed": true
+  },
+  {
+    "name": "recovery kit useful and persisted",
+    "passed": true
+  },
+  {
+    "name": "fresh practice preserves saves",
+    "passed": true
+  },
+  {
+    "name": "inconsistent learning rejected",
+    "passed": true
+  },
+  {
+    "name": "unknown reward rejected",
+    "passed": true
+  },
+  {
+    "name": "excess inventory rejected",
+    "passed": true
+  },
+  {
+    "name": "select blast",
+    "passed": true
+  },
+  {
+    "name": "assigned package walk starts",
+    "passed": true
+  },
+  {
+    "name": "pause freezes assigned motion",
+    "passed": true
+  },
+  {
+    "name": "paused mutations rejected",
+    "passed": true
+  },
+  {
+    "name": "manual control after cancel",
+    "passed": true
+  },
+  {
+    "name": "focus loss pauses integrated scene",
+    "passed": true
+  },
+  {
+    "name": "assignment can resume",
+    "passed": true
+  },
+  {
+    "name": "integrated mid-turn manual",
+    "passed": true
+  },
+  {
+    "name": "defeat retries latest integrated state",
+    "passed": true
+  },
+  {
+    "name": "truncated schema fallback",
+    "passed": true
+  },
+  {
+    "name": "legal direct movement",
+    "passed": true
+  },
+  {
+    "name": "legal direct movement",
+    "passed": true
+  },
+  {
+    "name": "legal direct movement",
+    "passed": true
+  },
+  {
+    "name": "integrated legal attack",
+    "passed": true
+  },
+  {
+    "name": "integrated legal attack",
+    "passed": true
+  },
+  {
+    "name": "selected power used in journey",
+    "passed": true
+  },
+  {
+    "name": "actual fresh fight reaches shelter phase",
+    "passed": true
+  },
+  {
+    "name": "assigned shelter walk starts",
+    "passed": true
+  },
+  {
+    "name": "assigned route finishes beside shelter",
+    "passed": true
+  },
+  {
+    "name": "shelter reached before rewards",
+    "passed": true
+  },
+  {
+    "name": "failed reward write rolls back",
+    "passed": true
+  },
+  {
+    "name": "reward can retry after writer cleared",
+    "passed": true
+  },
+  {
+    "name": "pet has no blocking collision",
+    "passed": true
+  },
+  {
+    "name": "audience is display only",
+    "passed": true
+  }
+]

@@ -1,0 +1,4 @@
+Godot Engine v4.6.2.stable.official.71f334935 - https://godotengine.org
+
+RESTART_COMPARISON true ACTUAL {"aim":[8,3],"ap":0,"cache":true,"enemy":[6,4],"enemy_hp":0,"hp":5,"journey":"complete","kits":0,"learned":true,"loop_version":1,"package":true,"phase":"success","player":[11,2],"power":"dash","prepared":false,"reward":"opportunity","shield":0,"turn":3,"used":false} EXPECTED {"aim":[8.0,3.0],"ap":0.0,"cache":true,"enemy":[6.0,4.0],"enemy_hp":0.0,"hp":5.0,"journey":"complete","kits":0.0,"learned":true,"loop_version":1.0,"package":true,"phase":"success","player":[11.0,2.0],"power":"dash","prepared":false,"reward":"opportunity","shield":0.0,"turn":3.0,"used":false}
+FULL_PROCESS_RESTART PASS {"aim":[8,3],"ap":0,"cache":true,"enemy":[6,4],"enemy_hp":0,"hp":5,"journey":"complete","kits":0,"learned":true,"loop_version":1,"package":true,"phase":"success","player":[11,2],"power":"dash","prepared":false,"reward":"opportunity","shield":0,"turn":3,"used":false}

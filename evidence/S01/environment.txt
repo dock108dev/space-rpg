@@ -1,0 +1,48 @@
+S01 read-only inspection, 2026-09-07 America/New_York
+
+Project cwd: /Users/michaelfuscoletti/Desktop/space-opera-rpg
+Project-local .git: absent; parent git root: /Users/michaelfuscoletti/Desktop
+Initial rg --files: documentation, existing evidence JSON, comparison PNG only.
+Initial scoped status: project untracked under Desktop; unrelated untracked folders observed, not touched.
+
+sw_vers:
+  ProductVersion 26.6.2
+  BuildVersion 25G83
+uname -m: arm64
+system_profiler SPHardwareDataType SPDisplaysDataType (identifiers omitted):
+  MacBook Pro, Mac15,6
+  Apple M3 Pro; CPU 11 cores (5 performance, 6 efficiency)
+  Memory 18 GB; GPU 14 cores; Metal 4
+  Built-in Color LCD / Liquid Retina XDR, 3024 x 1964, main/online
+  Automatic brightness enabled; actual brightness/logical scaling not measured
+
+df -h .: 460 GiB volume, 346 GiB used, approximately 90 GiB available
+
+/Applications/Godot.app/Contents/MacOS/Godot --version:
+  4.6.2.stable.official.71f334935 (exit 0)
+Godot Info.plist CFBundleShortVersionString: 4.6.2
+~/.local/bin/godot -> /Applications/Godot.app/Contents/MacOS/Godot
+Godot --help flags checked: --editor, --path, --rendering-method,
+  --headless, --script, --check-only, --import
+Only --version and --help invoked; no project/editor startup.
+
+python3 --version: Python 3.14.5
+  PATH: /opt/homebrew/bin/python3
+git --version: git version 2.49.0
+  PATH: /opt/homebrew/bin/git
+node resolves: ~/.nvm/versions/node/v22.18.0/bin/node (version not executed)
+magick resolves: /opt/homebrew/bin/magick (version not executed)
+blender resolves: /opt/homebrew/bin/blender ->
+  /opt/homebrew/Caskroom/blender@lts/4.5.10/blender.wrapper.sh
+  wrapper/cask path only; guessed app Info.plist absent; runtime not inspected.
+Unity Hub: Homebrew cask metadata present; Unity editor/runtime not verified.
+
+Bounded app inventory: /Applications, ~/Applications, relevant names in
+/opt/homebrew/Caskroom plus command -v for Godot/Krita/Aseprite/Blender/Defold.
+Krita, Aseprite and Defold not found in inspected locations/PATH.
+Xcode present by app name only; version/SDK not needed or tested.
+No software installed/upgraded, no package managers invoked, no OS settings changed.
+
+Image inspected: docs/reference/visual-comparison.png, four-panel comparison.
+Selected C bottom left: angled drawn view, strong contours, muted colors,
+layered spatial setting. Taste reference only; no moving source assets.

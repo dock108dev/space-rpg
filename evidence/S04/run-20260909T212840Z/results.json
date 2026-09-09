@@ -1,0 +1,24 @@
+{
+  "version": "4.6.2.stable.official.71f334935",
+  "runtime_manifest_sha256": "547f4efd4fc7133261b46f7ac722859e2f3e04821c86d344c935cd465a047088",
+  "results": [
+    {
+      "name": "fresh-import",
+      "exit": 0,
+      "passed": true,
+      "tool_wall_seconds": 3.6151371659943834
+    },
+    {
+      "name": "s04-behavior",
+      "exit": 0,
+      "passed": true,
+      "tool_wall_seconds": 1.8653694170061499
+    },
+    {
+      "name": "s04-full-restart",
+      "exit": 1,
+      "passed": false,
+      "tool_wall_seconds": 0.6040375420125201
+    }
+  ]
+}

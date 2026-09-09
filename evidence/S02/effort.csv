@@ -1,0 +1,46 @@
+asset,stage,actor,measured_seconds,basis
+human-toward,repair cleanup save reopen export,agent-operated Krita,1.6968612910131924,monotonic timer inside Krita; excludes script authoring
+human-away,repair cleanup save reopen export,agent-operated Krita,1.7661691250104923,monotonic timer inside Krita; excludes script authoring
+human-side,repair cleanup save reopen export,agent-operated Krita,1.670341582997935,monotonic timer inside Krita; excludes script authoring
+human,prompt authoring,agent,UNAVAILABLE,not separately timed; do not infer active time from session wall time
+human,initial cleanup authoring,agent,UNAVAILABLE,not separately timed; do not infer active time from session wall time
+human,animation authoring,agent,UNAVAILABLE,not separately timed; do not infer active time from session wall time
+human,integration,agent,UNAVAILABLE,not separately timed; do not infer active time from session wall time
+human,validation,agent,UNAVAILABLE,not separately timed; do not infer active time from session wall time
+human,rework analysis,agent,UNAVAILABLE,not separately timed; do not infer active time from session wall time
+human,visual review,owner,UNAVAILABLE,two text replies requested; hands-on duration not measured
+human-toward,generation tool wait,agent,18.427,measured around built-in tool call
+human-away,generation tool wait,agent,16.15,measured around built-in tool call
+human-side,generation tool wait,agent,19.67,measured around built-in tool call
+floor,generation tool wait,agent,22.879,measured tool call; prompt authoring excluded
+cabinet_a,generation tool wait,agent,19.824,measured tool call; prompt authoring excluded
+pet,generation tool wait,agent,21.821,measured tool call; prompt authoring excluded
+creature,generation tool wait,agent,25.814,measured tool call; prompt authoring excluded
+doorway,generation tool wait,agent,21.019,measured tool call; prompt authoring excluded
+cabinet_b,generation tool wait,agent,23.174,measured tool call; prompt authoring excluded
+floor,Krita cleanup save reopen export,agent-operated Krita,1.6116625840077177,monotonic timer; authoring excluded
+floor,prompt authoring,agent,UNAVAILABLE,not separately timed
+floor,cleanup script authoring,agent,UNAVAILABLE,not separately timed
+floor,integration authoring,agent,UNAVAILABLE,not separately timed
+cabinet_a,Krita cleanup save reopen export,agent-operated Krita,1.3015719999966677,monotonic timer; authoring excluded
+cabinet_a,prompt authoring,agent,UNAVAILABLE,not separately timed
+cabinet_a,cleanup script authoring,agent,UNAVAILABLE,not separately timed
+cabinet_a,integration authoring,agent,UNAVAILABLE,not separately timed
+cabinet_a,animation,agent,0,static prop; none required
+pet,Krita cleanup save reopen export,agent-operated Krita,0.9999785409891047,monotonic timer; authoring excluded
+pet,prompt authoring,agent,UNAVAILABLE,not separately timed
+pet,cleanup script authoring,agent,UNAVAILABLE,not separately timed
+pet,integration authoring,agent,UNAVAILABLE,not separately timed
+creature,Krita cleanup save reopen export,agent-operated Krita,1.0292926249967422,monotonic timer; authoring excluded
+creature,prompt authoring,agent,UNAVAILABLE,not separately timed
+creature,cleanup script authoring,agent,UNAVAILABLE,not separately timed
+creature,integration authoring,agent,UNAVAILABLE,not separately timed
+doorway,Krita cleanup save reopen export,agent-operated Krita,1.5215791249938775,monotonic timer; authoring excluded
+doorway,prompt authoring,agent,UNAVAILABLE,not separately timed
+doorway,cleanup script authoring,agent,UNAVAILABLE,not separately timed
+doorway,integration authoring,agent,UNAVAILABLE,not separately timed
+cabinet_b,Krita cleanup save reopen export,agent-operated Krita,2.164204874978168,monotonic timer; authoring excluded
+cabinet_b,prompt authoring,agent,UNAVAILABLE,not separately timed
+cabinet_b,cleanup script authoring,agent,UNAVAILABLE,not separately timed
+cabinet_b,integration authoring,agent,UNAVAILABLE,not separately timed
+cabinet_b,animation,agent,0,static prop; none required

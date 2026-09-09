@@ -1,0 +1,16 @@
+{
+  "version": "4.6.2.stable.official.71f334935",
+  "results": [
+    {
+      "name": "fresh-import",
+      "exit": 0,
+      "pass": true
+    },
+    {
+      "name": "behavior",
+      "exit": 0,
+      "pass": true
+    }
+  ],
+  "scope": "S02 technical checks only; visual and owner verdict separate"
+}
