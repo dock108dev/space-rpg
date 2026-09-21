@@ -1,6 +1,8 @@
 # Space Opera RPG
 
-Updated September 9, 2026. Working label; final title undecided.
+Updated September 21, 2026. Working label; final title undecided.
+
+**Current planning: complete opening-chapter personal beta.** See the [path to beta](../space_opera_rpg_next_steps.md) for confirmed scope, remaining work and confirmed home customization and recovery rules. The available prototype described below is not beta-ready; no implementation or owner acceptance is implied by scope planning.
 
 **S04 TECHNICALLY COMPLETE — READY FOR S05 OWNER PLAY.** S05 preparation complete; owner session not started. S03 tactical assessment remains deferred.
 
@@ -40,4 +42,8 @@ Read the [technical recommendation](docs/technical-approach.md) and [S01 evidenc
 - [Asset register](docs/asset-register.md): provenance and production recipe records.
 - [Evidence index](evidence/README.md): runtime evidence and owner feedback.
 
-The Desktop tracker retains the large research and question library. Do not treat its conditional features as committed scope. Current design lives here; exact owner answers are evidence, not another independently maintained design specification. Document completion, technical completion, visual acceptance, and enjoyable play are separate states.
+The Desktop tracker owns the active beta route and links the preserved research/question library. Do not treat its conditional features as committed scope. Current design lives here; exact owner answers are evidence, not another independently maintained design specification. Document completion, technical completion, visual acceptance, and enjoyable play are separate states.
+
+## Shared UI design
+
+See [UI design and templates](docs/ui-design.md) before changing this interface. The shared Desktop `UI Templates` folder defines the glass design baseline for future contributors; this repository keeps its own runtime styles and a portable copy of the requirements.

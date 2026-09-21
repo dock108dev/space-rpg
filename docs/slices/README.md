@@ -1,6 +1,12 @@
-# Slice board
+# Prototype slice board and beta route
 
-Updated September 9, 2026. **S04 TECHNICALLY COMPLETE — READY FOR S05 OWNER PLAY.** S05 candidate preparation complete; S05 owner session is the sole pending active slice. No engineering continuation is active. S03 owner tactical assessment remains deferred. Task IDs are local work items.
+## UI-01 — shared glass interface adoption (September 21, 2026)
+
+Owner-authorized presentation-only continuation: apply the shared Desktop UI Templates to working-source controls and HUD chrome, then run local checks. No gameplay/canon changes. UI-01 is technically complete after local validation and render review; no engineering continuation remains active under this UI task. Beta chapter planning and S05 owner play remain pending. The frozen S04-20260909-01 owner candidate and its launcher stay preserved. Results and template guidance: [UI design](../ui-design.md).
+
+Current planning: [opening-chapter beta path](/Users/michaelfuscoletti/Desktop/space_opera_rpg_next_steps.md), updated September 21. B0 beta scope is defined, including home improvements and recovery rules; B1 implementation planning is next. The dated prototype slice states below remain retained evidence, not the complete beta plan.
+
+Prototype record updated September 9, 2026. **S04 TECHNICALLY COMPLETE — READY FOR S05 OWNER PLAY.** S05 candidate preparation complete; S05 owner session is the sole pending active slice. No engineering continuation is active. S03 owner tactical assessment remains deferred. Task IDs are local work items.
 
 | Slice | Result | State | Dependency |
 |---|---|---|---|
@@ -13,7 +19,7 @@ Updated September 9, 2026. **S04 TECHNICALLY COMPLETE — READY FOR S05 OWNER PL
 
 Keep one active slice. READY means dependencies are met, not that work has started. WAITING is an ordinary dependency, not a failed gate. Record completion only against each slice’s deliverables and relevant evidence. Do not mark owner acceptance from technical checks.
 
-## Later route — conditional, not implementation packets yet
+## Historical later-route proposal — superseded by current personal-beta path
 
 | Phase | Prerequisite | Intended result |
 |---|---|---|

@@ -1,6 +1,6 @@
 # Current design — active interpretation
 
-Updated September 7, 2026. Source: [owner answers](owner-answers.md). Confirmed means owner-selected intent, not proven implementation.
+Updated September 21, 2026. Original design plus confirmed opening-chapter beta scope. Source: [owner answers](owner-answers.md). Confirmed means owner-selected intent, not proven implementation.
 
 | Area | Current choice | State |
 |---|---|---|
@@ -20,11 +20,11 @@ Updated September 7, 2026. Source: [owner answers](owner-answers.md). Confirmed 
 | Rewards | Select security, equipment, or opportunity | Confirmed; exact payload open |
 | Broadcast | Outside audience only; early reactions, later consequences | Confirmed |
 | Progress | Access and security matter most | Confirmed |
-| Failure | Losses can include missed rewards, recoverable damage, permanent equipment/companion loss | Confirmed general direction; pet separately bounded |
+| Failure | Missed rewards and recoverable damage; no permanent recruit death in beta | Beta boundary confirmed; later campaign loss rules separate |
 | Ordinary death | Load latest manual/autosave | Confirmed; save timing open |
 | Difficulty | Reload mode versus campaign-ending permanent-death mode | Confirmed direction; latter deferred |
 | Pet | Alien animal met early; follows; learns useful behaviors; role grows through choices/training | Confirmed; species/first behavior open |
-| Pet loss | No permanent death; injury/knockout permission ambiguous | Working interpretation; damage excluded from experiment |
+| Pet loss | Recoverable injury requiring care; no permanent death | Confirmed for beta September 21; retained prototype still excludes damage |
 | Visuals | Illustrated 2D concept C; angled viewpoint as reference | Selected concept, not in-engine acceptance |
 | Locations | Small detailed locations connected by travel | Provisional |
 | Tone | Dark humor + satire, a little adventure | Confirmed |
@@ -36,3 +36,9 @@ Updated September 7, 2026. Source: [owner answers](owner-answers.md). Confirmed 
 ## Interpretation boundaries
 
 Choosing an initial power does not establish a permanent class. Temporary shelter is not automatically property or private. The real player’s audience UI is not automatically information the protagonist possesses. Selecting C does not settle animation, camera controls, or tooling. The pet reference is the following-companion idea, not permission to import unrelated franchise systems. No species, creature design, cash amount, ability cost, or new lore has been approved merely because a test needs placeholders.
+
+## Confirmed beta scope — September 21
+
+The [Desktop beta path](/Users/michaelfuscoletti/Desktop/space_opera_rpg_next_steps.md) defines the complete opening chapter through a first substantial expedition beyond shelter. Required: several connected locations and optional tasks; acquiring/improving equipment and powers; a first owned private home; a recruitable autonomous companion alongside the pet. Audience reactions remain, but tangible audience rewards are excluded from beta.
+
+Home furnishing and upgrades are required. Pet injuries require care and recovery; no permanent pet death. The recruited companion cannot die permanently during beta. These are scope decisions, not implementation or owner-play acceptance.

@@ -1,3 +1,9 @@
+# Current task — opening-chapter beta planning
+
+Updated September 21, 2026. The [Desktop beta path](/Users/michaelfuscoletti/Desktop/space_opera_rpg_next_steps.md) is the current planning task. Beta scope is defined, including home furnishing/upgrades, care for recoverable pet injuries and no permanent recruit death. Prepare the concrete chapter implementation packet; no further owner scope answers are needed now. No runtime implementation or owner-play verdict has occurred.
+
+The retained handoff below describes the available S04/S05 prototype and its unrun owner session. Its “next action” applies when owner play resumes, not as an instruction to interrupt current planning.
+
 # Handoff — S04 complete; S05 owner play prepared
 
 **S04 TECHNICALLY COMPLETE — READY FOR S05 OWNER PLAY.** September 9, 2026. S04 did not exist at entry; it was implemented and validated under the owner's explicit authorization, which superseded the old stop-before-S04 handoff. S05 preparation is complete; owner session NOT STARTED. S03 tactical assessment remains deferred. No further engineering is active or implied.

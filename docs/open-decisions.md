@@ -1,12 +1,12 @@
 # Open decisions
 
-Only resolve what blocks the active slice. “Provisional” is not a requirement to ask the same question again immediately.
+For current beta planning, resolve consequential first-chapter choices; the S04/S05 entries below retain prototype decisions. “Provisional” is not a requirement to ask the same question again immediately.
 
 | ID | Decision | When needed | Current treatment |
 |---|---|---|---|
 | O01 | Engine and reproducible local setup | S01 | S01 resolved by engineering judgment: installed Godot 4.6.2 Standard/GDScript, Compatibility renderer; setup and visible launch verified in S02. See technical approach. |
 | O02 | Asset/animation technique | S01–S02 | S01 method selected: generated masters, Krita cleanup, Godot rigid cutouts; authored PNG frames fallback. S02 repaired human received permission to continue; A/B cabinet process demonstrated. Pet placeholder hovering tolerated for now; detailed gait and full active production-time comparison remain limitations. |
-| O03 | Pet injury/knockout permission | Before pet damage | A conflicts with B/C in answer 47; exclude pet damage from experiment, no permanent death |
+| O03 | Pet injury/care | Beta implementation | RESOLVED September 21: recoverable injury requiring care, no permanent death. Original prototype remains damage-free; treatment details are implementation design. |
 | O04 | AP budget/costs/turn order | S03 | S03 hypothesis: player first, 4 AP; move/shield/dash/control 1, bolt/blast 2; explicit End turn. Runtime checked, pacing and owner preference unassessed. |
 | O05 | Pause/focus-loss behavior | S03–S04 | S03 explicit and focus-loss pause freeze all simulation; manual resume. S02 retains explicit-pause-only behavior. Runtime checked; owner ergonomics deferred. |
 | O06 | Input/camera controls | S02 | S02 tested: fixed angled view, WASD/arrows eight-way movement with four visible facing groups. Reversible test choices, not owner-approved final camera/animation limits. |
@@ -24,3 +24,9 @@ Confirmed choices are summarized in current-design.md. Revise a provisional impl
 S01 source-backed decision: [technical approach](technical-approach.md). No new owner answers or canon were added. S02 human feedback is positive after mask repair; pet hovering tolerated for now. Larger creature action read as moving toward the box; S02 feedback closed with the stated sample limitations. See playtests/S02-owner-feedback.md.
 
 S03 owner steering: continue building without basic check-ins; record minor issues for later review. This does not supply a tactical-play or cue-comprehension verdict. See [S03 owner record](playtests/S03-owner-feedback.md).
+
+## Beta decisions — September 21
+
+Scope resolved: opening chapter through first expedition; connected locations/optional tasks; equipment/power progression; an owned private home; one recruit alongside pet; no tangible audience rewards. Do not re-ask these.
+
+Resolved: home furnishing/upgrades required; pet injuries require care and are recoverable; neither pet nor recruit can die permanently in beta. No further owner scope question is required now. O13 ownership/privacy now matters to the required home: do not infer temporary shelter privacy, guest/joint ownership rules or character access to broadcasts. Numeric tuning and content counts can be documented implementation proposals.

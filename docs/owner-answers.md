@@ -55,3 +55,26 @@ Interview preference: short batches; four suggestions plus add-your-own for most
 | 46 — Pet role in danger | “46 D” | CONFIRMED: the pet’s role develops through player choices and training. No fixed combat/support role selected. |
 | 47 — Pet harm | “47 A B and C” | MIXED ANSWER: A disallows injury/death, B allows recoverable knockouts, C allows injuries requiring care. Working interpretation: no permanent pet death; temporary knockout and recoverable injury allowed. Injury permission remains provisional because A conflicts with B/C. Do not implement damaging pet behavior until that ambiguity is resolved. |
 | 48 — Everyday pet presence | “48 D” | CONFIRMED emphasis: learning useful behaviors and growing more capable. A mandatory feeding/care meter, bonding minigame, or combat role is not implied. |
+
+## Beta-scope answers — September 21, 2026
+
+| Question | Owner answer | Confirmed interpretation |
+| --- | --- | --- |
+| Opening chapter through that first expedition? | “yes” | Complete opening chapter through a substantial expedition beyond shelter |
+| Several connected locations and optional tasks? | “yes” | Both required during beta |
+| Acquire and improve equipment and powers? | “yes” | Both equipment and power progression required |
+| Obtain your first owned, private home? | “yes” | Ownership and privacy required; temporary shelter insufficient |
+| Recruit another companion alongside your pet? | “yes” | Additional autonomous recruit required alongside existing pet direction |
+| Audience attention produces tangible rewards already? | “no” | No tangible audience rewards in beta; reaction presentation retained |
+
+No owner gameplay verdict is supplied by these answers. See the current Desktop beta path for remaining decisions and the complete route.
+
+### Home and harm follow-up — September 21
+
+| Question | Owner answer | Confirmed beta interpretation |
+| --- | --- | --- |
+| Should your home support furnishing and upgrades? | “yes” | Both are required |
+| Pet harm: none, temporary knockout, or recoverable injury requiring care? | “require care” | Recoverable injury requires care; permanent pet death excluded |
+| Can the recruited companion die permanently during beta? | “no” | No permanent recruit death in beta; later campaign rules not decided here |
+
+This resolves the earlier mixed pet-harm answer for the beta. Retained prototype evidence remains unchanged; no gameplay or quality acceptance is implied.

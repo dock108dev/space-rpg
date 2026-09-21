@@ -1,6 +1,6 @@
 # Product brief
 
-Status: initial synthesis from 48 owner answers; first-experiment plan is a proposal, not a complete production commitment.
+Status: original product direction plus confirmed opening-chapter personal beta scope, September 21. Prototype implementation and beta requirements remain distinct.
 
 Play one human whose ordinary life is interrupted by an alien takeover. Humans are forced into a real space-opera RPG and broadcast to an outside audience. Prepare, explore, use real powers, and make tactical and risk/reward decisions to gain security, access, and ultimately freedom. Ways of thriving emerge through decisions rather than an explicit path selection.
 
@@ -22,4 +22,10 @@ Control the main character directly. Routine play combines movement/interactions
 
 ## Practical boundary
 
-Personal single-player on Mac first; 5–10 owner hours/week including decisions/testing. Flexible spending does not select particular purchases. No commercial or multiplayer commitment. Initial build tests one encounter, not the entire fiction. Engine, asset technique, final protagonist background and full campaign length remain open.
+Personal single-player on Mac first; 5–10 owner hours/week including decisions/testing. Flexible spending does not select particular purchases. No commercial or multiplayer commitment. Initial build tests one encounter, not the entire fiction. Godot 4.6.2 and the illustrated cutout workflow were selected for the prototype. Final protagonist background and full campaign length remain open.
+
+## Required opening-chapter beta
+
+Deliver a complete opening chapter through the first substantial expedition beyond shelter, with several connected places, optional tasks, equipment and power acquisition/improvement, a first owned private home and one recruitable autonomous companion alongside the pet. Keep outside-audience reactions but exclude tangible audience rewards. Home furnishing/upgrades and care for recoverable pet injuries are required. Neither pet nor recruited companion can die permanently in beta.
+
+The [complete path to beta](/Users/michaelfuscoletti/Desktop/space_opera_rpg_next_steps.md) owns required work, backlog, issues and staged completion conditions. The existing S04 is a small foundation, not this complete chapter.

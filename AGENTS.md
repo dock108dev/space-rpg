@@ -6,6 +6,6 @@ Keep one slice active. Complete its bounded deliverables and relevant checks; re
 
 Ask only relevant unresolved questions. Use short batches with four suggestions plus add-your-own for most open-ended questions; yes/no questions need no artificial options. Do not restart discovery or ask all reference-library questions.
 
-This is a personal Mac single-player first version. Preserve spatial interaction and the selected illustrated direction. Feed access is outside-audience only. Temporary shelter does not imply ownership/privacy. Pet injury is unresolved; omit it from the first experiment. Purchases/publication/external messages require the applicable authorization; routine reversible project work does not need repeated permission.
+This is a personal Mac single-player first version. Preserve spatial interaction and the selected illustrated direction. Feed access is outside-audience only. Temporary shelter does not imply ownership/privacy. The first experiment remains damage-free. September 21 beta scope permits recoverable pet injuries requiring care and excludes permanent pet or recruit death; see current-design.md. Do not re-ask the resolved injury question. Purchases/publication/external messages require the applicable authorization; routine reversible project work does not need repeated permission.
 
 When implementing, choose a project-local validation entry point and document it. Avoid inventing test results, release status, dates, or numeric balance as confirmed design. No subagent delegation is requested by these instructions.

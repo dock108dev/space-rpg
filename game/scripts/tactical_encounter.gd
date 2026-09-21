@@ -1,4 +1,5 @@
 extends Node2D
+const GlassUI=preload("res://scripts/glass_ui.gd")
 const SaveStore=preload("res://scripts/tactical_save.gd")
 const ORIGIN:=Vector2(256,254)
 const STEP:=64.0
@@ -77,6 +78,8 @@ func _ready() -> void:
 	pet=load("res://scripts/pet_follow.gd").new();pet.position=human.position+Vector2(-25,20);pet.target=human;sorted.add_child(pet)
 	build_navigation()
 	var ui:=CanvasLayer.new();add_child(ui)
+	for rect in [Rect2(16,8,1248,100),Rect2(16,670,1248,44)]:
+		var glass:=Panel.new();glass.position=rect.position;glass.size=rect.size;glass.mouse_filter=Control.MOUSE_FILTER_IGNORE;glass.add_theme_stylebox_override("panel",GlassUI.panel_style(true));ui.add_child(glass)
 	status.position=Vector2(32,18);status.add_theme_font_size_override("font_size",24);ui.add_child(status)
 	detail.position=Vector2(32,55);detail.add_theme_font_size_override("font_size",18);ui.add_child(detail)
 	feedback.position=Vector2(32,679);feedback.add_theme_font_size_override("font_size",17);ui.add_child(feedback)
@@ -97,7 +100,7 @@ func _ready() -> void:
 	pause_label.position=Vector2(440,340);pause_label.add_theme_font_size_override("font_size",28);pause_label.text="PAUSED — Esc to resume";ui.add_child(pause_label)
 	refresh_ui()
 func add_button(parent:Node,text:String,callback:Callable) -> Button:
-	var b:=Button.new();b.text=text;b.add_theme_font_size_override("font_size",17);b.pressed.connect(callback);b.focus_mode=Control.FOCUS_NONE;parent.add_child(b);return b
+	var b:=Button.new();b.theme=GlassUI.make_theme();b.custom_minimum_size.y=38;b.text=text;b.add_theme_font_size_override("font_size",17);b.pressed.connect(callback);b.focus_mode=Control.FOCUS_NONE;parent.add_child(b);return b
 func prop(asset:String,at:Vector2,height:float,width:float) -> void:
 	var node:=Node2D.new();node.position=at;sorted.add_child(node)
 	var sprite:=Sprite2D.new();sprite.texture=load("res://art/"+asset+"/full.png");sprite.centered=false;sprite.scale=Vector2.ONE*minf(height/sprite.texture.get_height(),width/sprite.texture.get_width());sprite.position=Vector2(-sprite.texture.get_width()*sprite.scale.x/2,-sprite.texture.get_height()*sprite.scale.y);node.add_child(sprite)
