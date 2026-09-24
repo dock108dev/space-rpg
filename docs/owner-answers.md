@@ -78,3 +78,11 @@ No owner gameplay verdict is supplied by these answers. See the current Desktop 
 | Can the recruited companion die permanently during beta? | “no” | No permanent recruit death in beta; later campaign rules not decided here |
 
 This resolves the earlier mixed pet-harm answer for the beta. Retained prototype evidence remains unchanged; no gameplay or quality acceptance is implied.
+
+## Command-adventure priorities — September 23, 2026
+
+Owner directs the next major work after B2 toward a modern text adventure, potentially using AI or a small local model for complicated requests or pattern recognition, analogous to the conversational game-control work in Game Companion. Typed language, multiple-choice options and prompts should act on the actual game. Exact examples: “go to the cart,” “move 5 up and 8 right,” and “interact with x”.
+
+Follow-up, verbatim: “make sure the docs are updated. this is the key feature with this and the story/gameplay are A1 and A1a in importance”
+
+Active interpretation: **A1 — modern command-adventure experience; A1a — story and gameplay.** B2 remains the active foundation; B2.5 is next before B3 expansion. AI/local-model choice is exploratory, not a mandated service or permission to claim unsupported game actions. This product direction supplies no gameplay or acceptance verdict.

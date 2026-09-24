@@ -1,0 +1,9 @@
+{
+  "save_root": "/var/folders/2k/njrlmfj97sv5pjrqxl22hq8w0000gn/T/space-opera-b2-native-final-u79_nh95",
+  "runtime_manifest_sha256": "dd77e97862be60f1d3156cd4daac226eb4a570f5ff5dccf92127c66f8aeeaadb",
+  "launcher": "/Users/michaelfuscoletti/Desktop/space-opera-rpg/Launch B2.command",
+  "cwd": "/tmp",
+  "synthetic": true,
+  "input": "native Mac CUA mouse/keyboard",
+  "audio": "Dummy; B2 has no authored audio"
+}

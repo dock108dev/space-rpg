@@ -1,0 +1,92 @@
+{
+  "version": "4.6.2.stable.official.71f334935",
+  "runtime_manifest_sha256": "561b24176a23f675c9a21c317a941d3347ff8414199a9acd75a4e8070527d861",
+  "synthetic": true,
+  "time_scale": 1,
+  "results": [
+    {
+      "name": "fresh-import",
+      "exit": 0,
+      "passed": true,
+      "seconds": 3.592655416985508,
+      "arguments": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--headless",
+        "--path",
+        "/var/folders/2k/njrlmfj97sv5pjrqxl22hq8w0000gn/T/space-opera-b2-validation-ychrl8pp/game",
+        "--import"
+      ]
+    },
+    {
+      "name": "b2-journeys-branches-recovery",
+      "exit": 0,
+      "passed": true,
+      "seconds": 3.5940270839782897,
+      "arguments": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--headless",
+        "--fixed-fps",
+        "60",
+        "--path",
+        "/var/folders/2k/njrlmfj97sv5pjrqxl22hq8w0000gn/T/space-opera-b2-validation-ychrl8pp/game",
+        "--script",
+        "res://tests/run_b2.gd"
+      ]
+    },
+    {
+      "name": "b2-presentation-keyboard",
+      "exit": 0,
+      "passed": true,
+      "seconds": 0.7966653330076952,
+      "arguments": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--headless",
+        "--fixed-fps",
+        "60",
+        "--path",
+        "/var/folders/2k/njrlmfj97sv5pjrqxl22hq8w0000gn/T/space-opera-b2-validation-ychrl8pp/game",
+        "--script",
+        "res://tests/run_b2_ui.gd"
+      ]
+    },
+    {
+      "name": "b2-actual-save-and-quit",
+      "exit": 0,
+      "passed": true,
+      "seconds": 0.5002795420004986,
+      "arguments": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--headless",
+        "--fixed-fps",
+        "60",
+        "--path",
+        "/var/folders/2k/njrlmfj97sv5pjrqxl22hq8w0000gn/T/space-opera-b2-validation-ychrl8pp/game",
+        "--script",
+        "res://tests/restart_b2.gd",
+        "--",
+        "--quit-check"
+      ]
+    },
+    {
+      "name": "b2-separate-process-continue",
+      "exit": 0,
+      "passed": true,
+      "seconds": 0.784864707995439,
+      "arguments": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--headless",
+        "--fixed-fps",
+        "60",
+        "--path",
+        "/var/folders/2k/njrlmfj97sv5pjrqxl22hq8w0000gn/T/space-opera-b2-validation-ychrl8pp/game",
+        "--script",
+        "res://tests/restart_b2.gd"
+      ]
+    },
+    {
+      "name": "historical-namespace-write-isolation",
+      "passed": true,
+      "unexpected": []
+    }
+  ]
+}

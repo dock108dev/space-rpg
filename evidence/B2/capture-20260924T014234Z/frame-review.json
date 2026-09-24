@@ -1,0 +1,25 @@
+{
+  "review": "engineer static phase-frame inspection; full normal-speed playback reviewed separately by lead",
+  "owner_acceptance": "NOT RUN",
+  "runtime_manifest_sha256": "19fc03bfa7e1871f3cf12294aa6a7f5ee9bea532b01e7773de02429841d5ad06",
+  "finding": {
+    "status": "PASS_OBSERVED_REPAIR",
+    "observed_frames": [
+      "07-three-orientation-rewards.png",
+      "08-companion-choice.png",
+      "15-stable-pause-save-and-quit.png"
+    ],
+    "description": "Reward/recruit controls begin x580, separated from the utility row. All visible controls fit1280 logical width. Pause Save-and-quit message and recovery controls remain readable. Prior overlap is repaired."
+  },
+  "observations": [
+    "The final ordinary route used projected InputEventMouseButton events for adjacent floor steps and actual attacks; passed actions are in visible.log.",
+    "Temporary shelter remains explicitly shared, not owned, not private.",
+    "Sampled protagonist, pet and recruit remain distinguishable with no missing assets or duplicate limbs."
+  ],
+  "limitations": [
+    "Static frame inspection alone is not moving-play acceptance.",
+    "Inherited protagonist cutout gait and small pet shuffle remain stylized; recruit linework differs from inherited illustrated actors.",
+    "Owner review is not run."
+  ],
+  "reviewed_at": "2026-09-24T01:45:31.336716+00:00"
+}

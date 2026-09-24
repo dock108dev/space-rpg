@@ -1,0 +1,42 @@
+{
+  "version": "4.6.2.stable.official.71f334935",
+  "runtime_manifest_sha256": "ce858cd7aac958edabb28f1dab3f39c4219537afd4905e0a4701955397468295",
+  "synthetic": true,
+  "time_scale": 1,
+  "results": [
+    {
+      "name": "fresh-import",
+      "exit": 0,
+      "passed": true,
+      "seconds": 4.309492708009202,
+      "arguments": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--headless",
+        "--path",
+        "/var/folders/2k/njrlmfj97sv5pjrqxl22hq8w0000gn/T/space-opera-b2-validation-1um2hbku/game",
+        "--import"
+      ]
+    },
+    {
+      "name": "b2-journeys-branches-recovery",
+      "exit": 1,
+      "passed": false,
+      "seconds": 2.627121041994542,
+      "arguments": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--headless",
+        "--fixed-fps",
+        "60",
+        "--path",
+        "/var/folders/2k/njrlmfj97sv5pjrqxl22hq8w0000gn/T/space-opera-b2-validation-1um2hbku/game",
+        "--script",
+        "res://tests/run_b2.gd"
+      ]
+    },
+    {
+      "name": "historical-namespace-write-isolation",
+      "passed": true,
+      "unexpected": []
+    }
+  ]
+}

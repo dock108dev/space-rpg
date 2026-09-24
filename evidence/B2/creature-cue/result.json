@@ -1,0 +1,22 @@
+{
+  "passed": true,
+  "runtime_manifest_sha256": "19fc03bfa7e1871f3cf12294aa6a7f5ee9bea532b01e7773de02429841d5ad06",
+  "supplemental_harness_sha256": "dd9e5c6b41a7016bb0e705a9925ab2997fb214fe3633728be57f3a535f2cb5fb",
+  "movie_sha256": "0157f723f13a04cd5abb0961c780ec35261a85aef36cefa238ab02fc4e03b5a6",
+  "synthetic": true,
+  "time_scale": 1,
+  "intended_playback_speed": 1,
+  "metadata": {
+    "programs": [],
+    "stream_groups": [],
+    "streams": [
+      {
+        "width": 2560,
+        "height": 1440,
+        "r_frame_rate": "30/1",
+        "duration": "16.333333",
+        "nb_frames": "490"
+      }
+    ]
+  }
+}

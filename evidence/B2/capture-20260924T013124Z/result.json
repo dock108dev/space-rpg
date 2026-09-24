@@ -1,0 +1,28 @@
+{
+  "version": "4.6.2.stable.official.71f334935",
+  "exit": 0,
+  "passed": true,
+  "runtime_manifest_sha256": "dd77e97862be60f1d3156cd4daac226eb4a570f5ff5dccf92127c66f8aeeaadb",
+  "tool_wall_seconds": 133.31667175001348,
+  "arguments": [
+    "/Applications/Godot.app/Contents/MacOS/Godot",
+    "--path",
+    "/var/folders/2k/njrlmfj97sv5pjrqxl22hq8w0000gn/T/space-opera-b2-visible-wmik10hk/game",
+    "--resolution",
+    "1280x720",
+    "--disable-vsync",
+    "--audio-driver",
+    "Dummy",
+    "--write-movie",
+    "/Users/michaelfuscoletti/Desktop/space-opera-rpg/evidence/B2/capture-20260924T013124Z/b2-tour.avi",
+    "--fixed-fps",
+    "30",
+    "--script",
+    "res://tests/visible_b2.gd"
+  ],
+  "synthetic": true,
+  "control": "scripted ordinary input/controller actions; no debug progression",
+  "engine_time_scale": 1,
+  "movie_frames_per_second": 30,
+  "intended_playback_speed": 1
+}

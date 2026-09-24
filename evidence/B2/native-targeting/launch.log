@@ -1,0 +1,4 @@
+Godot Engine v4.6.2.stable.official.71f334935 - https://godotengine.org
+OpenGL API 4.1 Metal - 91.7 - Compatibility - Using Device: Apple - Apple M3 Pro
+
+B2_NATIVE_MOUSE {"ap":4,"busy":false,"canvas_transform":"[X: (1.0, 0.0), Y: (0.0, 1.0), O: (0.0, 0.0)]","creature_position":[384.0,382.0],"distance":2.2360680103302,"enemy_cell":[2,2],"event_position":[383.0,344.0],"global_mouse":[574.0,-1910.0],"journey":"encounter","line_clear":true,"mode":"power","phase":"player","player_cell":[1,4],"power":"blast","target":[5,-34],"viewport_transform":"[X: (1.0, 0.0), Y: (0.0, 1.0), O: (0.0, 0.0)]","window_size":"(1280, 720)"}

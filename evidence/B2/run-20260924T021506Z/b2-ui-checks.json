@@ -1,0 +1,262 @@
+[
+  {
+    "name": "new B2 starts concourse before danger",
+    "passed": true
+  },
+  {
+    "name": "choice requires all previews",
+    "passed": true
+  },
+  {
+    "name": "real power preview blast",
+    "passed": true
+  },
+  {
+    "name": "real power preview shield",
+    "passed": true
+  },
+  {
+    "name": "real power preview dash",
+    "passed": true
+  },
+  {
+    "name": "select blast",
+    "passed": true
+  },
+  {
+    "name": "chapter snapshot valid after choice",
+    "passed": true
+  },
+  {
+    "name": "focused Save responds to Space and preserves gameplay",
+    "passed": true
+  },
+  {
+    "name": "Escape opens Pause from focused control",
+    "passed": true
+  },
+  {
+    "name": "pause Tab stays in pause controls 0",
+    "passed": true
+  },
+  {
+    "name": "pause Tab stays in pause controls 1",
+    "passed": true
+  },
+  {
+    "name": "pause Tab stays in pause controls 2",
+    "passed": true
+  },
+  {
+    "name": "pause Tab stays in pause controls 3",
+    "passed": true
+  },
+  {
+    "name": "pause Tab stays in pause controls 4",
+    "passed": true
+  },
+  {
+    "name": "pause Tab stays in pause controls 5",
+    "passed": true
+  },
+  {
+    "name": "pause Tab stays in pause controls 6",
+    "passed": true
+  },
+  {
+    "name": "pause Tab stays in pause controls 7",
+    "passed": true
+  },
+  {
+    "name": "pause Tab stays in pause controls 8",
+    "passed": true
+  },
+  {
+    "name": "pause Tab stays in pause controls 9",
+    "passed": true
+  },
+  {
+    "name": "pause Tab stays in pause controls 10",
+    "passed": true
+  },
+  {
+    "name": "pause Tab stays in pause controls 11",
+    "passed": true
+  },
+  {
+    "name": "keyboard disclosure opens without changing game",
+    "passed": true
+  },
+  {
+    "name": "keyboard disclosure closes",
+    "passed": true
+  },
+  {
+    "name": "Escape restores focus and resumes",
+    "passed": true
+  },
+  {
+    "name": "arrow from button focus makes exactly one world step",
+    "passed": true
+  },
+  {
+    "name": "mouse Save releases keyboard focus",
+    "passed": true
+  },
+  {
+    "name": "prelesson fetch rejected",
+    "passed": true
+  },
+  {
+    "name": "remote interaction rejected",
+    "passed": true
+  },
+  {
+    "name": "ordinary pointer-position adjacent floor movement",
+    "passed": true
+  },
+  {
+    "name": "ordinary pointer-position return step",
+    "passed": true
+  },
+  {
+    "name": "ordinary A key moves protagonist",
+    "passed": true
+  },
+  {
+    "name": "safe direct movement is free",
+    "passed": true
+  },
+  {
+    "name": "threatened collection starts assessment before package",
+    "passed": true
+  },
+  {
+    "name": "danger rejects assigned walking",
+    "passed": true
+  },
+  {
+    "name": "ordinary combat target action selected",
+    "passed": true
+  },
+  {
+    "name": "right-click cancels target without spending AP",
+    "passed": true
+  },
+  {
+    "name": "mouse action selection keeps direct turn key available",
+    "passed": false
+  },
+  {
+    "name": "Enter after mouse action ends exactly one turn",
+    "passed": true
+  },
+  {
+    "name": "fallback recovery remains visible",
+    "passed": true
+  },
+  {
+    "name": "invalid saves distinguished from no files",
+    "passed": true
+  },
+  {
+    "name": "ordinary turn permits creature approach and strike",
+    "passed": true
+  },
+  {
+    "name": "ordinary turn permits creature approach and strike",
+    "passed": true
+  },
+  {
+    "name": "ordinary turn permits creature approach and strike",
+    "passed": true
+  },
+  {
+    "name": "ordinary turn permits creature approach and strike",
+    "passed": true
+  },
+  {
+    "name": "ordinary turn permits creature approach and strike",
+    "passed": true
+  },
+  {
+    "name": "ordinary attack action selected",
+    "passed": true
+  },
+  {
+    "name": "invalid pointer target spends no AP or damage",
+    "passed": true
+  },
+  {
+    "name": "ordinary pointer-position attack hits visible creature",
+    "passed": true
+  },
+  {
+    "name": "combat pause freezes actor/action state",
+    "passed": true
+  },
+  {
+    "name": "active combat pause cannot save or quit",
+    "passed": true
+  },
+  {
+    "name": "ordinary attack action selected",
+    "passed": true
+  },
+  {
+    "name": "ordinary pointer-position attack hits visible creature",
+    "passed": true
+  },
+  {
+    "name": "chosen power used during real encounter",
+    "passed": true
+  },
+  {
+    "name": "survived actual assessment before collection",
+    "passed": true
+  },
+  {
+    "name": "collect after danger teaches fetch",
+    "passed": true
+  },
+  {
+    "name": "collection coherent autosave",
+    "passed": true
+  },
+  {
+    "name": "safe assigned doorway walk",
+    "passed": true
+  },
+  {
+    "name": "assignment reaches physical door",
+    "passed": true
+  },
+  {
+    "name": "physical doorway enters separate shelter",
+    "passed": true
+  },
+  {
+    "name": "shelter has distinct blocked geometry",
+    "passed": true
+  },
+  {
+    "name": "failed quit keeps paused session and progress",
+    "passed": true
+  },
+  {
+    "name": "save failure exposes recovery without disclosure",
+    "passed": true
+  },
+  {
+    "name": "retry saves actual state and displays success",
+    "passed": true
+  },
+  {
+    "name": "expanded pause fits 1280 by 720",
+    "passed": true
+  },
+  {
+    "name": "expanded pause fits with 125 percent text",
+    "passed": true
+  }
+]

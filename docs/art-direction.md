@@ -4,7 +4,7 @@ The owner selected **C — Drawn 2D**. The local [comparison image](reference/vi
 
 ![Comparison; selected C is bottom left](reference/visual-comparison.png)
 
-Use illustrated environments and characters with readable outlines and an angled overhead viewpoint as the starting reference. Exact camera behavior, animation technique, scale, and implementation remain open. Smaller detailed locations linked by travel are provisionally acceptable. Other simplifications have not been accepted by implication.
+The September 23 product priorities are A1 command-adventure play and A1a story/gameplay. Illustrated scenes and moving characters support the central text, narration and choice interface. Use illustrated environments and characters with readable outlines and an angled overhead viewpoint as the starting reference. Exact camera behavior, animation technique, scale, and implementation remain open. Smaller detailed locations linked by travel are provisionally acceptable. Other simplifications have not been accepted by implication.
 
 ## S01 decision criteria
 
@@ -14,7 +14,7 @@ Compare ways to create characters, direction changes, walk cycles, pet movement,
 
 One small walkable area; one moving human; following alien placeholder pet; one readable creature preparation/action cue; one representative power effect; doorway/occlusion; readable interaction cue. Create a second matching environment element from the same documented recipe and import it. Record actual Mac/display conditions and effort for both assets.
 
-Owner aesthetic feedback, functional readability, and production repeatability receive separate verdicts. If the look cannot be sustained in motion, revise the workflow and show the result before expanding content. Do not replace this spatial direction with a text interface without an owner decision.
+Owner aesthetic feedback, functional readability, and production repeatability receive separate verdicts. If the look cannot be sustained in motion, revise the workflow and show the result before expanding content. The command/narrative interface is now owner-directed; integrate it with the visible game as specified in [B2.5](slices/B2.5-command-adventure.md).
 
 ## S01 engineering decision
 

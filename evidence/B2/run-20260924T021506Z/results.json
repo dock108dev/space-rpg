@@ -1,0 +1,58 @@
+{
+  "version": "4.6.2.stable.official.71f334935",
+  "runtime_manifest_sha256": "7837ad858625a2d617b64baf266c4364ad288af6722f915ab38e6fa9af0889bc",
+  "synthetic": true,
+  "time_scale": 1,
+  "results": [
+    {
+      "name": "fresh-import",
+      "exit": 0,
+      "passed": true,
+      "seconds": 4.332198916992638,
+      "arguments": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--headless",
+        "--path",
+        "/var/folders/2k/njrlmfj97sv5pjrqxl22hq8w0000gn/T/space-opera-b2-validation-b74p229k/game",
+        "--import"
+      ]
+    },
+    {
+      "name": "b2-journeys-branches-recovery",
+      "exit": 0,
+      "passed": true,
+      "seconds": 3.536030874995049,
+      "arguments": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--headless",
+        "--fixed-fps",
+        "60",
+        "--path",
+        "/var/folders/2k/njrlmfj97sv5pjrqxl22hq8w0000gn/T/space-opera-b2-validation-b74p229k/game",
+        "--script",
+        "res://tests/run_b2.gd"
+      ]
+    },
+    {
+      "name": "b2-presentation-keyboard",
+      "exit": 1,
+      "passed": false,
+      "seconds": 0.6920140419970267,
+      "arguments": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--headless",
+        "--fixed-fps",
+        "60",
+        "--path",
+        "/var/folders/2k/njrlmfj97sv5pjrqxl22hq8w0000gn/T/space-opera-b2-validation-b74p229k/game",
+        "--script",
+        "res://tests/run_b2_ui.gd"
+      ]
+    },
+    {
+      "name": "historical-namespace-write-isolation",
+      "passed": true,
+      "unexpected": []
+    }
+  ]
+}

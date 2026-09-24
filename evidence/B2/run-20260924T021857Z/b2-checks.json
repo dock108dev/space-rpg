@@ -1,0 +1,1830 @@
+[
+  {
+    "name": "new B2 starts concourse before danger",
+    "passed": true
+  },
+  {
+    "name": "choice requires all previews",
+    "passed": true
+  },
+  {
+    "name": "real power preview blast",
+    "passed": true
+  },
+  {
+    "name": "real power preview shield",
+    "passed": true
+  },
+  {
+    "name": "real power preview dash",
+    "passed": true
+  },
+  {
+    "name": "select blast",
+    "passed": true
+  },
+  {
+    "name": "chapter snapshot valid after choice",
+    "passed": true
+  },
+  {
+    "name": "prelesson fetch rejected",
+    "passed": true
+  },
+  {
+    "name": "remote interaction rejected",
+    "passed": true
+  },
+  {
+    "name": "ordinary pointer-position adjacent floor movement",
+    "passed": true
+  },
+  {
+    "name": "ordinary pointer-position return step",
+    "passed": true
+  },
+  {
+    "name": "ordinary A key moves protagonist",
+    "passed": true
+  },
+  {
+    "name": "safe direct movement is free",
+    "passed": true
+  },
+  {
+    "name": "threatened collection starts assessment before package",
+    "passed": true
+  },
+  {
+    "name": "danger rejects assigned walking",
+    "passed": true
+  },
+  {
+    "name": "ordinary combat target action selected",
+    "passed": true
+  },
+  {
+    "name": "right-click cancels target without spending AP",
+    "passed": true
+  },
+  {
+    "name": "ordinary turn permits creature approach and strike",
+    "passed": true
+  },
+  {
+    "name": "ordinary turn permits creature approach and strike",
+    "passed": true
+  },
+  {
+    "name": "ordinary turn permits creature approach and strike",
+    "passed": true
+  },
+  {
+    "name": "ordinary turn permits creature approach and strike",
+    "passed": true
+  },
+  {
+    "name": "ordinary turn permits creature approach and strike",
+    "passed": true
+  },
+  {
+    "name": "ordinary turn permits creature approach and strike",
+    "passed": true
+  },
+  {
+    "name": "ordinary attack action selected",
+    "passed": true
+  },
+  {
+    "name": "invalid pointer target spends no AP or damage",
+    "passed": true
+  },
+  {
+    "name": "ordinary pointer-position attack hits visible creature",
+    "passed": true
+  },
+  {
+    "name": "combat pause freezes actor/action state",
+    "passed": true
+  },
+  {
+    "name": "active combat pause cannot save or quit",
+    "passed": true
+  },
+  {
+    "name": "ordinary attack action selected",
+    "passed": true
+  },
+  {
+    "name": "ordinary pointer-position attack hits visible creature",
+    "passed": true
+  },
+  {
+    "name": "chosen power used during real encounter",
+    "passed": true
+  },
+  {
+    "name": "survived actual assessment before collection",
+    "passed": true
+  },
+  {
+    "name": "collect after danger teaches fetch",
+    "passed": true
+  },
+  {
+    "name": "collection coherent autosave",
+    "passed": true
+  },
+  {
+    "name": "safe assigned doorway walk",
+    "passed": true
+  },
+  {
+    "name": "assignment reaches physical door",
+    "passed": true
+  },
+  {
+    "name": "physical doorway enters separate shelter",
+    "passed": true
+  },
+  {
+    "name": "shelter has distinct blocked geometry",
+    "passed": true
+  },
+  {
+    "name": "marker has reachable approach (5, 1)",
+    "passed": true
+  },
+  {
+    "name": "ordinary direct step (2, 5)",
+    "passed": true
+  },
+  {
+    "name": "ordinary direct step (3, 5)",
+    "passed": true
+  },
+  {
+    "name": "ordinary direct step (4, 5)",
+    "passed": true
+  },
+  {
+    "name": "ordinary direct step (4, 4)",
+    "passed": true
+  },
+  {
+    "name": "ordinary direct step (4, 3)",
+    "passed": true
+  },
+  {
+    "name": "ordinary direct step (4, 2)",
+    "passed": true
+  },
+  {
+    "name": "ordinary direct step (4, 1)",
+    "passed": true
+  },
+  {
+    "name": "visible choice controls do not overlap save/pause controls",
+    "passed": true
+  },
+  {
+    "name": "visible choice controls fit supported width",
+    "passed": true
+  },
+  {
+    "name": "exclusive orientation reward security",
+    "passed": true
+  },
+  {
+    "name": "reward payload is honest",
+    "passed": true
+  },
+  {
+    "name": "repeat reward rejected security",
+    "passed": true
+  },
+  {
+    "name": "repeat reward rejected equipment",
+    "passed": true
+  },
+  {
+    "name": "repeat reward rejected opportunity",
+    "passed": true
+  },
+  {
+    "name": "marker has reachable approach (7, 2)",
+    "passed": true
+  },
+  {
+    "name": "ordinary direct step (4, 2)",
+    "passed": true
+  },
+  {
+    "name": "ordinary direct step (5, 2)",
+    "passed": true
+  },
+  {
+    "name": "ordinary direct step (6, 2)",
+    "passed": true
+  },
+  {
+    "name": "visible choice controls do not overlap save/pause controls",
+    "passed": true
+  },
+  {
+    "name": "visible choice controls fit supported width",
+    "passed": true
+  },
+  {
+    "name": "recruit joins autonomous party",
+    "passed": true
+  },
+  {
+    "name": "marker has reachable approach (0, 5)",
+    "passed": true
+  },
+  {
+    "name": "ordinary direct step (5, 2)",
+    "passed": true
+  },
+  {
+    "name": "ordinary direct step (4, 2)",
+    "passed": true
+  },
+  {
+    "name": "ordinary direct step (3, 2)",
+    "passed": true
+  },
+  {
+    "name": "ordinary direct step (3, 3)",
+    "passed": true
+  },
+  {
+    "name": "ordinary direct step (2, 3)",
+    "passed": true
+  },
+  {
+    "name": "ordinary direct step (1, 3)",
+    "passed": true
+  },
+  {
+    "name": "ordinary direct step (1, 4)",
+    "passed": true
+  },
+  {
+    "name": "ordinary direct step (1, 5)",
+    "passed": true
+  },
+  {
+    "name": "door travel to concourse",
+    "passed": true
+  },
+  {
+    "name": "door leaves protagonist on valid floor",
+    "passed": true
+  },
+  {
+    "name": "pet remains in same location on valid floor",
+    "passed": true
+  },
+  {
+    "name": "joined recruit survives travel on valid floor",
+    "passed": true
+  },
+  {
+    "name": "three actors remain distinct with readable spacing",
+    "passed": true
+  },
+  {
+    "name": "travel never duplicates party actors",
+    "passed": true
+  },
+  {
+    "name": "return preserves resolved events and party",
+    "passed": true
+  },
+  {
+    "name": "NEGATIVE ineligible blocked fetch rejected",
+    "passed": true
+  },
+  {
+    "name": "fetch starts after route restored",
+    "passed": true
+  },
+  {
+    "name": "NEGATIVE interrupted pet route cancels without reward",
+    "passed": true
+  },
+  {
+    "name": "physical fetch begins",
+    "passed": true
+  },
+  {
+    "name": "fetch produces outbound movement",
+    "passed": true
+  },
+  {
+    "name": "inflight persistence and duplicate actions refused",
+    "passed": true
+  },
+  {
+    "name": "pause freezes fetch and both followers",
+    "passed": true
+  },
+  {
+    "name": "paused fetch mutation rejected",
+    "passed": true
+  },
+  {
+    "name": "physical pet return gives exactly one kit",
+    "passed": true
+  },
+  {
+    "name": "duplicate cache cannot pay again",
+    "passed": true
+  },
+  {
+    "name": "kit treats real encounter damage and persists",
+    "passed": true
+  },
+  {
+    "name": "door travel to shelter",
+    "passed": true
+  },
+  {
+    "name": "door leaves protagonist on valid floor",
+    "passed": true
+  },
+  {
+    "name": "pet remains in same location on valid floor",
+    "passed": true
+  },
+  {
+    "name": "joined recruit survives travel on valid floor",
+    "passed": true
+  },
+  {
+    "name": "three actors remain distinct with readable spacing",
+    "passed": true
+  },
+  {
+    "name": "travel never duplicates party actors",
+    "passed": true
+  },
+  {
+    "name": "manual stable save blast/security",
+    "passed": true
+  },
+  {
+    "name": "same-process exact continue blast/security",
+    "passed": true
+  },
+  {
+    "name": "new practice preserves latest completed journey",
+    "passed": true
+  },
+  {
+    "name": "audience presentation has no saved influence",
+    "passed": true
+  },
+  {
+    "name": "NEGATIVE missing chapter field chapter_version",
+    "passed": true
+  },
+  {
+    "name": "NEGATIVE missing chapter field location",
+    "passed": true
+  },
+  {
+    "name": "NEGATIVE missing chapter field journey",
+    "passed": true
+  },
+  {
+    "name": "NEGATIVE missing chapter field recruit_status",
+    "passed": true
+  },
+  {
+    "name": "NEGATIVE missing chapter field pet_position",
+    "passed": true
+  },
+  {
+    "name": "NEGATIVE missing chapter field recruit_position",
+    "passed": true
+  },
+  {
+    "name": "NEGATIVE invalid chapter semantic chapter_version",
+    "passed": true
+  },
+  {
+    "name": "NEGATIVE invalid chapter semantic location",
+    "passed": true
+  },
+  {
+    "name": "NEGATIVE invalid chapter semantic journey",
+    "passed": true
+  },
+  {
+    "name": "NEGATIVE invalid chapter semantic recruit_status",
+    "passed": true
+  },
+  {
+    "name": "NEGATIVE invalid chapter semantic reward",
+    "passed": true
+  },
+  {
+    "name": "NEGATIVE invalid chapter semantic learned",
+    "passed": true
+  },
+  {
+    "name": "NEGATIVE invalid chapter semantic kits",
+    "passed": true
+  },
+  {
+    "name": "NEGATIVE invalid chapter semantic player",
+    "passed": true
+  },
+  {
+    "name": "NEGATIVE invalid chapter semantic pet_position",
+    "passed": true
+  },
+  {
+    "name": "NEGATIVE invalid chapter semantic recruit_position",
+    "passed": true
+  },
+  {
+    "name": "NEGATIVE invalid/interrupted snapshot fallback",
+    "passed": true
+  },
+  {
+    "name": "NEGATIVE invalid entries preserved",
+    "passed": true
+  },
+  {
+    "name": "NEGATIVE interrupted writer reports failure",
+    "passed": true
+  },
+  {
+    "name": "NEGATIVE failed paused save and quit stays open",
+    "passed": true
+  },
+  {
+    "name": "NEGATIVE load recovery remains available during writer lock",
+    "passed": true
+  },
+  {
+    "name": "NEGATIVE live writer cannot be stolen",
+    "passed": true
+  },
+  {
+    "name": "NEGATIVE external live process retains writer access",
+    "passed": true
+  },
+  {
+    "name": "stale writer recovery preserves interrupted material",
+    "passed": true
+  },
+  {
+    "name": "stale writer archive retained",
+    "passed": true
+  },
+  {
+    "name": "retry after interrupted writer succeeds",
+    "passed": true
+  },
+  {
+    "name": "save numbering skips invalid and partial attempts",
+    "passed": true
+  },
+  {
+    "name": "NEGATIVE unwritable destination does not quit",
+    "passed": true
+  },
+  {
+    "name": "valid destination retry after write failure",
+    "passed": true
+  },
+  {
+    "name": "all prior snapshots survive failures/retry",
+    "passed": true
+  },
+  {
+    "name": "manual stable save blast/security/recovered",
+    "passed": true
+  },
+  {
+    "name": "same-process exact continue blast/security/recovered",
+    "passed": true
+  },
+  {
+    "name": "new practice preserves latest completed journey",
+    "passed": true
+  },
+  {
+    "name": "new B2 starts concourse before danger",
+    "passed": true
+  },
+  {
+    "name": "choice requires all previews",
+    "passed": true
+  },
+  {
+    "name": "real power preview blast",
+    "passed": true
+  },
+  {
+    "name": "real power preview shield",
+    "passed": true
+  },
+  {
+    "name": "real power preview dash",
+    "passed": true
+  },
+  {
+    "name": "select shield",
+    "passed": true
+  },
+  {
+    "name": "chapter snapshot valid after choice",
+    "passed": true
+  },
+  {
+    "name": "prelesson fetch rejected",
+    "passed": true
+  },
+  {
+    "name": "remote interaction rejected",
+    "passed": true
+  },
+  {
+    "name": "ordinary pointer-position adjacent floor movement",
+    "passed": true
+  },
+  {
+    "name": "ordinary pointer-position return step",
+    "passed": true
+  },
+  {
+    "name": "ordinary A key moves protagonist",
+    "passed": true
+  },
+  {
+    "name": "safe direct movement is free",
+    "passed": true
+  },
+  {
+    "name": "threatened collection starts assessment before package",
+    "passed": true
+  },
+  {
+    "name": "danger rejects assigned walking",
+    "passed": true
+  },
+  {
+    "name": "ordinary combat target action selected",
+    "passed": true
+  },
+  {
+    "name": "right-click cancels target without spending AP",
+    "passed": true
+  },
+  {
+    "name": "combat pause freezes actor/action state",
+    "passed": true
+  },
+  {
+    "name": "active combat pause cannot save or quit",
+    "passed": true
+  },
+  {
+    "name": "ordinary end turn",
+    "passed": true
+  },
+  {
+    "name": "ordinary end turn",
+    "passed": true
+  },
+  {
+    "name": "ordinary end turn",
+    "passed": true
+  },
+  {
+    "name": "ordinary attack action selected",
+    "passed": true
+  },
+  {
+    "name": "invalid pointer target spends no AP or damage",
+    "passed": true
+  },
+  {
+    "name": "ordinary pointer-position attack hits visible creature",
+    "passed": true
+  },
+  {
+    "name": "ordinary attack action selected",
+    "passed": true
+  },
+  {
+    "name": "ordinary pointer-position attack hits visible creature",
+    "passed": true
+  },
+  {
+    "name": "ordinary end turn",
+    "passed": true
+  },
+  {
+    "name": "ordinary attack action selected",
+    "passed": true
+  },
+  {
+    "name": "ordinary pointer-position attack hits visible creature",
+    "passed": true
+  },
+  {
+    "name": "chosen power used during real encounter",
+    "passed": true
+  },
+  {
+    "name": "survived actual assessment before collection",
+    "passed": true
+  },
+  {
+    "name": "collect after danger teaches fetch",
+    "passed": true
+  },
+  {
+    "name": "collection coherent autosave",
+    "passed": true
+  },
+  {
+    "name": "safe assigned doorway walk",
+    "passed": true
+  },
+  {
+    "name": "assignment reaches physical door",
+    "passed": true
+  },
+  {
+    "name": "physical doorway enters separate shelter",
+    "passed": true
+  },
+  {
+    "name": "shelter has distinct blocked geometry",
+    "passed": true
+  },
+  {
+    "name": "marker has reachable approach (5, 1)",
+    "passed": true
+  },
+  {
+    "name": "ordinary direct step (2, 5)",
+    "passed": true
+  },
+  {
+    "name": "ordinary direct step (3, 5)",
+    "passed": true
+  },
+  {
+    "name": "ordinary direct step (4, 5)",
+    "passed": true
+  },
+  {
+    "name": "ordinary direct step (4, 4)",
+    "passed": true
+  },
+  {
+    "name": "ordinary direct step (4, 3)",
+    "passed": true
+  },
+  {
+    "name": "ordinary direct step (4, 2)",
+    "passed": true
+  },
+  {
+    "name": "ordinary direct step (4, 1)",
+    "passed": true
+  },
+  {
+    "name": "visible choice controls do not overlap save/pause controls",
+    "passed": true
+  },
+  {
+    "name": "visible choice controls fit supported width",
+    "passed": true
+  },
+  {
+    "name": "exclusive orientation reward equipment",
+    "passed": true
+  },
+  {
+    "name": "reward payload is honest",
+    "passed": true
+  },
+  {
+    "name": "repeat reward rejected security",
+    "passed": true
+  },
+  {
+    "name": "repeat reward rejected equipment",
+    "passed": true
+  },
+  {
+    "name": "repeat reward rejected opportunity",
+    "passed": true
+  },
+  {
+    "name": "marker has reachable approach (7, 2)",
+    "passed": true
+  },
+  {
+    "name": "ordinary direct step (4, 2)",
+    "passed": true
+  },
+  {
+    "name": "ordinary direct step (5, 2)",
+    "passed": true
+  },
+  {
+    "name": "ordinary direct step (6, 2)",
+    "passed": true
+  },
+  {
+    "name": "visible choice controls do not overlap save/pause controls",
+    "passed": true
+  },
+  {
+    "name": "visible choice controls fit supported width",
+    "passed": true
+  },
+  {
+    "name": "decline companion remains completable",
+    "passed": true
+  },
+  {
+    "name": "marker has reachable approach (0, 5)",
+    "passed": true
+  },
+  {
+    "name": "ordinary direct step (5, 2)",
+    "passed": true
+  },
+  {
+    "name": "ordinary direct step (4, 2)",
+    "passed": true
+  },
+  {
+    "name": "ordinary direct step (3, 2)",
+    "passed": true
+  },
+  {
+    "name": "ordinary direct step (3, 3)",
+    "passed": true
+  },
+  {
+    "name": "ordinary direct step (2, 3)",
+    "passed": true
+  },
+  {
+    "name": "ordinary direct step (1, 3)",
+    "passed": true
+  },
+  {
+    "name": "ordinary direct step (1, 4)",
+    "passed": true
+  },
+  {
+    "name": "ordinary direct step (1, 5)",
+    "passed": true
+  },
+  {
+    "name": "door travel to concourse",
+    "passed": true
+  },
+  {
+    "name": "door leaves protagonist on valid floor",
+    "passed": true
+  },
+  {
+    "name": "pet remains in same location on valid floor",
+    "passed": true
+  },
+  {
+    "name": "return preserves resolved events and party",
+    "passed": true
+  },
+  {
+    "name": "physical fetch begins",
+    "passed": true
+  },
+  {
+    "name": "fetch produces outbound movement",
+    "passed": true
+  },
+  {
+    "name": "inflight persistence and duplicate actions refused",
+    "passed": true
+  },
+  {
+    "name": "pause freezes fetch and both followers",
+    "passed": true
+  },
+  {
+    "name": "paused fetch mutation rejected",
+    "passed": true
+  },
+  {
+    "name": "physical pet return gives exactly one kit",
+    "passed": true
+  },
+  {
+    "name": "duplicate cache cannot pay again",
+    "passed": true
+  },
+  {
+    "name": "full-health kit never spends resources",
+    "passed": true
+  },
+  {
+    "name": "door travel to shelter",
+    "passed": true
+  },
+  {
+    "name": "door leaves protagonist on valid floor",
+    "passed": true
+  },
+  {
+    "name": "pet remains in same location on valid floor",
+    "passed": true
+  },
+  {
+    "name": "manual stable save shield/equipment",
+    "passed": true
+  },
+  {
+    "name": "same-process exact continue shield/equipment",
+    "passed": true
+  },
+  {
+    "name": "new practice preserves latest completed journey",
+    "passed": true
+  },
+  {
+    "name": "audience presentation has no saved influence",
+    "passed": true
+  },
+  {
+    "name": "new B2 starts concourse before danger",
+    "passed": true
+  },
+  {
+    "name": "choice requires all previews",
+    "passed": true
+  },
+  {
+    "name": "real power preview blast",
+    "passed": true
+  },
+  {
+    "name": "real power preview shield",
+    "passed": true
+  },
+  {
+    "name": "real power preview dash",
+    "passed": true
+  },
+  {
+    "name": "select dash",
+    "passed": true
+  },
+  {
+    "name": "chapter snapshot valid after choice",
+    "passed": true
+  },
+  {
+    "name": "prelesson fetch rejected",
+    "passed": true
+  },
+  {
+    "name": "remote interaction rejected",
+    "passed": true
+  },
+  {
+    "name": "ordinary pointer-position adjacent floor movement",
+    "passed": true
+  },
+  {
+    "name": "ordinary pointer-position return step",
+    "passed": true
+  },
+  {
+    "name": "ordinary A key moves protagonist",
+    "passed": true
+  },
+  {
+    "name": "safe direct movement is free",
+    "passed": true
+  },
+  {
+    "name": "threatened collection starts assessment before package",
+    "passed": true
+  },
+  {
+    "name": "danger rejects assigned walking",
+    "passed": true
+  },
+  {
+    "name": "ordinary combat target action selected",
+    "passed": true
+  },
+  {
+    "name": "right-click cancels target without spending AP",
+    "passed": true
+  },
+  {
+    "name": "combat pause freezes actor/action state",
+    "passed": true
+  },
+  {
+    "name": "active combat pause cannot save or quit",
+    "passed": true
+  },
+  {
+    "name": "ordinary end turn",
+    "passed": true
+  },
+  {
+    "name": "ordinary end turn",
+    "passed": true
+  },
+  {
+    "name": "ordinary end turn",
+    "passed": true
+  },
+  {
+    "name": "ordinary end turn",
+    "passed": true
+  },
+  {
+    "name": "ordinary attack action selected",
+    "passed": true
+  },
+  {
+    "name": "invalid pointer target spends no AP or damage",
+    "passed": true
+  },
+  {
+    "name": "ordinary pointer-position attack hits visible creature",
+    "passed": true
+  },
+  {
+    "name": "ordinary attack action selected",
+    "passed": true
+  },
+  {
+    "name": "ordinary pointer-position attack hits visible creature",
+    "passed": true
+  },
+  {
+    "name": "ordinary end turn",
+    "passed": true
+  },
+  {
+    "name": "ordinary attack action selected",
+    "passed": true
+  },
+  {
+    "name": "ordinary pointer-position attack hits visible creature",
+    "passed": true
+  },
+  {
+    "name": "chosen power used during real encounter",
+    "passed": true
+  },
+  {
+    "name": "survived actual assessment before collection",
+    "passed": true
+  },
+  {
+    "name": "marker has reachable approach (1, 3)",
+    "passed": true
+  },
+  {
+    "name": "ordinary direct step (1, 5)",
+    "passed": true
+  },
+  {
+    "name": "ordinary direct step (1, 4)",
+    "passed": true
+  },
+  {
+    "name": "collect after danger teaches fetch",
+    "passed": true
+  },
+  {
+    "name": "collection coherent autosave",
+    "passed": true
+  },
+  {
+    "name": "safe assigned doorway walk",
+    "passed": true
+  },
+  {
+    "name": "assignment reaches physical door",
+    "passed": true
+  },
+  {
+    "name": "physical doorway enters separate shelter",
+    "passed": true
+  },
+  {
+    "name": "shelter has distinct blocked geometry",
+    "passed": true
+  },
+  {
+    "name": "marker has reachable approach (5, 1)",
+    "passed": true
+  },
+  {
+    "name": "ordinary direct step (2, 5)",
+    "passed": true
+  },
+  {
+    "name": "ordinary direct step (3, 5)",
+    "passed": true
+  },
+  {
+    "name": "ordinary direct step (4, 5)",
+    "passed": true
+  },
+  {
+    "name": "ordinary direct step (4, 4)",
+    "passed": true
+  },
+  {
+    "name": "ordinary direct step (4, 3)",
+    "passed": true
+  },
+  {
+    "name": "ordinary direct step (4, 2)",
+    "passed": true
+  },
+  {
+    "name": "ordinary direct step (4, 1)",
+    "passed": true
+  },
+  {
+    "name": "visible choice controls do not overlap save/pause controls",
+    "passed": true
+  },
+  {
+    "name": "visible choice controls fit supported width",
+    "passed": true
+  },
+  {
+    "name": "exclusive orientation reward opportunity",
+    "passed": true
+  },
+  {
+    "name": "reward payload is honest",
+    "passed": true
+  },
+  {
+    "name": "repeat reward rejected security",
+    "passed": true
+  },
+  {
+    "name": "repeat reward rejected equipment",
+    "passed": true
+  },
+  {
+    "name": "repeat reward rejected opportunity",
+    "passed": true
+  },
+  {
+    "name": "marker has reachable approach (7, 2)",
+    "passed": true
+  },
+  {
+    "name": "ordinary direct step (4, 2)",
+    "passed": true
+  },
+  {
+    "name": "ordinary direct step (5, 2)",
+    "passed": true
+  },
+  {
+    "name": "ordinary direct step (6, 2)",
+    "passed": true
+  },
+  {
+    "name": "visible choice controls do not overlap save/pause controls",
+    "passed": true
+  },
+  {
+    "name": "visible choice controls fit supported width",
+    "passed": true
+  },
+  {
+    "name": "recruit joins autonomous party",
+    "passed": true
+  },
+  {
+    "name": "marker has reachable approach (0, 5)",
+    "passed": true
+  },
+  {
+    "name": "ordinary direct step (5, 2)",
+    "passed": true
+  },
+  {
+    "name": "ordinary direct step (4, 2)",
+    "passed": true
+  },
+  {
+    "name": "ordinary direct step (3, 2)",
+    "passed": true
+  },
+  {
+    "name": "ordinary direct step (3, 3)",
+    "passed": true
+  },
+  {
+    "name": "ordinary direct step (2, 3)",
+    "passed": true
+  },
+  {
+    "name": "ordinary direct step (1, 3)",
+    "passed": true
+  },
+  {
+    "name": "ordinary direct step (1, 4)",
+    "passed": true
+  },
+  {
+    "name": "ordinary direct step (1, 5)",
+    "passed": true
+  },
+  {
+    "name": "door travel to concourse",
+    "passed": true
+  },
+  {
+    "name": "door leaves protagonist on valid floor",
+    "passed": true
+  },
+  {
+    "name": "pet remains in same location on valid floor",
+    "passed": true
+  },
+  {
+    "name": "joined recruit survives travel on valid floor",
+    "passed": true
+  },
+  {
+    "name": "three actors remain distinct with readable spacing",
+    "passed": true
+  },
+  {
+    "name": "travel never duplicates party actors",
+    "passed": true
+  },
+  {
+    "name": "return preserves resolved events and party",
+    "passed": true
+  },
+  {
+    "name": "physical fetch begins",
+    "passed": true
+  },
+  {
+    "name": "fetch produces outbound movement",
+    "passed": true
+  },
+  {
+    "name": "inflight persistence and duplicate actions refused",
+    "passed": true
+  },
+  {
+    "name": "pause freezes fetch and both followers",
+    "passed": true
+  },
+  {
+    "name": "paused fetch mutation rejected",
+    "passed": true
+  },
+  {
+    "name": "physical pet return gives exactly one kit",
+    "passed": true
+  },
+  {
+    "name": "duplicate cache cannot pay again",
+    "passed": true
+  },
+  {
+    "name": "full-health kit never spends resources",
+    "passed": true
+  },
+  {
+    "name": "door travel to shelter",
+    "passed": true
+  },
+  {
+    "name": "door leaves protagonist on valid floor",
+    "passed": true
+  },
+  {
+    "name": "pet remains in same location on valid floor",
+    "passed": true
+  },
+  {
+    "name": "joined recruit survives travel on valid floor",
+    "passed": true
+  },
+  {
+    "name": "three actors remain distinct with readable spacing",
+    "passed": true
+  },
+  {
+    "name": "travel never duplicates party actors",
+    "passed": true
+  },
+  {
+    "name": "marker has reachable approach (7, 2)",
+    "passed": true
+  },
+  {
+    "name": "ordinary direct step (2, 5)",
+    "passed": true
+  },
+  {
+    "name": "ordinary direct step (3, 5)",
+    "passed": true
+  },
+  {
+    "name": "ordinary direct step (4, 5)",
+    "passed": true
+  },
+  {
+    "name": "ordinary direct step (5, 5)",
+    "passed": true
+  },
+  {
+    "name": "ordinary direct step (6, 5)",
+    "passed": true
+  },
+  {
+    "name": "ordinary direct step (6, 4)",
+    "passed": true
+  },
+  {
+    "name": "ordinary direct step (6, 3)",
+    "passed": true
+  },
+  {
+    "name": "ordinary direct step (6, 2)",
+    "passed": true
+  },
+  {
+    "name": "joined recruit can wait",
+    "passed": true
+  },
+  {
+    "name": "marker has reachable approach (0, 5)",
+    "passed": true
+  },
+  {
+    "name": "ordinary direct step (5, 2)",
+    "passed": true
+  },
+  {
+    "name": "ordinary direct step (4, 2)",
+    "passed": true
+  },
+  {
+    "name": "ordinary direct step (3, 2)",
+    "passed": true
+  },
+  {
+    "name": "ordinary direct step (3, 3)",
+    "passed": true
+  },
+  {
+    "name": "ordinary direct step (2, 3)",
+    "passed": true
+  },
+  {
+    "name": "ordinary direct step (1, 3)",
+    "passed": true
+  },
+  {
+    "name": "ordinary direct step (1, 4)",
+    "passed": true
+  },
+  {
+    "name": "ordinary direct step (1, 5)",
+    "passed": true
+  },
+  {
+    "name": "door travel to concourse",
+    "passed": true
+  },
+  {
+    "name": "door leaves protagonist on valid floor",
+    "passed": true
+  },
+  {
+    "name": "pet remains in same location on valid floor",
+    "passed": true
+  },
+  {
+    "name": "waiting recruit does not follow",
+    "passed": true
+  },
+  {
+    "name": "door travel to shelter",
+    "passed": true
+  },
+  {
+    "name": "door leaves protagonist on valid floor",
+    "passed": true
+  },
+  {
+    "name": "pet remains in same location on valid floor",
+    "passed": true
+  },
+  {
+    "name": "marker has reachable approach (7, 2)",
+    "passed": true
+  },
+  {
+    "name": "ordinary direct step (2, 5)",
+    "passed": true
+  },
+  {
+    "name": "ordinary direct step (3, 5)",
+    "passed": true
+  },
+  {
+    "name": "ordinary direct step (4, 5)",
+    "passed": true
+  },
+  {
+    "name": "ordinary direct step (5, 5)",
+    "passed": true
+  },
+  {
+    "name": "ordinary direct step (6, 5)",
+    "passed": true
+  },
+  {
+    "name": "ordinary direct step (6, 4)",
+    "passed": true
+  },
+  {
+    "name": "ordinary direct step (6, 3)",
+    "passed": true
+  },
+  {
+    "name": "ordinary direct step (6, 2)",
+    "passed": true
+  },
+  {
+    "name": "waiting recruit rejoins",
+    "passed": true
+  },
+  {
+    "name": "waiting final branch persisted",
+    "passed": true
+  },
+  {
+    "name": "manual stable save dash/opportunity",
+    "passed": true
+  },
+  {
+    "name": "same-process exact continue dash/opportunity",
+    "passed": true
+  },
+  {
+    "name": "new practice preserves latest completed journey",
+    "passed": true
+  },
+  {
+    "name": "audience presentation has no saved influence",
+    "passed": true
+  },
+  {
+    "name": "new B2 starts concourse before danger",
+    "passed": true
+  },
+  {
+    "name": "choice requires all previews",
+    "passed": true
+  },
+  {
+    "name": "real power preview blast",
+    "passed": true
+  },
+  {
+    "name": "real power preview shield",
+    "passed": true
+  },
+  {
+    "name": "real power preview dash",
+    "passed": true
+  },
+  {
+    "name": "select blast",
+    "passed": true
+  },
+  {
+    "name": "chapter snapshot valid after choice",
+    "passed": true
+  },
+  {
+    "name": "prelesson fetch rejected",
+    "passed": true
+  },
+  {
+    "name": "remote interaction rejected",
+    "passed": true
+  },
+  {
+    "name": "ordinary pointer-position adjacent floor movement",
+    "passed": true
+  },
+  {
+    "name": "ordinary pointer-position return step",
+    "passed": true
+  },
+  {
+    "name": "ordinary A key moves protagonist",
+    "passed": true
+  },
+  {
+    "name": "safe direct movement is free",
+    "passed": true
+  },
+  {
+    "name": "threatened collection starts assessment before package",
+    "passed": true
+  },
+  {
+    "name": "danger rejects assigned walking",
+    "passed": true
+  },
+  {
+    "name": "ordinary combat target action selected",
+    "passed": true
+  },
+  {
+    "name": "right-click cancels target without spending AP",
+    "passed": true
+  },
+  {
+    "name": "ordinary turn permits creature approach and strike",
+    "passed": true
+  },
+  {
+    "name": "ordinary turn permits creature approach and strike",
+    "passed": true
+  },
+  {
+    "name": "ordinary turn permits creature approach and strike",
+    "passed": true
+  },
+  {
+    "name": "ordinary turn permits creature approach and strike",
+    "passed": true
+  },
+  {
+    "name": "ordinary turn permits creature approach and strike",
+    "passed": true
+  },
+  {
+    "name": "ordinary turn permits creature approach and strike",
+    "passed": true
+  },
+  {
+    "name": "ordinary attack action selected",
+    "passed": true
+  },
+  {
+    "name": "invalid pointer target spends no AP or damage",
+    "passed": true
+  },
+  {
+    "name": "ordinary pointer-position attack hits visible creature",
+    "passed": true
+  },
+  {
+    "name": "combat pause freezes actor/action state",
+    "passed": true
+  },
+  {
+    "name": "active combat pause cannot save or quit",
+    "passed": true
+  },
+  {
+    "name": "ordinary attack action selected",
+    "passed": true
+  },
+  {
+    "name": "ordinary pointer-position attack hits visible creature",
+    "passed": true
+  },
+  {
+    "name": "chosen power used during real encounter",
+    "passed": true
+  },
+  {
+    "name": "survived actual assessment before collection",
+    "passed": true
+  },
+  {
+    "name": "collect after danger teaches fetch",
+    "passed": true
+  },
+  {
+    "name": "collection coherent autosave",
+    "passed": true
+  },
+  {
+    "name": "safe assigned doorway walk",
+    "passed": true
+  },
+  {
+    "name": "assignment reaches physical door",
+    "passed": true
+  },
+  {
+    "name": "physical doorway enters separate shelter",
+    "passed": true
+  },
+  {
+    "name": "shelter has distinct blocked geometry",
+    "passed": true
+  },
+  {
+    "name": "marker has reachable approach (5, 1)",
+    "passed": true
+  },
+  {
+    "name": "ordinary direct step (2, 5)",
+    "passed": true
+  },
+  {
+    "name": "ordinary direct step (3, 5)",
+    "passed": true
+  },
+  {
+    "name": "ordinary direct step (4, 5)",
+    "passed": true
+  },
+  {
+    "name": "ordinary direct step (4, 4)",
+    "passed": true
+  },
+  {
+    "name": "ordinary direct step (4, 3)",
+    "passed": true
+  },
+  {
+    "name": "ordinary direct step (4, 2)",
+    "passed": true
+  },
+  {
+    "name": "ordinary direct step (4, 1)",
+    "passed": true
+  },
+  {
+    "name": "NEGATIVE failed reward write rolls back coherent state",
+    "passed": true
+  },
+  {
+    "name": "reward recovery uses ordinary action",
+    "passed": true
+  },
+  {
+    "name": "marker has reachable approach (7, 2)",
+    "passed": true
+  },
+  {
+    "name": "ordinary direct step (4, 2)",
+    "passed": true
+  },
+  {
+    "name": "ordinary direct step (5, 2)",
+    "passed": true
+  },
+  {
+    "name": "ordinary direct step (6, 2)",
+    "passed": true
+  },
+  {
+    "name": "NEGATIVE failed recruit choice rolls back membership",
+    "passed": true
+  },
+  {
+    "name": "recruit save access recovers",
+    "passed": true
+  },
+  {
+    "name": "marker has reachable approach (0, 5)",
+    "passed": true
+  },
+  {
+    "name": "ordinary direct step (5, 2)",
+    "passed": true
+  },
+  {
+    "name": "ordinary direct step (4, 2)",
+    "passed": true
+  },
+  {
+    "name": "ordinary direct step (3, 2)",
+    "passed": true
+  },
+  {
+    "name": "ordinary direct step (3, 3)",
+    "passed": true
+  },
+  {
+    "name": "ordinary direct step (2, 3)",
+    "passed": true
+  },
+  {
+    "name": "ordinary direct step (1, 3)",
+    "passed": true
+  },
+  {
+    "name": "ordinary direct step (1, 4)",
+    "passed": true
+  },
+  {
+    "name": "ordinary direct step (1, 5)",
+    "passed": true
+  },
+  {
+    "name": "NEGATIVE failed travel write rolls back location and party",
+    "passed": true
+  },
+  {
+    "name": "travel can recover and retry",
+    "passed": true
+  },
+  {
+    "name": "door travel to shelter",
+    "passed": true
+  },
+  {
+    "name": "door leaves protagonist on valid floor",
+    "passed": true
+  },
+  {
+    "name": "pet remains in same location on valid floor",
+    "passed": true
+  },
+  {
+    "name": "marker has reachable approach (7, 2)",
+    "passed": true
+  },
+  {
+    "name": "ordinary direct step (2, 5)",
+    "passed": true
+  },
+  {
+    "name": "ordinary direct step (3, 5)",
+    "passed": true
+  },
+  {
+    "name": "ordinary direct step (4, 5)",
+    "passed": true
+  },
+  {
+    "name": "ordinary direct step (5, 5)",
+    "passed": true
+  },
+  {
+    "name": "ordinary direct step (6, 5)",
+    "passed": true
+  },
+  {
+    "name": "ordinary direct step (6, 4)",
+    "passed": true
+  },
+  {
+    "name": "ordinary direct step (6, 3)",
+    "passed": true
+  },
+  {
+    "name": "ordinary direct step (6, 2)",
+    "passed": true
+  },
+  {
+    "name": "ordinary optional decline before reward",
+    "passed": true
+  },
+  {
+    "name": "declined recruit can rejoin later",
+    "passed": true
+  },
+  {
+    "name": "new B2 starts concourse before danger",
+    "passed": true
+  },
+  {
+    "name": "choice requires all previews",
+    "passed": true
+  },
+  {
+    "name": "real power preview blast",
+    "passed": true
+  },
+  {
+    "name": "real power preview shield",
+    "passed": true
+  },
+  {
+    "name": "real power preview dash",
+    "passed": true
+  },
+  {
+    "name": "select blast",
+    "passed": true
+  },
+  {
+    "name": "chapter snapshot valid after choice",
+    "passed": true
+  },
+  {
+    "name": "safe assignment starts",
+    "passed": true
+  },
+  {
+    "name": "pause freezes assigned movement and clocks",
+    "passed": true
+  },
+  {
+    "name": "paused active assignment cannot save and quit",
+    "passed": true
+  },
+  {
+    "name": "movement key reclaims assigned walk",
+    "passed": true
+  },
+  {
+    "name": "assignment restarts after reclaim",
+    "passed": true
+  },
+  {
+    "name": "right-click cancels safe walking",
+    "passed": true
+  },
+  {
+    "name": "assignment restarts after right-click",
+    "passed": true
+  },
+  {
+    "name": "stop assignment cancels safely",
+    "passed": true
+  },
+  {
+    "name": "manual control available after stop",
+    "passed": true
+  },
+  {
+    "name": "synthetic focus loss pauses",
+    "passed": true
+  },
+  {
+    "name": "explicit Escape resumes focus pause",
+    "passed": true
+  },
+  {
+    "name": "assignment starts before dynamic obstruction",
+    "passed": true
+  },
+  {
+    "name": "NEGATIVE blocked assigned path stops without resources",
+    "passed": true
+  },
+  {
+    "name": "NEGATIVE blocked manual step rejected without resources",
+    "passed": true
+  },
+  {
+    "name": "clear obstruction allows new assignment",
+    "passed": true
+  },
+  {
+    "name": "safe assignment never triggers danger",
+    "passed": true
+  },
+  {
+    "name": "pet never physically blocks protagonist",
+    "passed": true
+  },
+  {
+    "name": "both followers avoid blocking geometry throughout ordinary journeys",
+    "passed": true
+  }
+]

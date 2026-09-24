@@ -30,3 +30,11 @@ S03 owner steering: continue building without basic check-ins; record minor issu
 Scope resolved: opening chapter through first expedition; connected locations/optional tasks; equipment/power progression; an owned private home; one recruit alongside pet; no tangible audience rewards. Do not re-ask these.
 
 Resolved: home furnishing/upgrades required; pet injuries require care and are recoverable; neither pet nor recruit can die permanently in beta. No further owner scope question is required now. O13 ownership/privacy now matters to the required home: do not infer temporary shelter privacy, guest/joint ownership rules or character access to broadcasts. Numeric tuning and content counts can be documented implementation proposals.
+
+## B1 implementation defaults — September 23
+
+The [chapter packet](chapter-implementation-packet.md) supplies a six-place working route, bounded content counts, initial resource arithmetic, save/party rules and B2 delivery. O11 working geography is now sufficient for implementation without establishing transportation lore or a detailed protagonist biography. O13 is bounded to the player's own-home interior/threshold in B5; guest/joint ownership remains deferred. These are documented production defaults, not a new interview or a reason to hold B2 for basic choices. [B2](slices/B2-playable-foundation.md) is technically complete with owner acceptance pending; S05 feedback remains pending separately. B2 retains the three initial reward payloads, one-map combat rules within the concourse, and supplies a separate chapter-v1 save validator for its two locations and party.
+
+## A1 / A1a direction — September 23
+
+Resolved: modern text-adventure command play is A1; story and gameplay are A1a. The primary surface combines natural requests, exact movement, prompts/choices and narration that operates the actual world. B2.5 is the next major slice after B2. Do not re-ask whether this feature is central or defer it behind B3 expansion. AI or a small local model is a candidate implementation aid for complex intent/context/patterns; provider, model and packaging are not selected. Assess them within [B2.5](slices/B2.5-command-adventure.md) using actual requests and measured local behavior.

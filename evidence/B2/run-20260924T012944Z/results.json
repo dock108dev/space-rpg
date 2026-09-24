@@ -1,0 +1,76 @@
+{
+  "version": "4.6.2.stable.official.71f334935",
+  "runtime_manifest_sha256": "747bc7801397245d9901021dcc17eaf550826d59ae532e47804fbf87b96ca6c4",
+  "synthetic": true,
+  "time_scale": 1,
+  "results": [
+    {
+      "name": "fresh-import",
+      "exit": 0,
+      "passed": true,
+      "seconds": 4.2108323340071365,
+      "arguments": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--headless",
+        "--path",
+        "/var/folders/2k/njrlmfj97sv5pjrqxl22hq8w0000gn/T/space-opera-b2-validation-hylq_9z1/game",
+        "--import"
+      ]
+    },
+    {
+      "name": "b2-journeys-branches-recovery",
+      "exit": 0,
+      "passed": true,
+      "seconds": 3.2867241250060033,
+      "arguments": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--headless",
+        "--fixed-fps",
+        "60",
+        "--path",
+        "/var/folders/2k/njrlmfj97sv5pjrqxl22hq8w0000gn/T/space-opera-b2-validation-hylq_9z1/game",
+        "--script",
+        "res://tests/run_b2.gd"
+      ]
+    },
+    {
+      "name": "b2-actual-save-and-quit",
+      "exit": 0,
+      "passed": true,
+      "seconds": 0.4995934159960598,
+      "arguments": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--headless",
+        "--fixed-fps",
+        "60",
+        "--path",
+        "/var/folders/2k/njrlmfj97sv5pjrqxl22hq8w0000gn/T/space-opera-b2-validation-hylq_9z1/game",
+        "--script",
+        "res://tests/restart_b2.gd",
+        "--",
+        "--quit-check"
+      ]
+    },
+    {
+      "name": "b2-separate-process-continue",
+      "exit": 0,
+      "passed": true,
+      "seconds": 0.7950382079870906,
+      "arguments": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--headless",
+        "--fixed-fps",
+        "60",
+        "--path",
+        "/var/folders/2k/njrlmfj97sv5pjrqxl22hq8w0000gn/T/space-opera-b2-validation-hylq_9z1/game",
+        "--script",
+        "res://tests/restart_b2.gd"
+      ]
+    },
+    {
+      "name": "historical-namespace-write-isolation",
+      "passed": true,
+      "unexpected": []
+    }
+  ]
+}

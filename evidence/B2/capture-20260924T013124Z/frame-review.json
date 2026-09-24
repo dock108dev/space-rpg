@@ -1,0 +1,17 @@
+{
+  "review": "engineer static phase-frame inspection; moving playback review remains separate",
+  "owner_acceptance": "NOT RUN",
+  "source_manifest_sha256": "dd77e97862be60f1d3156cd4daac226eb4a570f5ff5dccf92127c66f8aeeaadb",
+  "finding": {
+    "status": "REPAIR_REQUIRED",
+    "observed_frame": "15-stable-pause-save-and-quit.png",
+    "description": "Recruit Wait here panel begins x520 and overlaps utility Pause / quit button ending around x559. Reward panel shares x520 start. Both must be separated at supported1280 logical width."
+  },
+  "other_observations": [
+    "Both locations rendered distinctly with usable illustrated props.",
+    "Shelter label explicitly Shared refuge / Not owned / Not private.",
+    "Three visible actors are distinguishable; no missing assets or duplicate limbs in sampled frames.",
+    "Recruit styling is more graphic than inherited protagonist/pet; future visual cohesion polish remains."
+  ],
+  "reviewed_at": "2026-09-24T01:35:40.937727+00:00"
+}

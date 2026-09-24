@@ -4,7 +4,7 @@ I now have an actual illustrated human walking, stopping and turning in Godot on
 
 Use this as the standard for our graphics work:
 
-1. Start from an actual visual reference I selected. Preserve that reference and match its illustrated qualities. Do not silently replace the look with primitive shapes, emoji, a text interface, or an unrelated art style.
+1. Start from an actual visual reference I selected. Preserve that reference and match its illustrated qualities. Preserve the illustrated scene identity and integrate the command/narrative interface defined by the current product brief; art supports A1 command play and A1a story/gameplay.
 2. Build the smallest real engine sample that tests the hardest visual requirement first. For this project that was a roughly 100-pixel-tall human walking toward, away, left and right on a plain floor—before building detailed scenery.
 3. Our working stack is Godot 4.6.2 Standard, GDScript, Compatibility renderer; built-in image generation for illustrated masters; Krita 5.3.3 for editable layered cleanup and transparent PNG exports; Godot AnimationPlayer for rigid cutouts. Use the existing project's appropriate engine if different, but explain concrete capability or access problems rather than hand-waving that graphics cannot work.
 4. Generate and retain a character master, then use it as an identity reference for other views. A request for transparency may return a painted checkerboard: inspect the actual alpha channel. Clean the asset in the art editor, retain layered masters and record pivots, export dimensions and import settings.

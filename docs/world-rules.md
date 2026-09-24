@@ -6,7 +6,7 @@ Aliens take over Earth. Humans physically receive powers, and stats describe rea
 
 Living people are broadcast to a fictional outside audience, except while on property they own. The exact covered population and ownership exceptions remain unresolved. **Nobody inside the game can watch feeds or learn information from them.** This includes the protagonist, humans, companions and enemies. Character knowledge must come from other established sources.
 
-The first encounter uses audience reactions to show what attracts attention; rewards or other audience consequences arrive later. Do not add rival surveillance. Distinguish what the real player sees in UI from what their character knows.
+The first encounter uses audience reactions to show what attracts attention. The September 21 beta scope excludes tangible audience rewards throughout the opening chapter; any later-campaign rewards or consequences remain separately scoped. Do not add rival surveillance. Distinguish what the real player sees in UI from what their character knows.
 
 Orientation is absurd and dangerous. Deliberately released alien creatures threaten the welcome-package pickup. No actual deadline applies to the first encounter. Temporary shelter grants neither ownership nor privacy unless a future decision says so.
 

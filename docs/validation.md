@@ -51,3 +51,17 @@ Owner requested continued building and later minor-issue review. Keep technical 
 The tested runtime is frozen at `builds/S04-20260909-01`, identified by its own `runtime.sha256` and `evidence/S04/candidate.json`. Root `Launch Owner Play.command` is separately hashed and selects this copy with fresh independent practice state. Runtime caches were imported on this Mac and the launcher verified. To restore the archived source, extract it to the candidate folder and import with `/Applications/Godot.app/Contents/MacOS/Godot --headless --path builds/S04-20260909-01/game --import` before launch; compare each source byte against `runtime.sha256`. Generated import caches/UID files do not overwrite recorded source. Validation of the frozen copy can be run with `builds/S04-20260909-01/scripts/validate.sh S04`; it writes its own new evidence beneath that copy.
 
 [S04 evidence](../evidence/S04/README.md) keeps engineering, visual/runtime, historical art repeatability and unrun owner-play status separate. S05 preparation does not complete S05's owner session, revision or verdict tasks.
+
+## B2 entry point
+
+[B2 acceptance cases A–G](slices/B2-playable-foundation.md) governed the completed B2 implementation. [Retained results](../evidence/B2/README.md) identify the technically complete candidate; owner acceptance remains pending. `scripts/validate.sh B2` uses a disposable chapter namespace, actual runtime state/scene methods, retained source/art identity and separate-process resume. The existing S04 command remains the inherited regression route when shared behavior changes. New location/party/art work also requires normal Mac input and normal-speed moving review. Do not run owner launchers or inspect owner saves for validation.
+
+## B2.5 command/story evidence
+
+Validate [B2.5](slices/B2.5-command-adventure.md) as both A1 and A1a: a complete ordinary text/choice-driven journey with visible actions, narrative state, two meaningful approaches and a saved consequence. Cover precise movement, object/context resolution, paraphrases, ordered actions, questions, correction/Stop, text focus, actual rule costs, truthful partial results and process restart. Test any semantic-model interpretation separately from engine execution; backend failure must retain exact commands and choices. Verify character knowledge and descriptions against story/world state. Parsing accuracy alone does not qualify the playable experience or owner enjoyment.
+
+## B2 delivered validation
+
+`./scripts/validate.sh B2` now exists and validates actual chapter-scene journeys, input, party/reward branches, failure/recovery and a real process exit followed by exact new-process Continue. `python3 scripts/capture_b2.py` records the ordinary synthetic moving route at engine time scale1,30fps movie playback. Both retain their exact runtime archive/manifests and every attempt. `./scripts/validate.sh S04` remains the inherited regression route. See [B2 evidence](../evidence/B2/README.md) for exact final runs and native Mac review; passing checks do not confer owner acceptance.
+
+UI-02: `scripts/validate.sh B2` now also runs `run_b2_ui.gd` for keyboard focus, modal containment, mouse activation, recovery and enlarged pause layout. [Exact current result and visual limits](ui-verification.md#ui-02--b2-presentation-cleanup).

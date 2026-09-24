@@ -11,3 +11,5 @@ Concept references and documentation checks are not playable-quality proof. No o
 ## September 9 — S04 integrated loop
 
 [S04 evidence](S04/README.md): required engineering gate and engineer runtime/visual review complete, frozen Mac owner-play candidate prepared. S05 owner session unrun; S03 tactical assessment deferred. Historical records above remain evidence of their own candidates.
+
+- [B2 playable opening and party foundation](B2/README.md): exact dirty source/art identity, two-place journey, chapter saves, party/recovery tests, native input/restart and moving review. Owner acceptance pending.

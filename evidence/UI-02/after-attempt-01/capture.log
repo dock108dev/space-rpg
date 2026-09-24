@@ -1,0 +1,15 @@
+Godot Engine v4.6.2.stable.official.71f334935 - https://godotengine.org
+OpenGL API 4.1 Metal - 91.7 - Compatibility - Using Device: Apple - Apple M3 Pro
+
+SCRIPT ERROR: Parse Error: Cannot infer the type of "save_issue" variable because the value doesn't have a set type.
+          at: GDScript::reload (res://scripts/chapter_opening.gd:446)
+          GDScript backtrace (most recent call first):
+              [0] run (res://tests/ui02_capture.gd:28)
+ERROR: Failed to load script "res://scripts/chapter_opening.gd" with error "Parse error".
+   at: load (modules/gdscript/gdscript.cpp:2907)
+   GDScript backtrace (most recent call first):
+       [0] run (res://tests/ui02_capture.gd:28)
+SCRIPT ERROR: Invalid assignment of property or key 'auto_focus_pause' with value of type 'bool' on a base object of type 'Node2D'.
+          at: run (res://tests/ui02_capture.gd:28)
+          GDScript backtrace (most recent call first):
+              [0] run (res://tests/ui02_capture.gd:28)

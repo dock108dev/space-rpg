@@ -1,0 +1,98 @@
+{
+  "source_art": {
+    "files": 274,
+    "mismatches": [],
+    "passed": true,
+    "manifest_hash_matches": true,
+    "archive_hash_matches": true
+  },
+  "runtime": {
+    "files": 194,
+    "mismatches": [],
+    "passed": true,
+    "manifest_hash_matches": true,
+    "archive_hash_matches": true
+  },
+  "preservation": {
+    "files": 504,
+    "mismatches": [],
+    "passed": true
+  },
+  "launcher_hash_matches": true,
+  "movie_hash_matches": true,
+  "tracker_snapshot_hash_matches": true,
+  "tracker_current_matches_snapshot": true,
+  "B2": {
+    "stages": [
+      {
+        "name": "fresh-import",
+        "passed": true
+      },
+      {
+        "name": "b2-journeys-branches-recovery",
+        "passed": true
+      },
+      {
+        "name": "b2-actual-save-and-quit",
+        "passed": true
+      },
+      {
+        "name": "b2-separate-process-continue",
+        "passed": true
+      },
+      {
+        "name": "historical-namespace-write-isolation",
+        "passed": true
+      }
+    ],
+    "runtime_manifest_matches": true
+  },
+  "regression": {
+    "stages": [
+      {
+        "name": "fresh-import",
+        "passed": true
+      },
+      {
+        "name": "s04-behavior",
+        "passed": true
+      },
+      {
+        "name": "s04-full-restart",
+        "passed": true
+      },
+      {
+        "name": "s03-behavior",
+        "passed": true
+      },
+      {
+        "name": "s02-regression",
+        "passed": true
+      }
+    ],
+    "runtime_manifest_matches": true
+  },
+  "assertion_report": {
+    "count": 457
+  },
+  "native_restart": {
+    "before_sequence": 14,
+    "after_sequence": 15,
+    "all_gameplay_fields_equal": true,
+    "differences": {},
+    "input": "Mac CUA mouse and keyboard; ordinary Save and quit, new launcher process, Continue latest, Save"
+  },
+  "native_runtime_reconciliation": {
+    "native_manifest_sha256": "356b82bc724e98901ac4c72fabd56aa033474ede271078e1173d2caf4eecf05a",
+    "final_test_manifest_sha256": "19fc03bfa7e1871f3cf12294aa6a7f5ee9bea532b01e7773de02429841d5ad06",
+    "different_files": [
+      "game/tests/run_b2.gd",
+      "scripts/validate_b2.py"
+    ],
+    "all_differences_test_only": true
+  },
+  "reviewed_at_utc": "20260924T020448Z",
+  "candidate": "B2-20260923-01",
+  "scope": "Read-only retained delivery evidence and current documentation review; no fresh gameplay or owner review",
+  "candidate_json_sha256": "c38ce96cad47b9533dd5b79886a35fedaca2d8ad7cbe02638152840c1411641a"
+}

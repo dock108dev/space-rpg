@@ -1,0 +1,101 @@
+{
+  "candidate": "B2-20260923-01",
+  "status": "TECHNICALLY_COMPLETE",
+  "owner_review": "NOT_RUN",
+  "S05": "NOT_STARTED",
+  "beta_ready": false,
+  "sealed_at_utc": "2026-09-24T02:01:14.351475+00:00",
+  "head": "1eebd4c3daac9f808173765acf4bdd4278e86dff",
+  "dirty_source": true,
+  "engine": "4.6.2.stable.official.71f334935",
+  "launcher": "Launch B2.command",
+  "launcher_sha256": "c0f0e11576699ef5ce543bc6702a61dfc08be015e1af3285fa3eab8bc8c4b53f",
+  "launcher_executable": true,
+  "default_save_namespace": "dev-state/B2-practice-v1",
+  "save_schema": "chapter_version 1",
+  "audio": "intentionally silent Dummy driver",
+  "source_art": {
+    "manifest": "source-art.sha256",
+    "manifest_sha256": "cca3f11be2fd3e29cfc81b7067677bdefa060e793d2c24082b2cfdf7418a065e",
+    "files": 274,
+    "archive": "source-art.tar.gz",
+    "archive_sha256": "1ad0be2774b4a2d3c61def9245c06895d38ceeb70bdb0a5f63b9a713777238fe",
+    "archive_bytes": 91895787,
+    "exclusions": [
+      ".git",
+      ".godot",
+      "__pycache__",
+      "dev-state",
+      "evidence",
+      "builds",
+      ".DS_Store",
+      "*.pyc",
+      "*.avi"
+    ]
+  },
+  "runtime": {
+    "manifest": "run-20260924T014030Z/runtime.sha256",
+    "manifest_sha256": "19fc03bfa7e1871f3cf12294aa6a7f5ee9bea532b01e7773de02429841d5ad06",
+    "files": 194,
+    "current_files_match": true,
+    "archive": "run-20260924T014030Z/runtime-source.tar.gz",
+    "archive_sha256": "0073d43f496ce69bd2bd2303be20ea03c0ce369dfdb96f3b6d0bf244beeff6a2"
+  },
+  "B2_checks": {
+    "path": "run-20260924T014030Z/results.json",
+    "passed": true,
+    "assertions": 457,
+    "restart_checks": 9,
+    "exact_resumed_states": 3,
+    "actual_save_and_quit_process": true,
+    "historical_namespace_write_isolation": true
+  },
+  "regression": {
+    "path": "../S04/run-20260924T014326Z/results.json",
+    "passed": true,
+    "S04_assertions": 138,
+    "S03_assertions": 178,
+    "S02_assertions": 23,
+    "S04_restart": true
+  },
+  "moving_evidence": {
+    "path": "capture-20260924T014234Z/b2-tour.mp4",
+    "sha256": "00259ccbe331ab9557e6f0163b3ce8d9fb439f36cb377357737669b5740e336c",
+    "duration_seconds": 88.6,
+    "frames": 2658,
+    "fps": 30,
+    "pixels": [
+      2560,
+      1440
+    ],
+    "logical_game_view": [
+      1280,
+      720
+    ],
+    "engine_time_scale": 1,
+    "scripted_ordinary_actions": true,
+    "review": "moving-review.md",
+    "supplement": "creature-cue/result.json"
+  },
+  "native_review": {
+    "path": "native-final/review.md",
+    "restart_comparison": "native-final/restart-comparison.json",
+    "final_source_reconciliation": "native-final/source-reconciliation.json"
+  },
+  "preservation": {
+    "path": "preservation.json",
+    "entry_files_unchanged": 504,
+    "frozen_S04_runtime_entries": 103,
+    "owner_launcher_sha256": "3374a7ad4ea9a7d48750cb7daf901ccc3fddaa207f0508623a4a8f4b8d822ef7",
+    "owner_save_access": false
+  },
+  "desktop_tracker": {
+    "snapshot": "desktop-tracker-delivery.md",
+    "sha256": "6431a41ab9f961c4e012a775072e5c2b7d8265089a152dfba832a727e36fe606"
+  },
+  "next": "B2.5 command/story priority then concrete B3 hub/approach/task scope in docs/next-task.md; neither started",
+  "committed": false,
+  "pushed": false,
+  "published": false,
+  "purchases": false
+}

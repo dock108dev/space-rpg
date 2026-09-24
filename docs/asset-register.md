@@ -24,3 +24,7 @@ Cabinet B was generated as an edit using A’s cleaned master as identity/constr
 Generation provenance: OpenAI individual terms page checked at creation (Jan 1, 2026 effective), https://openai.com/policies/row-terms-of-use/; actual account agreement type unavailable. No claim of exclusive rights or distribution authorization. Krita official free 5.3.3 from https://krita.org/en/download/; no paid store/API/asset purchase.
 
 Engine-drawn terminal, control, shield and simple recess wall layout are sample placeholders. Wall texture reuses the retained doorway stone. None creates approved lore, a feed, ownership or privacy.
+
+## B2 shelter and recruit
+
+B2 adds an original editable SVG shelter kit, concourse accents and three directional six-part recruit rigs under `game/art/b2`, with the generator and masters under `assets/b2`. Existing generated raster cutouts/masters remain preserved. See [production and provenance](B2-art-production.md) and [final integrated evidence](../evidence/B2/README.md). The more graphic vector finish and retained human/pet motion limits are explicit; visual engineering review is not owner aesthetic acceptance.

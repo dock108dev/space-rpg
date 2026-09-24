@@ -1,12 +1,18 @@
 # Prototype slice board and beta route
 
-## UI-01 — shared glass interface adoption (September 21, 2026)
+## Current chapter route — September 23, 2026
 
-Owner-authorized presentation-only continuation: apply the shared Desktop UI Templates to working-source controls and HUD chrome, then run local checks. No gameplay/canon changes. UI-01 is technically complete after local validation and render review; no engineering continuation remains active under this UI task. Beta chapter planning and S05 owner play remain pending. The frozen S04-20260909-01 owner candidate and its launcher stay preserved. Results and template guidance: [UI design](../ui-design.md).
+[B1 chapter packet](../chapter-implementation-packet.md) is **COMPLETE — planning only**. [B2 playable foundation](B2-playable-foundation.md) is **TECHNICALLY COMPLETE — owner review pending**. [B2 evidence](../../evidence/B2/README.md) identifies the verified candidate. [Current handoff](../next-task.md) preserves B2.5 priority and defines the following B3 scope; neither is started. [B2.5 command adventure](B2.5-command-adventure.md) is NEXT after B2, before B3–B10 under the [Desktop beta path](../../../space_opera_rpg_next_steps.md).
 
-Current planning: [opening-chapter beta path](/Users/michaelfuscoletti/Desktop/space_opera_rpg_next_steps.md), updated September 21. B0 beta scope is defined, including home improvements and recovery rules; B1 implementation planning is next. The dated prototype slice states below remain retained evidence, not the complete beta plan.
+B2 is closed at its delivery. The separately recorded UI-02 presentation cleanup is active; B2.5 remains the next major implementation, before B3. S05 is a separately prepared historical prototype review, not an active engineering slice or a blocking requirement for B2. Use actual feedback if received; do not infer a verdict.
 
-Prototype record updated September 9, 2026. **S04 TECHNICALLY COMPLETE — READY FOR S05 OWNER PLAY.** S05 candidate preparation complete; S05 owner session is the sole pending active slice. No engineering continuation is active. S03 owner tactical assessment remains deferred. Task IDs are local work items.
+## Product priority
+
+**A1: modern text-adventure command experience. A1a: story and gameplay.** B2's bounded delivery is complete. Implement B2.5 next with actual narrative/choice gameplay in the existing two places, then expand the chapter through that interface. B2.5 is prepared scope, not started; AI/local-model selection remains open to a bounded implementation assessment.
+
+## Retained prototype and UI status
+
+UI-01 was delivered September 21, with the source-validation limitation recorded in [UI verification](../ui-verification.md). The frozen S04 owner candidate and launcher remain unchanged. S04 is technically complete; S05 preparation is complete but owner play is NOT STARTED. S03 owner tactical assessment remains deferred.
 
 | Slice | Result | State | Dependency |
 |---|---|---|---|

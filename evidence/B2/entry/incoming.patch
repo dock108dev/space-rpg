@@ -1,0 +1,211 @@
+diff --git a/AGENTS.md b/AGENTS.md
+index c6575d5..00f3fb3 100644
+--- a/AGENTS.md
++++ b/AGENTS.md
+@@ -2,6 +2,8 @@
+ 
+ Read README.md, docs/current-design.md, docs/open-decisions.md, and the active slice before work. Update the Desktop tracker and local slice state before beginning a new engineering continuation. Preserve owner corrections as the active interpretation; do not promote suggestions into canon.
+ 
++B1 chapter planning is complete in `docs/chapter-implementation-packet.md`; the next full engineering slice is `docs/slices/B2-playable-foundation.md`, prepared but not started. S05 remains a separate unrun prototype review and does not block this handoff.
++
+ Keep one slice active. Complete its bounded deliverables and relevant checks; record exact artifact identity and owner feedback separately. Do not equate a concept image, a passing test, or documentation with accepted playable quality. S01 selected Godot 4.6.2 and an illustrated cutout workflow for S02: read docs/technical-approach.md before implementation. S02 has a runnable visual sample and recorded owner feedback with limitations; no polished full game has been accepted.
+ 
+ Ask only relevant unresolved questions. Use short batches with four suggestions plus add-your-own for most open-ended questions; yes/no questions need no artificial options. Do not restart discovery or ask all reference-library questions.
+diff --git a/README.md b/README.md
+index e6f12a2..fcef247 100644
+--- a/README.md
++++ b/README.md
+@@ -1,8 +1,10 @@
+ # Space Opera RPG
+ 
+-Updated September 21, 2026. Working label; final title undecided.
++Updated September 23, 2026. Working label; final title undecided.
+ 
+-**Current planning: complete opening-chapter personal beta.** See the [path to beta](../space_opera_rpg_next_steps.md) for confirmed scope, remaining work and confirmed home customization and recovery rules. The available prototype described below is not beta-ready; no implementation or owner acceptance is implied by scope planning.
++**B1 chapter planning complete; B2 ready for implementation, not started.** The [chapter packet](docs/chapter-implementation-packet.md), [full B2 slice](docs/slices/B2-playable-foundation.md) and [lead/team handoff](docs/next-task.md) define the next work. B2 will deliver a complete two-location opening with the pet, optional recruit, integrated art and save/quit/resume. Its new launcher does not exist yet. The [Desktop beta path](../space_opera_rpg_next_steps.md) owns the broader opening-chapter scope. No new runtime, owner verdict or beta readiness is claimed by this planning delivery.
++
++## Available historical prototype
+ 
+ **S04 TECHNICALLY COMPLETE — READY FOR S05 OWNER PLAY.** S05 preparation complete; owner session not started. S03 tactical assessment remains deferred.
+ 
+@@ -14,7 +16,7 @@ S04 connects package retrieval/learning, the existing tactical encounter, tempor
+ 
+ Personal single-player Mac prototype using installed Godot 4.6.2 Standard/GDScript/Compatibility and the existing illustrated cutouts. This project has its own Git repository at [dock108dev/space-rpg](https://github.com/dock108dev/space-rpg). Raw AVI captures, generated caches, editor backups and local practice saves stay local; compressed review videos, evidence records, editable artwork and the frozen candidate are versioned. Reviewed runtime manifest: `9d95ff12d4bbd8936183ad273d67c8e781dbe992eed4e03c510aa891ee6f0e2a`. The root owner launcher is separately hashed. [Candidate and evidence](evidence/S04/README.md).
+ 
+-Validate working source through `scripts/validate.sh S04`. Required checks passed: 138 S04 assertions, separate-process restart, 178 S03 assertions and 23 S02 regressions. Engineer reviewed the normal Mac launch and 37.07-second moving integrated tour. These results do not imply owner acceptance. Known limitations include one reused room/symbolic markers, rigid gait/hovering pet, creature cue uncertainty, narrow reward effects and development save ergonomics.
++The existing source validation entry point is `scripts/validate.sh S04`. Retained S04 candidate checks passed: 138 S04 assertions, separate-process restart, 178 S03 assertions and 23 S02 regressions. Engineer reviewed the normal Mac launch and 37.07-second moving integrated tour. These results do not imply owner acceptance. Known limitations include one reused room/symbolic markers, rigid gait/hovering pet, creature cue uncertainty, narrow reward effects and development save ergonomics.
+ 
+ The source S04 scene remains runnable through [Launch S04.command](Launch%20S04.command); the owner launcher uses the frozen copy. Historical S03 remains available through [Launch S03.command](Launch%20S03.command) and `scripts/validate.sh S03`.
+ 
+@@ -24,7 +26,7 @@ VIS-001 remains reproducible through [Launch VIS-001.command](Launch%20VIS-001.c
+ 
+ 1. Read the [product brief](docs/product-brief.md) and [current design](docs/current-design.md).
+ 2. Check [open decisions](docs/open-decisions.md), then the [slice board](docs/slices/README.md).
+-3. Read the [S04 contract](docs/slices/S04-integrated-loop.md), [owner play card](docs/playtests/S05-owner-play-card.md) and [current handoff](docs/next-task.md); stop before operating owner play.
++3. Read the [B1 packet](docs/chapter-implementation-packet.md), [B2 contract](docs/slices/B2-playable-foundation.md) and [current handoff](docs/next-task.md). Preserve the separate frozen prototype review; no owner session starts automatically.
+ 4. Record evidence and update this hub, the slice board, and the [Desktop tracker](../space_opera_rpg_next_steps.md) when state changes.
+ 
+ Read the [technical recommendation](docs/technical-approach.md) and [S01 evidence](evidence/S01/README.md) for the selected workflow, official sources, actual Mac inspection and untested risks. S01 is historical; current runtime results and feedback are in S02 evidence.
+@@ -42,8 +44,8 @@ Read the [technical recommendation](docs/technical-approach.md) and [S01 evidenc
+ - [Asset register](docs/asset-register.md): provenance and production recipe records.
+ - [Evidence index](evidence/README.md): runtime evidence and owner feedback.
+ 
+-The Desktop tracker owns the active beta route and links the preserved research/question library. Do not treat its conditional features as committed scope. Current design lives here; exact owner answers are evidence, not another independently maintained design specification. Document completion, technical completion, visual acceptance, and enjoyable play are separate states.
++The Desktop tracker owns the active beta route. Its old external research/tracker archive is currently missing; the repository owner-answer and design records remain available. Do not treat its conditional features as committed scope. Current design lives here; exact owner answers are evidence, not another independently maintained design specification. Document completion, technical completion, visual acceptance, and enjoyable play are separate states.
+ 
+ ## Shared UI design
+ 
+-See [UI design and templates](docs/ui-design.md) before changing this interface. The shared Desktop `UI Templates` folder defines the glass design baseline for future contributors; this repository keeps its own runtime styles and a portable copy of the requirements.
++See [UI design and templates](docs/ui-design.md) before changing this interface. The shared Desktop `ui-templates` folder defines the glass design baseline for future contributors; this repository keeps its own runtime styles and a portable copy of the requirements.
+diff --git a/docs/current-design.md b/docs/current-design.md
+index cd36db6..503ded5 100644
+--- a/docs/current-design.md
++++ b/docs/current-design.md
+@@ -26,7 +26,7 @@ Updated September 21, 2026. Original design plus confirmed opening-chapter beta
+ | Pet | Alien animal met early; follows; learns useful behaviors; role grows through choices/training | Confirmed; species/first behavior open |
+ | Pet loss | Recoverable injury requiring care; no permanent death | Confirmed for beta September 21; retained prototype still excludes damage |
+ | Visuals | Illustrated 2D concept C; angled viewpoint as reference | Selected concept, not in-engine acceptance |
+-| Locations | Small detailed locations connected by travel | Provisional |
++| Locations | Several connected explorable locations; smaller detailed spaces linked by travel remain the implementation direction | Breadth confirmed September 21; six-place count is a B1 production default |
+ | Tone | Dark humor + satire, a little adventure | Confirmed |
+ | Freedom | Independent life and safer continued participation without actual death | Tentative detailed model |
+ | Organization role | Secure job financing own life/adventures, possibly playtesting | Selected appeal; duties open |
+@@ -42,3 +42,7 @@ Choosing an initial power does not establish a permanent class. Temporary shelte
+ The [Desktop beta path](/Users/michaelfuscoletti/Desktop/space_opera_rpg_next_steps.md) defines the complete opening chapter through a first substantial expedition beyond shelter. Required: several connected locations and optional tasks; acquiring/improving equipment and powers; a first owned private home; a recruitable autonomous companion alongside the pet. Audience reactions remain, but tangible audience rewards are excluded from beta.
+ 
+ Home furnishing and upgrades are required. Pet injuries require care and recovery; no permanent pet death. The recruited companion cannot die permanently during beta. These are scope decisions, not implementation or owner-play acceptance.
++
++## Implementation packet — September 23
++
++[B1](chapter-implementation-packet.md) maps confirmed scope to a counted chapter, state/save rules and ordered delivery. Its labels, counts and resource values are provisional production defaults, not additional owner answers. [B2](slices/B2-playable-foundation.md) is the first complete playable implementation handoff; no B2 runtime or new owner verdict exists yet.
+diff --git a/docs/next-task.md b/docs/next-task.md
+index 5a1b0f2..60b2653 100644
+--- a/docs/next-task.md
++++ b/docs/next-task.md
+@@ -1,21 +1,25 @@
+-# Current task — opening-chapter beta planning
++# Next task — implement B2 playable foundation
+ 
+-Updated September 21, 2026. The [Desktop beta path](/Users/michaelfuscoletti/Desktop/space_opera_rpg_next_steps.md) is the current planning task. Beta scope is defined, including home furnishing/upgrades, care for recoverable pet injuries and no permanent recruit death. Prepare the concrete chapter implementation packet; no further owner scope answers are needed now. No runtime implementation or owner-play verdict has occurred.
++Prepared September 23, 2026. **B1 chapter planning COMPLETE; B2 READY FOR IMPLEMENTATION, NOT STARTED.** This handoff prepares the first full playable chapter slice for the lead engineer and team. It does not record a game run, owner play or beta acceptance.
+ 
+-The retained handoff below describes the available S04/S05 prototype and its unrun owner session. Its “next action” applies when owner play resumes, not as an instruction to interrupt current planning.
++## Lead engineer handoff
+ 
+-# Handoff — S04 complete; S05 owner play prepared
++Implement [B2 — Playable opening and two-place party foundation](slices/B2-playable-foundation.md) in `/Users/michaelfuscoletti/Desktop/space-opera-rpg`, using the completed [B1 chapter packet](chapter-implementation-packet.md) and [Desktop tracker](../../space_opera_rpg_next_steps.md). Deliver the whole bounded slice: an ordinary opening encounter/package journey into a distinct shelter, optional recruit alongside the pet, two-way travel/fetch, integrated art and controls, and save/quit/Continue across a new process. Finish relevant checks and moving visual review, then provide one identified runnable candidate and update the handoff.
+ 
+-**S04 TECHNICALLY COMPLETE — READY FOR S05 OWNER PLAY.** September 9, 2026. S04 did not exist at entry; it was implemented and validated under the owner's explicit authorization, which superseded the old stop-before-S04 handoff. S05 preparation is complete; owner session NOT STARTED. S03 tactical assessment remains deferred. No further engineering is active or implied.
++This is implementation, not another open-ended planning pass. Choose routine reversible details within the documented direction. Use actual S05 feedback if supplied, but do not wait for or fabricate an unrun prototype verdict. Keep one active slice; do not silently start B3 or promise a completed expedition.
+ 
+-Launch [Launch Owner Play.command](../Launch%20Owner%20Play.command). Candidate **S04-20260909-01** is frozen in `builds/S04-20260909-01`; runtime manifest `9d95ff12d4bbd8936183ad273d67c8e781dbe992eed4e03c510aa891ee6f0e2a`. [Identity/launcher hash](../evidence/S04/candidate.json), [technical and visual evidence](../evidence/S04/README.md), [neutral play card](playtests/S05-owner-play-card.md).
++## Before editing runtime
+ 
+-Normal launcher and visible moving integrated tour reviewed; 138 S04 assertions, a separate-process save restart, 178 S03 assertions and 23 S02 regressions passed. Technical/tour manifests match. Every power completed the actual fresh package/fight/shelter journey. Three rewards are exclusive and persisted; learned pet fetch visibly returns a recovery kit without moving the human. Pause/routine/retry/save regressions pass. Retained early restart-test comparison failures and limitations are documented, not overwritten.
++Read `AGENTS.md`, README, current design, world rules, open decisions, the B1 packet and full B2 contract. Recheck source identity and existing work. Preparation baseline: `main` at `1eebd4c3daac9f808173765acf4bdd4278e86dff`, plus the September 23 audit/planning documentation. Mark B2 IN PROGRESS when implementation actually starts. Preserve incoming documentation; no automatic commit, push, release or publication.
+ 
+-Owner launcher uses separate fresh practice directory `dev-state/S05-20260909-01`. Old saves/evidence remain preserved. Installed Godot 4.6.2 is required. WASD/arrows step, E interacts, Enter ends combat turn, right-click cancels targeting, Escape pauses/resumes; application focus loss pauses. Assign walk is cancelable; save only after actions/assignments finish. Load latest resumes. Fresh practice preserves snapshots.
++Frozen `S04-20260909-01`, its root `Launch Owner Play.command`, old evidence, editable masters and S03/S04/S05 saves remain preserved. B2 gets a separate scene/launcher and chapter save schema/namespace. Never launch the frozen owner candidate or read owner practice saves as part of B2 tests. The [S04 identity](../evidence/S04/candidate.json) and [evidence](../evidence/S04/README.md) remain historical proof; [S05 play](playtests/S05-owner-play-card.md) is still NOT STARTED.
+ 
+-**Next action:** owner begins with “Choose a power, then find your way to temporary shelter.” Do not operate their session, coach a verdict, manufacture feedback, infer acceptance or start follow-on engineering. If the owner later reports a problem, record their words and revise only the evidenced bounded issue after appropriate steering.
++## Team ownership
+ 
+-Engineering PASS. Engineer visual/runtime review complete with prototype limitations. S02 art recipe/master repeatability evidence preserved; full active effort comparison remains incomplete. S05 owner play unrun and S03 assessment deferred. The owner subsequently authorized creating and pushing dock108dev/space-rpg. The project now has a dedicated Git root; source/build manifests still identify the frozen candidate. Raw AVI captures remain local, with compressed review videos and evidence records versioned. No further engineering, art generation, delegation, purchases or external messages are implied.
++Lead: state/save/transition contract, integration and final claims. Gameplay/state contributor: ordinary journey, locations, party and recovery. Art/interface contributor: second environment, distinguishable moving recruit, readable motion and controls with retained masters. Validation contributor: independent actual-scene checks, fresh-process resume, preservation and moving evidence. Use parallel contributors only when available and useful; assign file ownership first. The outcome is one integrated B2 slice, not separate demos.
+ 
+-Known limitations: one reused room with symbolic markers, rigid gait/hovering pet, required demos/repeated step taps, no friendly range preview, inherited creature cue/silhouette uncertainty, narrow reward effects (kits/lamp/existing-cache route), immediate lesson without bespoke animation, append-only development saves, inherited VIS-001 debug window chrome, installed-engine dependency. No full game, campaign or owner quality acceptance is implied.
++## Validation and delivery
++
++The full B2 contract owns acceptance cases A–G. Existing `scripts/validate.sh S04` is a real command covering shared S04/S03/S02 behavior; add the planned B2 validator/launcher before documenting them as available. Check the installed pinned engine, isolate all synthetic test state, preserve failed attempts and repair only observed causes. Include a normal Mac launch/input check and normal-speed moving review. After final edits, bind evidence to the exact dirty source/art manifest; do not transfer prior source passes to changed bytes.
++
++Final delivery must identify what the player can now do, how to launch it, exact candidate/source identity, checks actually run, visual limits, owner status, and B3's concrete next scope. B2 may be technically complete with owner review pending; full beta readiness remains B10. No external messages, purchases, signed packaging or public distribution are implied.
+diff --git a/docs/open-decisions.md b/docs/open-decisions.md
+index c68ce74..acaf4cf 100644
+--- a/docs/open-decisions.md
++++ b/docs/open-decisions.md
+@@ -30,3 +30,7 @@ S03 owner steering: continue building without basic check-ins; record minor issu
+ Scope resolved: opening chapter through first expedition; connected locations/optional tasks; equipment/power progression; an owned private home; one recruit alongside pet; no tangible audience rewards. Do not re-ask these.
+ 
+ Resolved: home furnishing/upgrades required; pet injuries require care and are recoverable; neither pet nor recruit can die permanently in beta. No further owner scope question is required now. O13 ownership/privacy now matters to the required home: do not infer temporary shelter privacy, guest/joint ownership rules or character access to broadcasts. Numeric tuning and content counts can be documented implementation proposals.
++
++## B1 implementation defaults — September 23
++
++The [chapter packet](chapter-implementation-packet.md) supplies a six-place working route, bounded content counts, initial resource arithmetic, save/party rules and B2 delivery. O11 working geography is now sufficient for implementation without establishing transportation lore or a detailed protagonist biography. O13 is bounded to the player's own-home interior/threshold in B5; guest/joint ownership remains deferred. These are documented production defaults, not a new interview or a reason to hold B2 for basic choices. [B2](slices/B2-playable-foundation.md) is prepared, not implemented; S05 feedback remains pending separately.
+diff --git a/docs/slices/README.md b/docs/slices/README.md
+index 4566434..9cd6c6a 100644
+--- a/docs/slices/README.md
++++ b/docs/slices/README.md
+@@ -1,12 +1,14 @@
+ # Prototype slice board and beta route
+ 
+-## UI-01 — shared glass interface adoption (September 21, 2026)
++## Current chapter route — September 23, 2026
+ 
+-Owner-authorized presentation-only continuation: apply the shared Desktop UI Templates to working-source controls and HUD chrome, then run local checks. No gameplay/canon changes. UI-01 is technically complete after local validation and render review; no engineering continuation remains active under this UI task. Beta chapter planning and S05 owner play remain pending. The frozen S04-20260909-01 owner candidate and its launcher stay preserved. Results and template guidance: [UI design](../ui-design.md).
++[B1 chapter packet](../chapter-implementation-packet.md) is **COMPLETE — planning only**. [B2 playable foundation](B2-playable-foundation.md) is **READY FOR IMPLEMENTATION; NOT STARTED**. [Current handoff](../next-task.md) defines the first complete engineering delivery. B3–B10 remain not started under the [Desktop beta path](../../../space_opera_rpg_next_steps.md).
+ 
+-Current planning: [opening-chapter beta path](/Users/michaelfuscoletti/Desktop/space_opera_rpg_next_steps.md), updated September 21. B0 beta scope is defined, including home improvements and recovery rules; B1 implementation planning is next. The dated prototype slice states below remain retained evidence, not the complete beta plan.
++Keep B2 as the only active engineering slice when implementation begins. S05 is a separately prepared historical prototype review, not an active engineering slice or a blocking requirement for B2. Use actual feedback if received; do not infer a verdict.
+ 
+-Prototype record updated September 9, 2026. **S04 TECHNICALLY COMPLETE — READY FOR S05 OWNER PLAY.** S05 candidate preparation complete; S05 owner session is the sole pending active slice. No engineering continuation is active. S03 owner tactical assessment remains deferred. Task IDs are local work items.
++## Retained prototype and UI status
++
++UI-01 was delivered September 21, with the source-validation limitation recorded in [UI verification](../ui-verification.md). The frozen S04 owner candidate and launcher remain unchanged. S04 is technically complete; S05 preparation is complete but owner play is NOT STARTED. S03 owner tactical assessment remains deferred.
+ 
+ | Slice | Result | State | Dependency |
+ |---|---|---|---|
+diff --git a/docs/ui-design.md b/docs/ui-design.md
+index 202c1dd..418157b 100644
+--- a/docs/ui-design.md
++++ b/docs/ui-design.md
+@@ -4,7 +4,7 @@ Updated September 21, 2026. Shared Glass UI Starter 01; presentation-only adopti
+ 
+ ## For future contributors
+ 
+-Start with [local design requirements](ui-design-requirements.md), then review the shared [UI Templates gallery](../../UI%20Templates/index.html) and [template guide](../../UI%20Templates/README.md). The source folder on the owner's Mac is `/Users/michaelfuscoletti/Desktop/UI Templates`. It contains dashboard, list/table, form/setup, settings, detail, state/dialog, and native Godot starters.
++Start with [local design requirements](ui-design-requirements.md), then review the shared [UI Templates gallery](../../ui-templates/index.html) and [template guide](../../ui-templates/README.md). The source folder on the owner's Mac is `/Users/michaelfuscoletti/Desktop/ui-templates`. It contains dashboard, list/table, form/setup, settings, detail, state/dialog, and native Godot starters.
+ 
+ Use light cool glass, slate text, blue actions, restrained depth, rounded controls, and system typography as the default. Do not reintroduce the generic beige/green/yellow template. Preserve explicit semantic success, caution, error, unavailable, and unknown states. Readability and the task's layout outrank decoration.
+ 
+diff --git a/docs/ui-verification.md b/docs/ui-verification.md
+index 810fd7a..0606ae3 100644
+--- a/docs/ui-verification.md
++++ b/docs/ui-verification.md
+@@ -4,9 +4,11 @@ September 21, 2026 · source implementation and engineering review only.
+ 
+ The project S04 validator passed fresh import, S04 behavior, full restart, S03 behavior, and S02 regression stages. Evidence: evidence/S04/run-20260921T161938Z. A fresh disposable-copy 1280×720 render was inspected; the header backing height was adjusted afterward and the render repeated. The frozen owner candidate remains unchanged.
+ 
++September 23 audit: the retained 105-file validation manifest differs from current source in `game/scripts/tactical_encounter.gd`, following the documented backing-height adjustment. The prior stage passes belong to the recorded source; the later render does not establish a fresh full regression pass. The frozen S04 candidate still matches all 103 manifest entries and its separate launcher hash.
++
+ ## Retained review
+ 
+-The shared [review gallery](../../UI%20Templates/review.html) contains screenshots and browser check results. Browser specimens are local fixtures or isolated startup states. Web review checked representative 1440px/390px layouts, page exceptions, and page-level horizontal overflow; it is not an exhaustive audit of every state, contrast pair, screen reader, browser, installed build, or physical phone.
++The shared [review gallery](../../ui-templates/review.html) contains screenshots and browser check results. Browser specimens are local fixtures or isolated startup states. Web review checked representative 1440px/390px layouts, page exceptions, and page-level horizontal overflow; it is not an exhaustive audit of every state, contrast pair, screen reader, browser, installed build, or physical phone.
+ 
+ Template gallery search, form submit feedback, dialog opening, and Escape dismissal were exercised. Shared styles include keyboard focus, reduced-motion, and reduced-transparency handling. Native Godot is a basic translucent fallback, not a true blur material. Native games retain their desktop layout and illustrated artwork.
+ 
+diff --git a/docs/validation.md b/docs/validation.md
+index 6ff311d..cc45f81 100644
+--- a/docs/validation.md
++++ b/docs/validation.md
+@@ -51,3 +51,7 @@ Owner requested continued building and later minor-issue review. Keep technical
+ The tested runtime is frozen at `builds/S04-20260909-01`, identified by its own `runtime.sha256` and `evidence/S04/candidate.json`. Root `Launch Owner Play.command` is separately hashed and selects this copy with fresh independent practice state. Runtime caches were imported on this Mac and the launcher verified. To restore the archived source, extract it to the candidate folder and import with `/Applications/Godot.app/Contents/MacOS/Godot --headless --path builds/S04-20260909-01/game --import` before launch; compare each source byte against `runtime.sha256`. Generated import caches/UID files do not overwrite recorded source. Validation of the frozen copy can be run with `builds/S04-20260909-01/scripts/validate.sh S04`; it writes its own new evidence beneath that copy.
+ 
+ [S04 evidence](../evidence/S04/README.md) keeps engineering, visual/runtime, historical art repeatability and unrun owner-play status separate. S05 preparation does not complete S05's owner session, revision or verdict tasks.
++
++## B2 planned entry point
++
++[B2 acceptance cases A–G](slices/B2-playable-foundation.md) govern the next implementation. `scripts/validate.sh B2` and its runner are planned and do not exist yet; add them during B2. They must use a disposable chapter namespace, actual runtime state/scene methods, retained source/art identity and separate-process resume. The existing S04 command remains the inherited regression route when shared behavior changes. New location/party/art work also requires normal Mac input and normal-speed moving review. Do not run owner launchers or inspect owner saves for validation.
+diff --git a/docs/world-rules.md b/docs/world-rules.md
+index 181937d..baa13bb 100644
+--- a/docs/world-rules.md
++++ b/docs/world-rules.md
+@@ -6,7 +6,7 @@ Aliens take over Earth. Humans physically receive powers, and stats describe rea
+ 
+ Living people are broadcast to a fictional outside audience, except while on property they own. The exact covered population and ownership exceptions remain unresolved. **Nobody inside the game can watch feeds or learn information from them.** This includes the protagonist, humans, companions and enemies. Character knowledge must come from other established sources.
+ 
+-The first encounter uses audience reactions to show what attracts attention; rewards or other audience consequences arrive later. Do not add rival surveillance. Distinguish what the real player sees in UI from what their character knows.
++The first encounter uses audience reactions to show what attracts attention. The September 21 beta scope excludes tangible audience rewards throughout the opening chapter; any later-campaign rewards or consequences remain separately scoped. Do not add rival surveillance. Distinguish what the real player sees in UI from what their character knows.
+ 
+ Orientation is absurd and dangerous. Deliberately released alien creatures threaten the welcome-package pickup. No actual deadline applies to the first encounter. Temporary shelter grants neither ownership nor privacy unless a future decision says so.
+ 

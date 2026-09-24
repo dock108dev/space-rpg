@@ -1,0 +1,56 @@
+ M AGENTS.md
+ M README.md
+ M docs/art-direction.md
+ M docs/asset-register.md
+ M docs/current-design.md
+ M docs/illustrated-workflow-prompt.md
+ M docs/next-task.md
+ M docs/open-decisions.md
+ M docs/owner-answers.md
+ M docs/product-brief.md
+ M docs/slices/README.md
+ M docs/ui-design.md
+ M docs/ui-verification.md
+ M docs/validation.md
+ M docs/world-rules.md
+ M evidence/README.md
+ M scripts/validate.sh
+?? "Launch B2.command"
+?? assets/
+?? docs/B2-art-production.md
+?? docs/B2-player-guide.md
+?? docs/B2-runtime-contract.md
+?? docs/chapter-implementation-packet.md
+?? docs/slices/B2-playable-foundation.md
+?? docs/slices/B2.5-command-adventure.md
+?? evidence/B2/
+?? evidence/S04/run-20260924T012220Z/
+?? evidence/S04/run-20260924T014326Z/
+?? evidence/UI-02/
+?? game/art/b2/
+?? game/scenes/chapter_opening.tscn
+?? game/scripts/chapter_art.gd
+?? game/scripts/chapter_art.gd.uid
+?? game/scripts/chapter_follower.gd
+?? game/scripts/chapter_follower.gd.uid
+?? game/scripts/chapter_locations.gd
+?? game/scripts/chapter_locations.gd.uid
+?? game/scripts/chapter_opening.gd
+?? game/scripts/chapter_opening.gd.uid
+?? game/scripts/chapter_save.gd
+?? game/scripts/chapter_save.gd.uid
+?? game/scripts/glass_ui.gd.uid
+?? game/scripts/recruit_visual.gd
+?? game/scripts/recruit_visual.gd.uid
+?? game/tests/restart_b2.gd
+?? game/tests/restart_b2.gd.uid
+?? game/tests/restart_s04.gd.uid
+?? game/tests/run_b2.gd
+?? game/tests/run_b2.gd.uid
+?? game/tests/run_s04.gd.uid
+?? game/tests/visible_b2.gd
+?? game/tests/visible_b2.gd.uid
+?? game/tests/visible_s04.gd.uid
+?? scripts/capture_b2.py
+?? scripts/launch_b2.sh
+?? scripts/validate_b2.py
