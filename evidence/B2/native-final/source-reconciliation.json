@@ -1,9 +1,0 @@
-{
-  "native_manifest_sha256": "356b82bc724e98901ac4c72fabd56aa033474ede271078e1173d2caf4eecf05a",
-  "final_test_manifest_sha256": "19fc03bfa7e1871f3cf12294aa6a7f5ee9bea532b01e7773de02429841d5ad06",
-  "different_files": [
-    "game/tests/run_b2.gd",
-    "scripts/validate_b2.py"
-  ],
-  "all_differences_test_only": true
-}
