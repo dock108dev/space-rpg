@@ -65,3 +65,7 @@ Validate [B2.5](slices/B2.5-command-adventure.md) as both A1 and A1a: a complete
 `./scripts/validate.sh B2` now exists and validates actual chapter-scene journeys, input, party/reward branches, failure/recovery and a real process exit followed by exact new-process Continue. `python3 scripts/capture_b2.py` records the ordinary synthetic moving route at engine time scale1,30fps movie playback. Both retain their exact runtime archive/manifests and every attempt. `./scripts/validate.sh S04` remains the inherited regression route. See [B2 evidence](../evidence/B2/README.md) for exact final runs and native Mac review; passing checks do not confer owner acceptance.
 
 UI-02: `scripts/validate.sh B2` now also runs `run_b2_ui.gd` for keyboard focus, modal containment, mouse activation, recovery and enlarged pause layout. [Exact current result and visual limits](ui-verification.md#ui-02--b2-presentation-cleanup).
+
+## B2.5 command-adventure validation
+
+Run `scripts/validate.sh B2.5`. It uses a copied runtime and synthetic `B25_SAVE_DIR`, checks the bounded parser separately from real game journeys, tests interruption/input binding/save recovery, and executes Save and quit plus new-process Continue. All three powers/rewards and joined/declined/waiting/rejoin branches are covered. Both retrieval methods persist. `scripts/capture_b25.py` retains the normal-speed ordinary-action tour. [Exact evidence and engineering limits](../evidence/B2.5/README.md) remain separate from owner acceptance. B2 and S04/S03/S02 regression checks are retained separately.

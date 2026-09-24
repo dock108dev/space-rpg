@@ -1,6 +1,6 @@
 # Product brief
 
-Status: September 23 product direction. **A1 — modern text-adventure command experience. A1a — story and gameplay.** B2 foundation is technically complete, with owner acceptance pending; B2.5 delivers this central interaction model next, before chapter expansion.
+Status: September 23 product direction. **A1 — modern text-adventure command experience. A1a — story and gameplay.** B2 foundation is technically complete, with owner acceptance pending; B2.5 now delivers this central interaction model, with engineering evidence retained and owner review pending; B3 expands through it next.
 
 Play one human whose ordinary life is interrupted by an alien takeover. Humans are forced into a real space-opera RPG and broadcast to an outside audience. Prepare, explore, use real powers, and make tactical and risk/reward decisions to gain security, access, and ultimately freedom. Ways of thriving emerge through decisions rather than an explicit path selection.
 

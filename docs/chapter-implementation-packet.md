@@ -1,12 +1,12 @@
 # B1 — Opening-chapter implementation packet
 
-Prepared September 23, 2026; reconciled after B2 delivery. **B1 planning and B2 engineering complete; B2.5 next, then B3–B9. Owner beta acceptance pending.** The owner requested an up-to-date project and the first full slice as a prompt for their lead engineer and team. The original packet prepared that handoff; no game, owner session or application validation was run while writing it. B2's later implementation has its own [delivery evidence](../evidence/B2/README.md).
+Prepared September 23, 2026; reconciled after B2 delivery. **B1 planning and B2 engineering complete; B2.5 engineering complete, then B3–B9. Owner beta acceptance pending.** The owner requested an up-to-date project and the first full slice as a prompt for their lead engineer and team. The original packet prepared that handoff; no game, owner session or application validation was run while writing it. B2's later implementation has its own [delivery evidence](../evidence/B2/README.md).
 
 The [Desktop tracker](../../space_opera_rpg_next_steps.md) owns stage status. [Current design](current-design.md), [owner answers](owner-answers.md) and [world rules](world-rules.md) own intent. Counts, working location labels, resource values and mechanics proposed below are implementation defaults, not new owner-approved canon or a delivery-time promise.
 
 ## Priority and current sequence
 
-**A1 — modern text-adventure command play. A1a — story and gameplay.** Natural language, exact directions, prompts/choices and grounded narration become the primary way to play the illustrated world. Build [B2.5](slices/B2.5-command-adventure.md) on the completed B2 foundation before B3. Rich supported actions, meaningful alternatives and authored consequences ship together. AI or a small local model may support interpretation/context/patterns after a bounded assessment.
+**A1 — modern text-adventure command play. A1a — story and gameplay.** Natural language, exact directions, prompts/choices and grounded narration become the primary way to play the illustrated world. [B2.5](slices/B2.5-command-adventure.md) is technically complete on the B2 foundation; B3 expands through that interface next. Rich supported actions, meaningful alternatives and authored consequences ship together. AI or a small local model may support interpretation/context/patterns after a bounded assessment.
 
 The source inventory below records B1 preparation, before B2 implementation. B2 chapter/state/party/launcher files are delivered as `B2-20260923-01`; [candidate-bound evidence](../evidence/B2/README.md) records their technical qualification and pending owner acceptance. The original 99-link preparation result at the end remains historical documentation evidence, not a current implementation result.
 
@@ -101,6 +101,6 @@ The lead may divide bounded work among gameplay/state, art/interface and validat
 
 ## 7. Completion and limits of this packet
 
-B1 is complete as planning when its source references, stage coverage, initial arithmetic, B2 work order and tracker/handoff links are checked. Those checks do not certify the design as fun, visually accepted or implemented. B2 is technically complete with owner acceptance pending; B2.5 command-adventure play is next before further chapter expansion. Revisit only concrete contradictions or evidence-backed blockers; ordinary reversible design choices remain the lead's responsibility within confirmed scope.
+B1 is complete as planning when its source references, stage coverage, initial arithmetic, B2 work order and tracker/handoff links are checked. Those checks do not certify the design as fun, visually accepted or implemented. B2 is technically complete with owner acceptance pending; B2.5 command-adventure play is technically complete before further chapter expansion. Revisit only concrete contradictions or evidence-backed blockers; ordinary reversible design choices remain the lead's responsibility within confirmed scope.
 
 Preparation verification completed September 23: 99 local link targets across 13 active documents resolve; table structure and whitespace checks pass; the 19-of-20 resource example reconciles. All 103 frozen S04 manifest entries, the manifest hash and owner launcher hash match. Installed engine version matches the pinned version. Only documentation changed; application tests, gameplay, owner saves, packaging and owner review were not run.

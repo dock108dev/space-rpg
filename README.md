@@ -2,7 +2,11 @@
 
 Updated September 23, 2026. Working label; final title undecided.
 
-**B2 TECHNICALLY COMPLETE — owner review pending; not full beta ready.** Double-click [Launch B2.command](Launch%20B2.command) for the playable opening and two-place party foundation. Choose a power, clear the assessment, collect the package/teach fetch, enter a distinct shelter, choose a reward and optional companion, return for a physical fetch, then save/quit/Continue in a new process.
+**B2.5 COMMAND ADVENTURE — TECHNICALLY COMPLETE; owner acceptance pending.**
+
+Double-click [Launch B2.5.command](Launch%20B2.5.command). A1 command play and A1a story/gameplay now run through the existing illustrated opening: natural requests, exact steps, questions, context choices, interruption, two cache approaches and saved character responses. [B2.5 player guide](docs/B2.5-player-guide.md) · [action/save contract](docs/B2.5-runtime-contract.md) · [language/model assessment](docs/B2.5-language-assessment.md) · [delivery evidence](evidence/B2.5/README.md). B2.5 has its own development saves; B3 remains unstarted.
+
+**Historical B2 foundation — technically complete; owner review pending.** Double-click [Launch B2.command](Launch%20B2.command) for the playable opening and two-place party foundation. Choose a power, clear the assessment, collect the package/teach fetch, enter a distinct shelter, choose a reward and optional companion, return for a physical fetch, then save/quit/Continue in a new process.
 
 **Current working interface:** UI-02 cleanup is technically complete. [Matched before/after screens](evidence/UI-02/comparison.html) and [current-source verification](docs/ui-verification.md#ui-02--b2-presentation-cleanup) are separate from the retained original B2 delivery. Owner acceptance is still pending.
 
@@ -10,13 +14,13 @@ Updated September 23, 2026. Working label; final title undecided.
 
 WASD/arrows move; E interacts; Enter ends combat turns; right-click cancels; Escape pauses/resumes. Safe assigned walking is cancelable. Save and quit is in Pause; failed writes keep the session open. B2 uses `dev-state/B2-practice-v1`, separate from the frozen S04 owner candidate. Installed Godot 4.6.2 is required. B2 is intentionally silent and remains an installed-engine source candidate, not a standalone packaged beta.
 
-Validation: `scripts/validate.sh B2`; inherited regression: `scripts/validate.sh S04`. Final source/art identity, exact checks, normal Mac input/restart and normal-speed moving review are retained in B2 evidence. Technical completion and engineer review do not establish owner acceptance. S05 remains an unrun separate prototype review. The newly recorded B2.5 command/story priority precedes B3 world expansion; both remain not started.
+Validation: `scripts/validate.sh B2`; inherited regression: `scripts/validate.sh S04`. Final source/art identity, exact checks, normal Mac input/restart and normal-speed moving review are retained in B2 evidence. Technical completion and engineer review do not establish owner acceptance. S05 remains an unrun separate prototype review. B2.5 command/story work precedes B3 world expansion; B3 remains unstarted.
 
 ## Product priorities and next implementation
 
 **A1 — modern text-adventure command experience. A1a — story and gameplay.** Natural requests, precise movement such as “move 5 up and 8 right,” contextual choices and grounded narration are the primary way to play the illustrated world. Deliver meaningful situations, different approaches and persistent consequences with the command interface.
 
-**B2 complete → [B2.5 command adventure](docs/slices/B2.5-command-adventure.md) next → B3 world expansion.** B2.5 remains unstarted; AI or a small local model is an implementation option to assess. The [delivery review](evidence/B2/review-20260924T020448Z/README.md) verified B2's retained identity and results and reconciled current documentation; owner acceptance remains pending.
+**B2 complete → [B2.5 command adventure](docs/slices/B2.5-command-adventure.md) complete → B3 world expansion next.** The shipped interpreter is offline and deterministic; the small-model comparison is explicitly documentation-only and untested in inference. The [delivery review](evidence/B2/review-20260924T020448Z/README.md) verified B2's retained identity and results and reconciled current documentation; owner acceptance remains pending.
 
 ## Available historical prototype
 

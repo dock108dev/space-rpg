@@ -1,8 +1,8 @@
 # B2 — Playable opening and two-place party foundation
 
-Implemented September 23, 2026 (local date). **TECHNICALLY COMPLETE; OWNER REVIEW PENDING.** See [exact candidate, acceptance A–G and moving evidence](../../evidence/B2/README.md). [B2.5 command adventure](B2.5-command-adventure.md) is next, before B3; both are unstarted. The implementation instructions below retain B2's completed contract; current work is governed by [the handoff](../next-task.md).
+Implemented September 23, 2026 (local date). **TECHNICALLY COMPLETE; OWNER REVIEW PENDING.** See [exact candidate, acceptance A–G and moving evidence](../../evidence/B2/README.md). [B2.5 command adventure](B2.5-command-adventure.md) is technically complete; B3 is next and remains unstarted. The implementation instructions below retain B2's completed contract; current work is governed by [the handoff](../next-task.md).
 
-UI-02 is a completed presentation-only follow-up on the working source. The original B2 candidate/evidence are preserved; [current UI verification](../ui-verification.md#ui-02--b2-presentation-cleanup) identifies the newer source. B2.5 remains unstarted.
+UI-02 is a completed presentation-only follow-up on the working source. The original B2 candidate/evidence are preserved; [current UI verification](../ui-verification.md#ui-02--b2-presentation-cleanup) identifies the newer source. B2.5 has since been delivered with its own [evidence](../../evidence/B2.5/README.md).
 
 Original contract prepared September 23, 2026. B1 planning is complete in the [chapter packet](../chapter-implementation-packet.md). This is the first full implementation handoff for the chapter. Preparation did not run gameplay or supply owner acceptance.
 

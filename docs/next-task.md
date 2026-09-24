@@ -1,16 +1,18 @@
-# Next task — B2.5 command adventure, then B3 world and chapter state
+# Next task — B3 world and chapter state
 
-B1 planning is complete. **B2 is technically complete and engineer-reviewed; owner acceptance is pending. B2.5 is the next implementation; B3 follows it. Both are NOT STARTED.** S05 remains a separate unrun historical prototype review.
+B1 planning and B2 engineering are complete. **B2.5 command adventure is technically complete. B3 remains NOT STARTED.** A1 command play and A1a story/gameplay remain the priorities. Owner acceptance is pending; S05 is a separate unrun historical review.
 
-## Current runnable foundation
+## Current candidate
 
-[Launch B2.command](../Launch%20B2.command) runs the opening assessment/package, distinct temporary shelter, exclusive orientation reward, optional autonomous recruit alongside the pet, two-way travel, physical cache fetch and save/quit/Continue. [B2 delivery](../evidence/B2/README.md) retains the original dirty source/art identity and moving evidence. The current launcher includes UI-02; its exact runtime, newer checks and matched views are in the [presentation review](ui-verification.md#ui-02--b2-presentation-cleanup). [Player guide](B2-player-guide.md) covers ordinary use.
+[Launch B2.5.command](../Launch%20B2.5.command) runs the existing concourse/shelter opening through typed intentions and contextual choices, with direct controls retained. [Player guide](B2.5-player-guide.md), [shared action/save contract](B2.5-runtime-contract.md), [language/model assessment](B2.5-language-assessment.md) and [exact delivery evidence](../evidence/B2.5/README.md) define the handoff. Personal versus pet cache retrieval changes physical work and a saved traveler response. The offline interpreter requires no semantic backend.
 
-Preparation HEAD remains `1eebd4c3daac9f808173765acf4bdd4278e86dff`; the B2 candidate includes uncommitted implementation and preserved incoming audit/planning documents. HEAD alone does not identify it. The [post-delivery review](../evidence/B2/review-20260924T020448Z/README.md) verified the retained identity and results, then reconciled active documentation. Current planning docs include those later edits. The sealed B2 source/art archive and evidence identify the completed foundation; the separately active UI-02 presentation cleanup must record its own resulting source identity and checks. No commit, push, publication, owner session or beta acceptance occurred.
+The incoming HEAD was `2ea11e4228116b022d5ca082ba5c7c6ec8cea140`; new B2.5 source is uncommitted. HEAD alone does not identify it. Original B2 archives, frozen S04, artwork and owner launcher remain preserved. UI-02 was complete; UI-03's archived task was interrupted after before captures without runtime edits, and is superseded by this B2.5 request. Incoming UI-03 evidence remains intact.
 
-## Immediate next scope — B2.5 command adventure
+B2.5 uses `dev-state/B2.5-practice-v1` and requires the adventure-v1 extension. No B2 or owner saves were inspected or migrated. Queued work never resumes after load. No owner verdict, commit, push, publication or beta acceptance is implied.
 
-The owner direction recorded during B2 delivery makes [B2.5](slices/B2.5-command-adventure.md) the next major implementation. A1 is modern text-adventure command play; A1a is story and gameplay. Deliver typed natural commands, precise steps, contextual choices, grounded narration and a meaningful multi-approach situation through the existing B2 world/actions. Assess a small local model only if it materially helps; no backend is selected. Preserve direct controls, interruption/pause and exact saves. This direction is documentation only in B2; no B2.5 runtime work has started. Reinspect its complete work order before the next authorized continuation.
+## Language and story limits to carry into B3
+
+The shipped interpreter handles bounded English grammar. Unrestricted goals, conditional plans and fresh-room targets inside an already-bound cross-room plan are unsupported; see the language assessment. Extend the shared target/action registry and authored contextual choices for new places and tasks. Make supported travel sequences clear and test their actual context transitions. Each optional task needs understandable motivation, actionable choices and saved narrative feedback. Parser coverage and test counts do not establish owner enjoyment or broad language understanding.
 
 ## B3 concrete scope — after B2.5
 
@@ -24,7 +26,7 @@ Acceptance must include an ordinary B2 opening-to-hub journey; all B3 doors in b
 
 ## Dependencies and boundaries
 
-No new broad owner scope interview is required. B2.5 precedes a separately authorized B3 continuation; carry A1/A1a through B3 and later stages. Place names, counts, values and writing remain implementation defaults under the [B1 packet](chapter-implementation-packet.md), not canon. Incorporate any actual owner feedback on the exact build supplied; do not invent it or make S05's missing verdict block engineering.
+No new broad owner scope interview is required. B2.5 is delivered before a separately authorized B3 continuation; carry A1/A1a through B3 and later stages. Place names, counts, values and writing remain implementation defaults under the [B1 packet](chapter-implementation-packet.md), not canon. Incorporate any actual owner feedback on the exact build supplied; do not invent it or make S05's missing verdict block engineering.
 
 Current limits to carry forward: rigid human gait, unarticulated pet body, a more graphic vector shelter/recruit beside raster actors, one generic protagonist, silent installed-engine launcher, and no companion combat/injury/care. B6 owns dangerous companion behavior and recoverable harm; no permanent pet/recruit death. B8 owns character setup and full-chapter polish; B9 owns standalone Mac delivery; B10 owns complete-beta acceptance.
 

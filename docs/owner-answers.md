@@ -85,4 +85,4 @@ Owner directs the next major work after B2 toward a modern text adventure, poten
 
 Follow-up, verbatim: “make sure the docs are updated. this is the key feature with this and the story/gameplay are A1 and A1a in importance”
 
-Active interpretation: **A1 — modern command-adventure experience; A1a — story and gameplay.** B2 remains the active foundation; B2.5 is next before B3 expansion. AI/local-model choice is exploratory, not a mandated service or permission to claim unsupported game actions. This product direction supplies no gameplay or acceptance verdict.
+Active interpretation: **A1 — modern command-adventure experience; A1a — story and gameplay.** B2 and B2.5 are technically complete; B3 expands through the delivered command/story interface next, with owner acceptance pending. AI/local-model choice is exploratory, not a mandated service or permission to claim unsupported game actions. This product direction supplies no gameplay or acceptance verdict.

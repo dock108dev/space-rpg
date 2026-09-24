@@ -9,7 +9,7 @@ Updated September 23, 2026. Confirmed command-adventure priorities and opening-c
 | Agency | Multiple approaches emerge from decisions; no explicit path lock | Confirmed |
 | Control | Player directs one protagonist through natural-language commands, precise movement and contextual choices; direct controls remain available; companions act autonomously | A1 confirmed September 23 |
 | Character | Name/appearance creation; shared background | Confirmed; background open |
-| Routine activity | Describe a goal, give exact steps, interact with a named object, select a choice or watch an assigned task; inspect actual results and intervene | A1 confirmed; B2.5 implementation next after B2 |
+| Routine activity | Describe a goal, give exact steps, interact with a named object, select a choice or watch an assigned task; inspect actual results and intervene | A1 confirmed; B2.5 implemented; owner review pending |
 | Danger | Turn-based; action points spent on movement/powers/interactions | Turns confirmed; AP provisional |
 | Attention | Watch/intervene or check in while engaged; pause when away | Pause provisional; no offline progression planned |
 | Opening | Shopping area during takeover; navigate toward safety | Confirmed |
@@ -37,7 +37,7 @@ Updated September 23, 2026. Confirmed command-adventure priorities and opening-c
 
 **A1 is the modern text-adventure command experience. A1a is story and gameplay.** Deliver free-form requests, exact commands such as “move 5 up and 8 right,” contextual options, questions/follow-ups and readable narration as the central player interface. Commands operate the visible world. Story situations, character responses, discovery, different approaches and saved consequences must be delivered with the interface.
 
-[B2.5](slices/B2.5-command-adventure.md) is the next major slice after B2, ahead of B3 expansion. A small local model or other AI may assist intent/context/pattern recognition; no specific backend is selected. Exact commands and choices remain usable while that option is assessed.
+[B2.5](slices/B2.5-command-adventure.md) implements this interface before B3 expansion. The [bounded interpreter/model assessment](B2.5-language-assessment.md) selects offline deterministic parsing; no semantic model was run. Personal versus pet cache retrieval has distinct physical behavior and a saved narrative consequence. These are authored implementation defaults, not additional canon.
 
 ## Interpretation boundaries
 

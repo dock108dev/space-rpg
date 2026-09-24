@@ -2,13 +2,13 @@
 
 ## Current chapter route — September 23, 2026
 
-[B1 chapter packet](../chapter-implementation-packet.md) is **COMPLETE — planning only**. [B2 playable foundation](B2-playable-foundation.md) is **TECHNICALLY COMPLETE — owner review pending**. [B2 evidence](../../evidence/B2/README.md) identifies the verified candidate. [Current handoff](../next-task.md) preserves B2.5 priority and defines the following B3 scope; neither is started. [B2.5 command adventure](B2.5-command-adventure.md) is NEXT after B2, before B3–B10 under the [Desktop beta path](../../../space_opera_rpg_next_steps.md).
+[B1 chapter packet](../chapter-implementation-packet.md) is **COMPLETE — planning only**. [B2 playable foundation](B2-playable-foundation.md) is **TECHNICALLY COMPLETE — owner review pending**. [B2 evidence](../../evidence/B2/README.md) identifies the verified candidate. [Current handoff](../next-task.md) preserves B2.5 priority and defines the following B3 scope; B2.5 is technically complete; B3 is unstarted. [B2.5 command adventure](B2.5-command-adventure.md) is TECHNICALLY COMPLETE after B2, before B3–B10 under the [Desktop beta path](../../../space_opera_rpg_next_steps.md).
 
-B2 is closed at its delivery. The separately recorded UI-02 presentation cleanup is active; B2.5 remains the next major implementation, before B3. S05 is a separately prepared historical prototype review, not an active engineering slice or a blocking requirement for B2. Use actual feedback if received; do not infer a verdict.
+B2 is closed at its delivery. UI-02 is complete. UI-03 was interrupted before runtime edits and is superseded by the B2.5 request. B2.5 is TECHNICALLY COMPLETE — owner review pending; B3 remains unstarted. S05 is a separately prepared historical prototype review, not an active engineering slice or a blocking requirement for B2. Use actual feedback if received; do not infer a verdict.
 
 ## Product priority
 
-**A1: modern text-adventure command experience. A1a: story and gameplay.** B2's bounded delivery is complete. Implement B2.5 next with actual narrative/choice gameplay in the existing two places, then expand the chapter through that interface. B2.5 is prepared scope, not started; AI/local-model selection remains open to a bounded implementation assessment.
+**A1: modern text-adventure command experience. A1a: story and gameplay.** B2's bounded delivery is complete. B2.5 supplies narrative/choice gameplay in the existing two places; B3 must expand through that interface. B2.5 now implements the command/story scope with an offline interpreter. The local-model option was assessed from documentation and remains untested in inference.
 
 ## Retained prototype and UI status
 

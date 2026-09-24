@@ -20,7 +20,7 @@ B2 has its own ordinary chapter controls and pause/recovery panel. Native Mac in
 
 ## UI-02 — B2 presentation cleanup
 
-September 23, 2026 local date; UTC evidence folders use September 24. **TECHNICALLY COMPLETE; owner acceptance pending.** Current B2 source only. B2.5/B3 remain unstarted. [Matched comparison](../evidence/UI-02/comparison.html) · [final checks](../evidence/B2/run-20260924T022020Z/results.json).
+September 23, 2026 local date; UTC evidence folders use September 24. **TECHNICALLY COMPLETE; owner acceptance pending.** UI-02 qualified B2 source only. At that delivery B2.5/B3 were unstarted; B2.5 has since completed as recorded below. [Matched comparison](../evidence/UI-02/comparison.html) · [final checks](../evidence/B2/run-20260924T022020Z/results.json).
 
 - Useful task first: objective, relevant state and one action row. At the reward desk, 12 visible buttons became 6; controls end at y=166 rather than y=194 in the same 1280×720 viewport, while button height increased from 38 to 44. Art, camera and floor geometry did not change. There was no scrolling before or after.
 - Reward payloads are explained beside the choice. “Travel alone” becomes “Travel with pet,” matching the unchanged party behavior. Defeat is identified correctly instead of “Creature turn,” with Continue emphasized. Save success, failure, empty storage and skipped unusable saves retain different meanings. Raw save notices remain in Pause details.
@@ -36,9 +36,13 @@ Native Mac operation exercised all three previews, power choice, Escape, Tab, Sp
 
 **Failed attempts retained.** Initial preview had a typed-variable parser error, repaired before rendering. The first behavioral run failed three assertions tied to the audience sentence; the familiar “characters cannot” wording was retained. Focused testing corrected fixture timing and follower-position comparisons, and found a real mouse regression: releasing focus before activation canceled button clicks. Focus release now occurs after activation; focused tests and native clicks verified the repair. Larger-text review widened the expanded pause card. Earlier attempts are not final-candidate passes.
 
-### Other suggestions — not implemented
+### Follow-up suggestions recorded at UI-02 delivery
 
 | Priority / source | Observation and impact | Status / scope boundary | One bounded next action |
 | --- | --- | --- | --- |
-| 1 — B2 ordinary play / B2.5 contract | Typed command-adventure play remains absent, so A1 still relies on buttons and direct controls. | Confirmed source gap; new gameplay/interface feature, outside this presentation pass. | Use the already prepared B2.5 contract to define its first complete command-driven opening journey. |
+| 1 — B2 ordinary play / B2.5 contract | UI-02 had no typed command adventure. | Subsequently implemented and technically checked in B2.5; owner acceptance pending. | Extend the delivered command/story interface through B3. |
 | 2 — native B2 accessibility | The Mac accessibility tree exposed the window and menu but no gameplay controls. Screen-reader usability is therefore unestablished despite keyboard focus working. | Observed tree limitation; actual VoiceOver impact needs verification. Native accessibility integration is separate capability work. | Run one bounded VoiceOver review of power choice and Pause before deciding the required engine/accessibility changes. |
+
+## B2.5 command/story interface
+
+The command candidate extends the unchanged UI-02 chapter scene with a visible history, input, contextual actions, activity and Stop below the illustrated world. Logical canvas 1280×980; default native window 1152×882. The original B2 launcher and historical prototypes retain their previous layouts. [B2.5 evidence](../evidence/B2.5/README.md) records native keyboard/mouse checks, final moving review, exact source identity and limitations. Owner acceptance and accessibility qualification remain separate. UI-03 was interrupted after before captures and superseded before runtime implementation; its evidence is preserved.
