@@ -2,7 +2,7 @@
 
 Updated September 23, 2026. Working label; final title undecided.
 
-**B2.5 COMMAND ADVENTURE — TECHNICALLY COMPLETE; owner acceptance pending.**
+**B2.5 COMMAND ADVENTURE — TECHNICALLY COMPLETE AND OWNER ACCEPTED.** [Owner acceptance](docs/playtests/B2.5-owner-acceptance.md). [B3 work order](docs/slices/B3-world-and-tasks.md) is prepared; implementation has not started.
 
 Double-click [Launch B2.5.command](Launch%20B2.5.command). A1 command play and A1a story/gameplay now run through the existing illustrated opening: natural requests, exact steps, questions, context choices, interruption, two cache approaches and saved character responses. [B2.5 player guide](docs/B2.5-player-guide.md) · [action/save contract](docs/B2.5-runtime-contract.md) · [language/model assessment](docs/B2.5-language-assessment.md) · [delivery evidence](evidence/B2.5/README.md). B2.5 has its own development saves; B3 remains unstarted.
 
@@ -20,7 +20,7 @@ Validation: `scripts/validate.sh B2`; inherited regression: `scripts/validate.sh
 
 **A1 — modern text-adventure command experience. A1a — story and gameplay.** Natural requests, precise movement such as “move 5 up and 8 right,” contextual choices and grounded narration are the primary way to play the illustrated world. Deliver meaningful situations, different approaches and persistent consequences with the command interface.
 
-**B2 complete → [B2.5 command adventure](docs/slices/B2.5-command-adventure.md) complete → B3 world expansion next.** The shipped interpreter is offline and deterministic; the small-model comparison is explicitly documentation-only and untested in inference. The [delivery review](evidence/B2/review-20260924T020448Z/README.md) verified B2's retained identity and results and reconciled current documentation; owner acceptance remains pending.
+**B2 complete → [B2.5 command adventure](docs/slices/B2.5-command-adventure.md) complete → B3 world expansion next.** The shipped interpreter is offline and deterministic; the small-model comparison is explicitly documentation-only and untested in inference. The [delivery review](evidence/B2/review-20260924T020448Z/README.md) verified B2's retained identity and results and reconciled current documentation. B2.5 has since received explicit owner acceptance; the full beta remains unfinished.
 
 ## Available historical prototype
 

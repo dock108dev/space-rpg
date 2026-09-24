@@ -1,6 +1,6 @@
 # Next task — B3 world and chapter state
 
-B1 planning and B2 engineering are complete. **B2.5 command adventure is technically complete. B3 remains NOT STARTED.** A1 command play and A1a story/gameplay remain the priorities. Owner acceptance is pending; S05 is a separate unrun historical review.
+B1 planning and B2 engineering are complete. **B2.5 command adventure is technically complete and OWNER ACCEPTED. B3 is PREPARED — NOT STARTED.** A1 command play and A1a story/gameplay remain the priorities. [Acceptance record](playtests/B2.5-owner-acceptance.md) · [Full B3 lead work order](slices/B3-world-and-tasks.md). S05 is a separate unrun historical review.
 
 ## Current candidate
 
@@ -8,7 +8,7 @@ B1 planning and B2 engineering are complete. **B2.5 command adventure is technic
 
 The incoming HEAD was `2ea11e4228116b022d5ca082ba5c7c6ec8cea140`; new B2.5 source is uncommitted. HEAD alone does not identify it. Original B2 archives, frozen S04, artwork and owner launcher remain preserved. UI-02 was complete; UI-03's archived task was interrupted after before captures without runtime edits, and is superseded by this B2.5 request. Incoming UI-03 evidence remains intact.
 
-B2.5 uses `dev-state/B2.5-practice-v1` and requires the adventure-v1 extension. No B2 or owner saves were inspected or migrated. Queued work never resumes after load. No owner verdict, commit, push, publication or beta acceptance is implied.
+B2.5 uses `dev-state/B2.5-practice-v1` and requires the adventure-v1 extension. No B2 or owner saves were inspected or migrated. Queued work never resumes after load. The owner explicitly accepted B25-20260923-01 after delivery; the linked acceptance record supplements its preserved evidence. No commit, push, publication or full-beta acceptance is implied.
 
 ## Language and story limits to carry into B3
 
@@ -20,7 +20,7 @@ Extend the existing chapter location/state authority into the district hub and t
 
 Introduce a persistent optional-task framework and implement the bounded recover-supplies/access-point/survey task outcomes only to the extent needed for real B3 world interactions. Keep outcomes explicit: available, active, completed, skipped or blocked as appropriate. Re-entry and reload must not duplicate ordinary rewards, reset resolved events or manufacture completion of unbuilt chapter content. Equipment/power upgrade effects and material spending remain B4; the owned-home destination stays unavailable until B5; expedition danger/objective/return resolution remains B7.
 
-The first B3 work order should name its actual locations, task interactions and acceptance cases before runtime work, map any schema change and explicit migration policy, and update the Desktop tracker and local slice state to IN PROGRESS. Reuse B2's travel, chapter save and followers plus B2.5's command/choice/narration interface; do not create a separate demo or per-location combat copies. Preserve the B2 candidate/evidence and all existing save namespaces. Automated checks remain synthetic and disposable.
+The [prepared B3 work order](slices/B3-world-and-tasks.md) defines its locations, task interactions and acceptance cases. At implementation entry, confirm actual IDs, schema and explicit compatibility policy, then update the Desktop tracker and local slice state to IN PROGRESS. Reuse B2's travel, chapter save and followers plus B2.5's command/choice/narration interface; do not create a separate demo or per-location combat copies. Preserve the B2 candidate/evidence and all existing save namespaces. Automated checks remain synthetic and disposable.
 
 Acceptance must include an ordinary B2 opening-to-hub journey; all B3 doors in both directions with the joined, declined and waiting party branches; task outcome uniqueness; separate-process exact resume; invalid/partial/write-failure recovery; blocked routes; pause/reclaim; and native Mac input plus normal-speed moving review of the new places. Extend the existing project validation entry point with the actual B3 runner when it exists.
 

@@ -1,6 +1,6 @@
 # B1 — Opening-chapter implementation packet
 
-Prepared September 23, 2026; reconciled after B2 delivery. **B1 planning and B2 engineering complete; B2.5 engineering complete, then B3–B9. Owner beta acceptance pending.** The owner requested an up-to-date project and the first full slice as a prompt for their lead engineer and team. The original packet prepared that handoff; no game, owner session or application validation was run while writing it. B2's later implementation has its own [delivery evidence](../evidence/B2/README.md).
+Prepared September 23, 2026; reconciled after B2 delivery. **B1 planning and B2 engineering complete; B2.5 engineering complete and owner accepted, then B3–B9. Owner beta acceptance pending.** The owner requested an up-to-date project and the first full slice as a prompt for their lead engineer and team. The original packet prepared that handoff; no game, owner session or application validation was run while writing it. B2's later implementation has its own [delivery evidence](../evidence/B2/README.md).
 
 The [Desktop tracker](../../space_opera_rpg_next_steps.md) owns stage status. [Current design](current-design.md), [owner answers](owner-answers.md) and [world rules](world-rules.md) own intent. Counts, working location labels, resource values and mechanics proposed below are implementation defaults, not new owner-approved canon or a delivery-time promise.
 
@@ -101,6 +101,6 @@ The lead may divide bounded work among gameplay/state, art/interface and validat
 
 ## 7. Completion and limits of this packet
 
-B1 is complete as planning when its source references, stage coverage, initial arithmetic, B2 work order and tracker/handoff links are checked. Those checks do not certify the design as fun, visually accepted or implemented. B2 is technically complete with owner acceptance pending; B2.5 command-adventure play is technically complete before further chapter expansion. Revisit only concrete contradictions or evidence-backed blockers; ordinary reversible design choices remain the lead's responsibility within confirmed scope.
+B1 is complete as planning when its source references, stage coverage, initial arithmetic, B2 work order and tracker/handoff links are checked. Those checks do not certify the design as fun, visually accepted or implemented. B2 is technically complete with owner acceptance pending; B2.5 command-adventure play is technically complete and [owner accepted](playtests/B2.5-owner-acceptance.md); [B3](slices/B3-world-and-tasks.md) is prepared before further chapter expansion. Revisit only concrete contradictions or evidence-backed blockers; ordinary reversible design choices remain the lead's responsibility within confirmed scope.
 
 Preparation verification completed September 23: 99 local link targets across 13 active documents resolve; table structure and whitespace checks pass; the 19-of-20 resource example reconciles. All 103 frozen S04 manifest entries, the manifest hash and owner launcher hash match. Installed engine version matches the pinned version. Only documentation changed; application tests, gameplay, owner saves, packaging and owner review were not run.

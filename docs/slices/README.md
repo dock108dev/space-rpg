@@ -2,9 +2,9 @@
 
 ## Current chapter route — September 23, 2026
 
-[B1 chapter packet](../chapter-implementation-packet.md) is **COMPLETE — planning only**. [B2 playable foundation](B2-playable-foundation.md) is **TECHNICALLY COMPLETE — owner review pending**. [B2 evidence](../../evidence/B2/README.md) identifies the verified candidate. [Current handoff](../next-task.md) preserves B2.5 priority and defines the following B3 scope; B2.5 is technically complete; B3 is unstarted. [B2.5 command adventure](B2.5-command-adventure.md) is TECHNICALLY COMPLETE after B2, before B3–B10 under the [Desktop beta path](../../../space_opera_rpg_next_steps.md).
+[B1 chapter packet](../chapter-implementation-packet.md) is **COMPLETE — planning only**. [B2 playable foundation](B2-playable-foundation.md) is **TECHNICALLY COMPLETE — owner review pending**. [B2 evidence](../../evidence/B2/README.md) identifies the verified candidate. [Current handoff](../next-task.md) preserves B2.5 priority and defines the following B3 scope; B2.5 is technically complete and owner-accepted; [B3](B3-world-and-tasks.md) is prepared and unstarted. [B2.5 command adventure](B2.5-command-adventure.md) is TECHNICALLY COMPLETE AND OWNER ACCEPTED after B2, before B3–B10 under the [Desktop beta path](../../../space_opera_rpg_next_steps.md).
 
-B2 is closed at its delivery. UI-02 is complete. UI-03 was interrupted before runtime edits and is superseded by the B2.5 request. B2.5 is TECHNICALLY COMPLETE — owner review pending; B3 remains unstarted. S05 is a separately prepared historical prototype review, not an active engineering slice or a blocking requirement for B2. Use actual feedback if received; do not infer a verdict.
+B2 is closed at its delivery. UI-02 is complete. UI-03 was interrupted before runtime edits and is superseded by the B2.5 request. B2.5 is TECHNICALLY COMPLETE — OWNER ACCEPTED; see [acceptance](../playtests/B2.5-owner-acceptance.md). B3 remains unstarted. S05 is a separately prepared historical prototype review, not an active engineering slice or a blocking requirement for B2. Use actual feedback if received; do not infer a verdict.
 
 ## Product priority
 

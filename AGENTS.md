@@ -2,7 +2,7 @@
 
 Read README.md, docs/current-design.md, docs/open-decisions.md, and the active slice before work. Update the Desktop tracker and local slice state before beginning a new engineering continuation. Preserve owner corrections as the active interpretation; do not promote suggestions into canon.
 
-B1 chapter planning is complete in `docs/chapter-implementation-packet.md`; B2 is technically complete in `docs/slices/B2-playable-foundation.md` with evidence in `evidence/B2/README.md`. B2.5 command-adventure play is technically complete; B3 world expansion remains unstarted; see `docs/next-task.md`. S05 remains a separate unrun prototype review and does not block this handoff.
+B1 chapter planning is complete in `docs/chapter-implementation-packet.md`; B2 is technically complete in `docs/slices/B2-playable-foundation.md` with evidence in `evidence/B2/README.md`. B2.5 command-adventure play is technically complete and explicitly owner-accepted in `docs/playtests/B2.5-owner-acceptance.md`; B3 world expansion is prepared in `docs/slices/B3-world-and-tasks.md` and remains unstarted; see `docs/next-task.md`. S05 remains a separate unrun prototype review and does not block this handoff.
 
 Product priorities: **A1 is modern text-adventure command play; A1a is story and gameplay.** Typed natural language, precise movement, prompts/choices and grounded narration form the main player experience. B2 is technically complete; `docs/slices/B2.5-command-adventure.md` records the command/story implementation; B3 follows its delivery. AI/local-model selection remains an assessed implementation option. Preserve these priorities throughout later chapter work.
 

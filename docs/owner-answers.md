@@ -85,4 +85,10 @@ Owner directs the next major work after B2 toward a modern text adventure, poten
 
 Follow-up, verbatim: “make sure the docs are updated. this is the key feature with this and the story/gameplay are A1 and A1a in importance”
 
-Active interpretation: **A1 — modern command-adventure experience; A1a — story and gameplay.** B2 and B2.5 are technically complete; B3 expands through the delivered command/story interface next, with owner acceptance pending. AI/local-model choice is exploratory, not a mandated service or permission to claim unsupported game actions. This product direction supplies no gameplay or acceptance verdict.
+Active interpretation: **A1 — modern command-adventure experience; A1a — story and gameplay.** B2 and B2.5 are technically complete; B2.5 has since received explicit owner acceptance. B3 expands through the delivered command/story interface next. AI/local-model choice is exploratory, not a mandated service or permission to claim unsupported game actions. This product direction supplies no gameplay or acceptance verdict.
+
+## B2.5 acceptance — 2026-09-23
+
+Owner: “accepted. ensure docs are updated and send me the next prompt for my lead”
+
+B25-20260923-01 is explicitly accepted. [Acceptance record](playtests/B2.5-owner-acceptance.md) binds this later verdict to the delivered candidate; [B3 work order](slices/B3-world-and-tasks.md) is the next lead handoff. No additional play-session details or full-beta acceptance are inferred.
