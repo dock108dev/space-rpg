@@ -1,6 +1,6 @@
 # B3 — Connected world and optional tasks
 
-Status: **PREPARED — NOT STARTED.** B2.5 candidate B25-20260923-01 is [owner accepted](../playtests/B2.5-owner-acceptance.md). This is the next complete lead-engineering work order. Preparation does not implement B3 or supply its acceptance.
+Status: **TECHNICALLY COMPLETE — OWNER REVIEW PENDING.** Candidate B3-20260924-01; [delivery evidence](../../evidence/B3/README.md), [guide](../B3-player-guide.md), [contract](../B3-runtime-contract.md). The work order below is fulfilled within the recorded limitations. B4 remains unstarted. B2.5 candidate B25-20260923-01 is [owner accepted](../playtests/B2.5-owner-acceptance.md). The work order below is retained as the completed B3 contract. [Current handoff](../next-task.md) defines B4; engineering completion does not establish B3 owner acceptance.
 
 Implement B3 in `/Users/michaelfuscoletti/Desktop/space-opera-rpg` through a complete, playable delivery. The Desktop tracker is `/Users/michaelfuscoletti/Desktop/space_opera_rpg_next_steps.md`.
 

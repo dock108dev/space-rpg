@@ -1,6 +1,6 @@
 # Product brief
 
-Status: September 23 product direction. **A1 — modern text-adventure command experience. A1a — story and gameplay.** B2 foundation is technically complete, with owner acceptance pending; B2.5 now delivers this central interaction model, with engineering evidence retained and [explicit owner acceptance](playtests/B2.5-owner-acceptance.md); B3 expands through it next.
+Design direction for the command adventure. This brief includes planned capabilities; see the [README](../README.md) for the current runnable game.
 
 Play one human whose ordinary life is interrupted by an alien takeover. Humans are forced into a real space-opera RPG and broadcast to an outside audience. Prepare, explore, use real powers, and make tactical and risk/reward decisions to gain security, access, and ultimately freedom. Ways of thriving emerge through decisions rather than an explicit path selection.
 
@@ -10,7 +10,7 @@ The tone combines dark comedy and satire of entertainment, bureaucracy, and alie
 
 Play a modern text adventure through natural-language requests, precise movement instructions, questions, prompts and contextual multiple-choice actions. “Go to the cart,” “move 5 up and 8 right,” and “interact with X” should resolve against the actual game world and make the character act visibly. Narration, scene context and relevant choices make many supported possibilities discoverable without memorizing commands.
 
-Story and gameplay are A1a: interesting situations, characters, tactical decisions, alternative approaches, discovery and lasting consequences. Deliver them alongside the command experience. Visuals and technology support this pair of priorities. AI or a small local model may help interpret complicated requests, context or patterns; selection follows a bounded assessment of actual value. See [B2.5](slices/B2.5-command-adventure.md).
+Story and gameplay center on interesting situations, characters, tactical decisions, alternative approaches, discovery and lasting consequences. Deliver them alongside the command experience. Visuals and technology support this pair of priorities. AI or a small local model may help interpret complicated requests, context or patterns; selection follows a bounded assessment of actual value. See [B2.5](slices/B2.5-command-adventure.md).
 
 ## Initial experience
 
@@ -20,7 +20,7 @@ Direct the main character through conversation, precise commands or contextual c
 
 ## Non-negotiable direction
 
-- A1 command-adventure play and A1a story/gameplay, with actual world actions, meaningful options and coherent narrative consequences.
+- Command-adventure play, story and gameplay, with actual world actions, meaningful options and coherent narrative consequences.
 - Tactical/risk choices and visible security/access progress.
 - Outside-only broadcast access; no stream-informed in-world rivals.
 - A path beyond compulsory participation, rather than permanent entrapment.
@@ -28,10 +28,10 @@ Direct the main character through conversation, precise commands or contextual c
 
 ## Practical boundary
 
-Personal single-player on Mac first; 5–10 owner hours/week including decisions/testing. Flexible spending does not select particular purchases. No commercial or multiplayer commitment. Initial build tests one encounter, not the entire fiction. Godot 4.6.2 and the illustrated cutout workflow were selected for the prototype. Final protagonist background and full campaign length remain open.
+Single-player on macOS is the initial target. No commercial or multiplayer commitment. Initial build tests one encounter, not the entire fiction. Godot 4.6.2 and the illustrated cutout workflow were selected for the prototype. Final protagonist background and full campaign length remain open.
 
 ## Required opening-chapter beta
 
 Deliver a complete opening chapter through the first substantial expedition beyond shelter, with several connected places, optional tasks, equipment and power acquisition/improvement, a first owned private home and one recruitable autonomous companion alongside the pet. Keep outside-audience reactions but exclude tangible audience rewards. Home furnishing/upgrades and care for recoverable pet injuries are required. Neither pet nor recruited companion can die permanently in beta.
 
-The [complete path to beta](/Users/michaelfuscoletti/Desktop/space_opera_rpg_next_steps.md) owns required work, backlog, issues and staged completion conditions. The existing S04 is a small foundation, not this complete chapter.
+The [chapter implementation packet](chapter-implementation-packet.md) describes planned work. The current prototype does not implement the complete chapter.

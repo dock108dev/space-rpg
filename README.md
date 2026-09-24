@@ -1,69 +1,35 @@
 # Space Opera RPG
 
-Updated September 23, 2026. Working label; final title undecided.
+An illustrated single-player command adventure built with Godot. Explore an unfamiliar world with a pet, choose a power, retrieve a package, reach shelter and meet a potential companion. Travel onward through a district hub and expedition approach, recover supplies, restore local access and record a survey. Typed commands, contextual choices and direct movement operate the same game world.
 
-**B2.5 COMMAND ADVENTURE — TECHNICALLY COMPLETE AND OWNER ACCEPTED.** [Owner acceptance](docs/playtests/B2.5-owner-acceptance.md). [B3 work order](docs/slices/B3-world-and-tasks.md) is prepared; implementation has not started.
+The interpreter is offline and deterministic. It supports bounded English requests and exact movement, not unrestricted natural-language plans. No language model or online service runs.
 
-Double-click [Launch B2.5.command](Launch%20B2.5.command). A1 command play and A1a story/gameplay now run through the existing illustrated opening: natural requests, exact steps, questions, context choices, interruption, two cache approaches and saved character responses. [B2.5 player guide](docs/B2.5-player-guide.md) · [action/save contract](docs/B2.5-runtime-contract.md) · [language/model assessment](docs/B2.5-language-assessment.md) · [delivery evidence](evidence/B2.5/README.md). B2.5 has its own development saves; B3 remains unstarted.
+## Play from source
 
-**Historical B2 foundation — technically complete; owner review pending.** Double-click [Launch B2.command](Launch%20B2.command) for the playable opening and two-place party foundation. Choose a power, clear the assessment, collect the package/teach fetch, enter a distinct shelter, choose a reward and optional companion, return for a physical fetch, then save/quit/Continue in a new process.
+Requires Godot **4.6.2 Standard**. On macOS, install it at `/Applications/Godot.app`, then run from the repository root:
 
-**Current working interface:** UI-02 cleanup is technically complete. [Matched before/after screens](evidence/UI-02/comparison.html) and [current-source verification](docs/ui-verification.md#ui-02--b2-presentation-cleanup) are separate from the retained original B2 delivery. Owner acceptance is still pending.
+```sh
+bash scripts/launch_b3.sh
+```
 
-[Play guide](docs/B2-player-guide.md) · [Exact candidate and evidence](evidence/B2/README.md) · [B2 contract](docs/slices/B2-playable-foundation.md) · [Next-slice handoff](docs/next-task.md).
+You can also double-click [Launch B3.command](Launch%20B3.command). Set `GODOT_BIN` to use another engine path. This launches the command-adventure opening; it is a source prototype, not a standalone app bundle.
 
-WASD/arrows move; E interacts; Enter ends combat turns; right-click cancels; Escape pauses/resumes. Safe assigned walking is cancelable. Save and quit is in Pause; failed writes keep the session open. B2 uses `dev-state/B2-practice-v1`, separate from the frozen S04 owner candidate. Installed Godot 4.6.2 is required. B2 is intentionally silent and remains an installed-engine source candidate, not a standalone packaged beta.
+Type an intention and press Return, or select a contextual choice. WASD/arrows move, E interacts, Enter ends a combat turn and Escape pauses. Leave text input before using movement keys. Stop cancels unfinished work. Save and quit is available in Pause; Continue restores the last successful save.
 
-Validation: `scripts/validate.sh B2`; inherited regression: `scripts/validate.sh S04`. Final source/art identity, exact checks, normal Mac input/restart and normal-speed moving review are retained in B2 evidence. Technical completion and engineer review do not establish owner acceptance. S05 remains an unrun separate prototype review. B2.5 command/story work precedes B3 world expansion; B3 remains unstarted.
+See the [player guide](docs/B3-player-guide.md) and [command/save contract](docs/B3-runtime-contract.md). Development saves default to `dev-state/B3-practice-v1`; `B3_SAVE_DIR` overrides the location.
 
-## Product priorities and next implementation
+## Development
 
-**A1 — modern text-adventure command experience. A1a — story and gameplay.** Natural requests, precise movement such as “move 5 up and 8 right,” contextual choices and grounded narration are the primary way to play the illustrated world. Deliver meaningful situations, different approaches and persistent consequences with the command interface.
+Requires Python 3 in addition to Godot:
 
-**B2 complete → [B2.5 command adventure](docs/slices/B2.5-command-adventure.md) complete → B3 world expansion next.** The shipped interpreter is offline and deterministic; the small-model comparison is explicitly documentation-only and untested in inference. The [delivery review](evidence/B2/review-20260924T020448Z/README.md) verified B2's retained identity and results and reconciled current documentation. B2.5 has since received explicit owner acceptance; the full beta remains unfinished.
+```sh
+scripts/validate.sh B3
+```
 
-## Available historical prototype
+The connected-world prototype includes optional tasks and travel between the concourse, shelter, district hub and expedition approach. Equipment progression, an owned home, companion care and the full expedition remain unfinished. No standalone release is provided.
 
-**S04 TECHNICALLY COMPLETE — READY FOR S05 OWNER PLAY.** S05 preparation complete; owner session not started. S03 tactical assessment remains deferred.
+- [Current design](docs/current-design.md) and [world rules](docs/world-rules.md)
+- [UI design](docs/ui-design.md) and [art direction](docs/art-direction.md)
+- [Validation](docs/validation.md)
 
-Double-click [Launch Owner Play.command](Launch%20Owner%20Play.command). It opens the frozen **S04-20260909-01** candidate with separate fresh practice saves. If paused, Escape resumes. **Opening goal: Choose a power, then find your way to temporary shelter.**
-
-Try all three power demonstrations and choose one. WASD/arrows step; E interacts; Enter ends a combat turn; right-click cancels targeting; Escape pauses/resumes. Click action buttons and their floor/creature targets in combat. Assign walk lets you watch safe movement and can be canceled with a movement key or Stop assignment. Save/Load latest operate at idle boundaries; finish movement/fetch assignments first. Focus loss pauses. No countdown. [Owner play card](docs/playtests/S05-owner-play-card.md).
-
-S04 connects package retrieval/learning, the existing tactical encounter, temporary shelter and one persistent reward. A learned pet fetch delivers a useful recovery kit without moving the player. Outside-audience reactions explicitly belong to the real player's view, not character knowledge. Reward names/payloads, geography and lesson are provisional. No pet damage or broader campaign systems.
-
-Personal single-player Mac prototype using installed Godot 4.6.2 Standard/GDScript/Compatibility and the existing illustrated cutouts. This project has its own Git repository at [dock108dev/space-rpg](https://github.com/dock108dev/space-rpg). Raw AVI captures, generated caches, editor backups and local practice saves stay local; compressed review videos, evidence records, editable artwork and the frozen candidate are versioned. Reviewed runtime manifest: `9d95ff12d4bbd8936183ad273d67c8e781dbe992eed4e03c510aa891ee6f0e2a`. The root owner launcher is separately hashed. [Candidate and evidence](evidence/S04/README.md).
-
-The existing source validation entry point is `scripts/validate.sh S04`. Retained S04 candidate checks passed: 138 S04 assertions, separate-process restart, 178 S03 assertions and 23 S02 regressions. Engineer reviewed the normal Mac launch and 37.07-second moving integrated tour. These results do not imply owner acceptance. Known limitations include one reused room/symbolic markers, rigid gait/hovering pet, creature cue uncertainty, narrow reward effects and development save ergonomics.
-
-The source S04 scene remains runnable through [Launch S04.command](Launch%20S04.command); the owner launcher uses the frozen copy. Historical S03 remains available through [Launch S03.command](Launch%20S03.command) and `scripts/validate.sh S03`.
-
-VIS-001 remains reproducible through [Launch VIS-001.command](Launch%20VIS-001.command), `scripts/launch_sample.sh` and `scripts/validate.sh S02`. Its historical [evidence](evidence/S02/README.md) and [owner feedback](docs/playtests/S02-owner-feedback.md) are preserved.
-
-## Start here
-
-1. Read the [product brief](docs/product-brief.md) and [current design](docs/current-design.md).
-2. Check [open decisions](docs/open-decisions.md), then the [slice board](docs/slices/README.md).
-3. Read the [B1 packet](docs/chapter-implementation-packet.md), [B2 delivery](evidence/B2/README.md) and [current handoff](docs/next-task.md). Preserve the separate frozen prototype review; no owner session starts automatically.
-4. Record evidence and update this hub, the slice board, and the [Desktop tracker](../space_opera_rpg_next_steps.md) when state changes.
-
-Read the [technical recommendation](docs/technical-approach.md) and [S01 evidence](evidence/S01/README.md) for the selected workflow, official sources, actual Mac inspection and untested risks. S01 is historical; current runtime results and feedback are in S02 evidence.
-
-## Documents
-
-- [Owner answers 1–48](docs/owner-answers.md): exact answers and explicitly superseded interpretations.
-- [Current design](docs/current-design.md): active choices; this supersedes earlier interview summaries.
-- [World rules](docs/world-rules.md): canon and information boundaries.
-- [Visual direction](docs/art-direction.md): selected C reference and what must be demonstrated.
-- [First experiment](docs/first-experiment.md): bounded scope and exclusions.
-- [Open decisions](docs/open-decisions.md): dependencies, provisional choices, and deferred questions.
-- [Slice board](docs/slices/README.md): tasks, sequencing, and completion gates.
-- [Validation plan](docs/validation.md): technical, visual, owner-play, and later-player evidence.
-- [Asset register](docs/asset-register.md): provenance and production recipe records.
-- [Evidence index](evidence/README.md): runtime evidence and owner feedback.
-
-The Desktop tracker owns the active beta route. Its old external research/tracker archive is currently missing; the repository owner-answer and design records remain available. Do not treat its conditional features as committed scope. Current design lives here; exact owner answers are evidence, not another independently maintained design specification. Document completion, technical completion, visual acceptance, and enjoyable play are separate states.
-
-## Shared UI design
-
-See [UI design and templates](docs/ui-design.md) before changing this interface. The shared Desktop `ui-templates` folder defines the glass design baseline for future contributors; this repository keeps its own runtime styles and a portable copy of the requirements.
+Earlier prototypes, delivery records and playtests remain in the repository. Their launchers and save formats are separate from the command-adventure opening.

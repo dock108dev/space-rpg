@@ -28,3 +28,7 @@ Engine-drawn terminal, control, shield and simple recess wall layout are sample 
 ## B2 shelter and recruit
 
 B2 adds an original editable SVG shelter kit, concourse accents and three directional six-part recruit rigs under `game/art/b2`, with the generator and masters under `assets/b2`. Existing generated raster cutouts/masters remain preserved. See [production and provenance](B2-art-production.md) and [final integrated evidence](../evidence/B2/README.md). The more graphic vector finish and retained human/pet motion limits are explicit; visual engineering review is not owner aesthetic acceptance.
+
+## B3 connected-world scenery
+
+B3 adds authored editable vector masters/exports in `game/art/b3/`: hub arcade and approach ridge backgrounds, partition, gate, board, access panel, filled/empty pallet, rocks and survey marker. These extend the existing B2 SVG scenery system and reuse its doorway plus the retained raster cutout protagonist/pet and vector recruit. No generated raster assets, purchased art or external source material were added. New collision footprints correspond to the illustrated props; opening access changes both the central gate and walkable geometry. The two-place palette/geometry distinction and motion require the B3 native/movie review; this register is not visual acceptance. Active authoring time was not separately measured.

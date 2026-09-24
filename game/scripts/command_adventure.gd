@@ -94,6 +94,9 @@ func question(text:String) -> String:
 	if resolved.has("target"):return targets()[resolved.target].inspect
 	return describe_place()
 
+func interpret_request(text:String) -> Dictionary:
+	return Language.interpret(text,targets(),recent)
+
 func submit(text:String,request_id:String="",context_epoch:int=-1) -> bool:
 	if request_id.is_empty():request_serial+=1;request_id="local-%d" % request_serial
 	if seen.has(request_id):say("Duplicate request ignored; nothing repeated.");return false
@@ -109,7 +112,7 @@ func submit(text:String,request_id:String="",context_epoch:int=-1) -> bool:
 	if normalized.is_valid_int() and not clarification.is_empty():
 		var index:=int(normalized)-1
 		if index>=0 and index<clarification.size():text=clarification_verb+" "+str(clarification[index])
-	var proposal:=Language.interpret(text,targets(),recent)
+	var proposal:=interpret_request(text)
 	if proposal.has("question"):say(question(proposal.question));return true
 	if proposal.get("control","")=="stop":stop_work("Stopped by you.");return true
 	if proposal.get("correction",false):stop_work("Correction replaces remaining work; completed effects remain.")

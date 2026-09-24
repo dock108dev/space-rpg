@@ -1,6 +1,6 @@
 # B2 — Playable opening and two-place party foundation
 
-Implemented September 23, 2026 (local date). **TECHNICALLY COMPLETE; OWNER REVIEW PENDING.** See [exact candidate, acceptance A–G and moving evidence](../../evidence/B2/README.md). [B2.5 command adventure](B2.5-command-adventure.md) is technically complete; B3 is next and remains unstarted. The implementation instructions below retain B2's completed contract; current work is governed by [the handoff](../next-task.md).
+Implemented September 23, 2026 (local date). **TECHNICALLY COMPLETE; OWNER REVIEW PENDING.** See [exact candidate, acceptance A–G and moving evidence](../../evidence/B2/README.md). [B2.5 command adventure](B2.5-command-adventure.md) is technically complete; B3 is technically complete with owner review pending; B4 is next and remains unstarted. The implementation instructions below retain B2's completed contract; current work is governed by [the handoff](../next-task.md).
 
 UI-02 is a completed presentation-only follow-up on the working source. The original B2 candidate/evidence are preserved; [current UI verification](../ui-verification.md#ui-02--b2-presentation-cleanup) identifies the newer source. B2.5 has since been delivered with its own [evidence](../../evidence/B2.5/README.md).
 

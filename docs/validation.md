@@ -69,3 +69,9 @@ UI-02: `scripts/validate.sh B2` now also runs `run_b2_ui.gd` for keyboard focus,
 ## B2.5 command-adventure validation
 
 Run `scripts/validate.sh B2.5`. It uses a copied runtime and synthetic `B25_SAVE_DIR`, checks the bounded parser separately from real game journeys, tests interruption/input binding/save recovery, and executes Save and quit plus new-process Continue. All three powers/rewards and joined/declined/waiting/rejoin branches are covered. Both retrieval methods persist. `scripts/capture_b25.py` retains the normal-speed ordinary-action tour. [Exact evidence and engineering limits](../evidence/B2.5/README.md) remain separate from owner acceptance. B2 and S04/S03/S02 regression checks are retained separately.
+
+## B3 connected-world validation
+
+`scripts/validate.sh B3` runs the real B3 runner in a disposable copied runtime and isolated synthetic save root. Final evidence separates 22 language interpretation/refusal cases from 209 actual-game/branch/control/persistence checks, real Save and quit and three new-process Continue cases. Comparisons normalize JSON position numbers to the exact Godot Vector2 representation; they use no positional tolerance. Failed writes, incomplete/invalid saves, task rollback, shortcut traversal and all new door directions are exercised. The old namespace paths are poisoned and remain absent.
+
+`python3 scripts/capture_b3.py` records the ordinary command journey at time_scale 1 and 30fps, then launches a separate process to verify its final save. Capture-only project dimensions differ from source; the evidence binding enumerates this sole runtime difference. The [B3 evidence](../evidence/B3/README.md) identifies the final attempts, native keyboard/mouse/restart review, original-candidate preservation and known limits. Owner acceptance is separate.

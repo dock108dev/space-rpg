@@ -38,3 +38,7 @@ The [chapter packet](chapter-implementation-packet.md) supplies a six-place work
 ## A1 / A1a direction — September 23
 
 Resolved: modern text-adventure command play is A1; story and gameplay are A1a. The primary surface combines natural requests, exact movement, prompts/choices and narration that operates the actual world. B2.5 is technically complete after B2 and [explicitly owner-accepted](playtests/B2.5-owner-acceptance.md). Do not re-ask whether this feature is central or defer it behind B3 expansion. AI or a small local model is a candidate implementation aid for complex intent/context/patterns; provider, model and packaging are not selected. The [B2.5 assessment](B2.5-language-assessment.md) measured the shipped offline interpreter; local-model inference remains untested. Reopen model selection only for demonstrated language gaps.
+
+## B3 production defaults — September 24
+
+The connected-world slice is technically complete with owner review pending. [B3 contract](B3-runtime-contract.md) records the implemented one-bundle recovery, manual shortcut and survey discovery, including reversible task refusal and separate world-v1 saves. These are production defaults, not new canon or balanced B4 currency. B4 must explicitly reconcile its arithmetic with actual B3 outcomes; no further broad discovery interview is needed.
