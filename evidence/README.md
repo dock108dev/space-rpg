@@ -1,3 +1,5 @@
+> M4 repository note: generated evidence is local-only. Redundant B2 entry snapshots and the UI-02 before-tracker snapshot are no longer tracked, but their local bytes and historical references remain preserved. Current test inputs are versioned in `tests/fixtures`; see `docs/development.md`.
+
 # Evidence index
 
 Current runtime evidence is slice-specific. Technical tests, engineer visual observations, owner play and release acceptance are separate findings.

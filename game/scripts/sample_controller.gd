@@ -26,6 +26,7 @@ var route: Array[Vector2] = [Vector2(450,440),Vector2(460,350),Vector2(685,350),
 var route_index := 0
 
 func _ready() -> void:
+	get_window().content_scale_size=Vector2i(1280,720)
 	process_mode=Node.PROCESS_MODE_ALWAYS
 	setup_input()
 	var floor_sprite:=Sprite2D.new();floor_sprite.texture=load("res://art/floor/full.png");floor_sprite.centered=false;floor_sprite.z_index=-1

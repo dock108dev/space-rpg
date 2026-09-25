@@ -2,7 +2,7 @@
 
 Production defaults established before coding; not approved balance or new canon. A1 is command play; A1a is story and gameplay.
 
-## Implemented economy target
+## Implemented economy
 
 | Source / cost | Quantity | Timing / eligibility | Exactly-once rule |
 |---|---:|---|---|

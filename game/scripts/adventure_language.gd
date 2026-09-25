@@ -1,5 +1,7 @@
 extends RefCounted
 # Bounded English grammar. Output is a proposal, never game state.
+const MAX_COMMAND_LENGTH:=1000
+const MAX_ACTIONS:=128
 const DIRECTIONS={"up":Vector2i.UP,"north":Vector2i.UP,"down":Vector2i.DOWN,"south":Vector2i.DOWN,"left":Vector2i.LEFT,"west":Vector2i.LEFT,"right":Vector2i.RIGHT,"east":Vector2i.RIGHT}
 static func rx(pattern:String,text:String) -> RegExMatch:
 	var regex:=RegEx.new();regex.compile(pattern);return regex.search(text)
@@ -9,6 +11,7 @@ static func normalize(text:String) -> String:
 		if t.begins_with(prefix):t=t.substr(prefix.length())
 	return t
 static func interpret(text:String,targets:Dictionary,recent:String="") -> Dictionary:
+	if text.length()>MAX_COMMAND_LENGTH:return {"error":"Use at most 1000 characters per request."}
 	var t:=normalize(text)
 	if t.is_empty():return {"error":"Type an intention or choose an action."}
 	if t in ["stop","cancel","halt","never mind","nevermind","take control"]:return {"control":"stop"}
@@ -24,6 +27,7 @@ static func interpret(text:String,targets:Dictionary,recent:String="") -> Dictio
 	for part in t.split("|",false):
 		var result:=clause(part.strip_edges(),targets,recent)
 		if result.has("error"):result.correction=correction;return result
+		if actions.size()+result.actions.size()>MAX_ACTIONS:return {"error":"That is more than 128 steps. Give a shorter request."}
 		actions.append_array(result.actions)
 		for action in result.actions:
 			if action.has("target"):recent=action.target
@@ -56,6 +60,7 @@ static func clause(t:String,targets:Dictionary,recent:String) -> Dictionary:
 			if not m.get_string(1).is_empty():n=int(m.get_string(1))
 			elif not m.get_string(3).is_empty():n=int(m.get_string(3))
 			if n<1 or n>64:return {"error":"Use between 1 and 64 steps per direction."}
+			if steps.size()+n>MAX_ACTIONS:return {"error":"That is more than 128 steps. Give a shorter request."}
 			for i in range(n):steps.append({"verb":"step","direction":DIRECTIONS[m.get_string(2)]})
 		if exact:return {"actions":steps}
 	if " and " in t:return {"error":"I could not separate those actions. Use then between supported requests."}

@@ -1,5 +1,5 @@
 extends "res://scripts/tactical_save.gd"
-# Independent S04 schema; S03 snapshots remain untouched and are not migrated.
+# Integrated prototype schema; tactical-only snapshots are not migrated.
 func valid(data:Variant) -> bool:
 	if not data is Dictionary:return false
 	if not super.valid(data):return false

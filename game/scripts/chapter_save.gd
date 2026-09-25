@@ -1,5 +1,5 @@
 extends "res://scripts/tactical_save.gd"
-# Reuse immutable atomic storage, never the S03/S04 one-map validator.
+# Reuse immutable atomic storage while validating the chapter’s multi-location schema.
 const Locations=preload("res://scripts/chapter_locations.gd")
 const CHAPTER_VERSION:=1
 func integer(value:Variant,low:int,high:int) -> bool:
@@ -48,8 +48,9 @@ func valid(data:Variant) -> bool:
 			if data.phase!="success" or not data.package:return false
 	return true
 func write(state:Dictionary,kind:String) -> bool:
-	# Writer marker makes B2 recovery distinguish a live writer from a stale lock.
+	# The writer marker lets recovery distinguish a live writer from a stale lock.
 	notice=""
+	if linked(directory):notice="Save failed: linked session folders are not supported.";return false
 	var ancestor:=directory
 	while not ancestor.is_empty():
 		if FileAccess.file_exists(ancestor):
@@ -65,23 +66,46 @@ func write(state:Dictionary,kind:String) -> bool:
 	var marker:=FileAccess.open(lock_path.path_join("owner.json"),FileAccess.WRITE)
 	if marker==null:
 		DirAccess.remove_absolute(lock_path);notice="Save failed: cannot create writer marker. Session remains open.";return false
-	marker.store_string(JSON.stringify({"pid":OS.get_process_id()}));marker.close()
+	marker.store_string(JSON.stringify({"pid":OS.get_process_id()}));marker.flush()
+	var marker_error:=marker.get_error();marker.close()
+	if marker_error!=OK:
+		notice="Save failed: writer marker could not finish. Session remains open; recover save access before retrying."
+		return false
 	var ok:=write_locked(state,kind)
-	DirAccess.remove_absolute(lock_path.path_join("owner.json"));DirAccess.remove_absolute(lock_path)
+	var marker_cleanup:=DirAccess.remove_absolute(lock_path.path_join("owner.json"))
+	var lock_cleanup:=DirAccess.remove_absolute(lock_path)
+	if marker_cleanup!=OK or lock_cleanup!=OK:
+		# A committed snapshot stays committed: returning false would roll back
+		# gameplay despite a durable reward/purchase already being on disk.
+		notice+=" Writer cleanup failed; further saves may be blocked. Restart after closing this session, then Recover save access."
+		push_warning("SAVE_WRITER_CLEANUP marker=%d lock=%d committed=%s" % [marker_cleanup,lock_cleanup,str(ok)])
 	return ok
 func recover_interrupted_writer() -> bool:
 	var lock_path:=directory.path_join(".writing")
+	if linked(directory) or linked(lock_path) or linked(lock_path.path_join("owner.json")):
+		notice="Recovery could not proceed: linked writer paths are not supported. No files changed.";return false
 	if not DirAccess.dir_exists_absolute(lock_path):
 		notice="Save access ready. Retry Save, or Continue the latest valid snapshot.";return true
 	var marker_path:=lock_path.path_join("owner.json")
-	if FileAccess.file_exists(marker_path):
-		var parsed:Variant=JSON.parse_string(FileAccess.get_file_as_string(marker_path))
-		if parsed is Dictionary and parsed.has("pid") and integer(parsed.pid,1,2147483647) and writer_is_running(int(parsed.pid)):
-			notice="Another B2 process still owns save access. Close that session before retrying. No files changed.";return false
-	else:
-		# A live writer may have just made the directory and not written its marker yet.
-		if Time.get_unix_time_from_system()-FileAccess.get_modified_time(lock_path)<10:
-			notice="Writer status is settling. Wait ten seconds, then retry recovery. Existing saves are intact.";return false
+	var marker:=FileAccess.open(marker_path,FileAccess.READ)
+	var parsed:Variant=null
+	if marker:
+		if marker.get_length()<=1024:
+			var parser:=JSON.new()
+			if parser.parse(marker.get_as_text())==OK:parsed=parser.data
+		var read_error:=marker.get_error();marker.close()
+		if read_error!=OK and read_error!=ERR_FILE_EOF:
+			notice="Recovery could not read writer status. Restore folder access and retry; no files changed.";return false
+	elif path_presence(marker_path)!=1:
+		notice="Recovery could not read writer status. Restore folder access and retry; no files changed.";return false
+	if parsed is Dictionary and parsed.has("pid") and integer(parsed.pid,1,2147483647):
+		var status:=writer_status(int(parsed.pid))
+		if status!=1:
+			notice="Another B2 process still owns save access. Close that session before retrying. No files changed." if status==0 else "Recovery could not establish writer status. Retry when process inspection is available; no files changed."
+			return false
+	elif Time.get_unix_time_from_system()-FileAccess.get_modified_time(lock_path)<10:
+		# A newly created marker can be empty/partial while its writer flushes.
+		notice="Writer status is settling. Wait ten seconds, then retry recovery. Existing saves are intact.";return false
 	# Preserve all interrupted material, including the lock; never remove snapshots.
 	var archive:=directory.path_join("interrupted-writer-%d-%d" % [Time.get_unix_time_from_system(),Time.get_ticks_usec()])
 	if DirAccess.rename_absolute(lock_path,archive)!=OK:
@@ -89,9 +113,24 @@ func recover_interrupted_writer() -> bool:
 	notice="Interrupted writer preserved. Save access recovered; Retry Save. Existing snapshots are unchanged.";return true
 func recover_writer() -> bool:return recover_interrupted_writer()
 
-func writer_is_running(pid:int) -> bool:
-	if pid==OS.get_process_id():return true
-	# Godot's process helper uses waitpid on this Mac and cannot inspect a
-	# separately launched peer. ps performs a read-only process-existence query.
+func writer_status(pid:int) -> int:
+	# 0 = live, 1 = absent, -1 = unknown. Never steal on inspection failure.
+	if pid==OS.get_process_id():return 0
 	var output:Array=[]
-	return OS.execute("/bin/ps",PackedStringArray(["-p",str(pid),"-o","pid="]),output,true)==0
+	return classify_writer_probe(probe_writer(pid,output),output,pid)
+func probe_writer(_pid:int,output:Array) -> int:
+	# Listing IDs also handles stale IDs beyond this OS's supported PID range.
+	# No command lines or process payloads are collected or logged.
+	return OS.execute("/bin/ps",PackedStringArray(["-axo","pid="]),output,true)
+func classify_writer_probe(code:int,output:Array,pid:int) -> int:
+	if code!=0:return -1
+	var ids:="".join(output).strip_edges()
+	if ids.is_empty():return -1
+	var found:=false
+	for line in ids.split("\n"):
+		var value:=line.strip_edges()
+		if not value.is_valid_int():return -1
+		if int(value)==pid:found=true
+	return 0 if found else 1
+func writer_is_running(pid:int) -> bool:
+	return writer_status(pid)!=1

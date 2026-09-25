@@ -32,3 +32,23 @@ B2 adds an original editable SVG shelter kit, concourse accents and three direct
 ## B3 connected-world scenery
 
 B3 adds authored editable vector masters/exports in `game/art/b3/`: hub arcade and approach ridge backgrounds, partition, gate, board, access panel, filled/empty pallet, rocks and survey marker. These extend the existing B2 SVG scenery system and reuse its doorway plus the retained raster cutout protagonist/pet and vector recruit. No generated raster assets, purchased art or external source material were added. New collision footprints correspond to the illustrated props; opening access changes both the central gate and walkable geometry. The two-place palette/geometry distinction and motion require the B3 native/movie review; this register is not visual acceptance. Active authoring time was not separately measured.
+
+## B4 authored preparation props
+
+`game/art/b4/bench.svg` and `range.svg` are original editable vector props authored in this slice, using the established muted outline palette alongside retained cutout actors. The hub bench and approach target/lane are integrated in the actual sorted game scene. Equipment has a colored foot-ring indicator (thicker at the improved tier); the target tips on a successful impact test. No generated-image or external asset purchase was used for B4. This is engineering visual evidence, not owner acceptance of final art.
+
+## B5 owned-home assets
+
+Six editable SVG masters/exports under `game/art/b5`: home interior, Reading chair, Task lamp, Keepsake shelf, sealed locker and repaired/open locker. Extend existing B3/B4 vector illustration alongside retained raster cutout actors; no image-generation or asset purchase. Props are separate depth-sorted nodes and correspond to protected one-cell footprints. Four sockets and a distinct public hub doorway integrate into ordinary world travel. Measured authoring-time claims are not made. Native engineering review supports readable current layout, not owner art acceptance.
+
+## B6 — retained artwork, new runtime presentation
+
+B6 reuses the exact B5/B4/B3/S02 environment and cutout actor assets. No image generation, external asset acquisition or source-master replacement. `companions_care.gd` adds code-drawn breach, cover, injury and pulse/shot marks, downed recruit rotation and evacuation fade. The final B6 source/art manifest/archive binds these effects together with all reused assets. Existing delivery archives remain unchanged; visual engineering review is separate from owner acceptance.
+
+## B7 relay yard
+
+Original editable SVG geometry/props: `game/art/b7/yard.svg`, `core.svg`, `core_empty.svg`, `wheel.svg`. Project-authored additions to the existing vector scenery system, with retained illustrated cutout actors; no generated raster, purchased asset or new art-direction acceptance. Collision/route placement and known mixed-style limits: [B7 art record](B7-art-and-review.md). Final manifest includes exact artwork.
+
+## B8 appearance and presentation
+
+No original illustrated masters were replaced. `player_experience.gd` applies a torso-only palette shader (amber/teal/plum), actual rig preview and continuous stride/arm poses to retained human cutouts. Recruit joints form a seated downed pose; pet contact/shadows and care/rescue feedback are improved. All original raster/vector assets remain intact. System-font fallback uses installed macOS fonts without copying/distributing them. No new purchased/generated raster asset or audio dependency. See [review and limits](B8-review-and-balance.md).

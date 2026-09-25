@@ -1,5 +1,5 @@
 extends CharacterBody2D
-# Shared B2 physical follower: same walkable cells as the protagonist, no wall teleport.
+# Physical followers use the protagonist’s walkable cells and never teleport through walls.
 const Locations=preload("res://scripts/chapter_locations.gd")
 const DIRS:=[Vector2i.LEFT,Vector2i.RIGHT,Vector2i.UP,Vector2i.DOWN]
 var controller:Node2D

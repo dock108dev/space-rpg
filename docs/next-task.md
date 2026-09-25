@@ -1,13 +1,41 @@
-# Next engineering handoff — B4 preparation and progression
+## Completed source continuation — M6 documentation accuracy
 
-**B3-20260924-01 is TECHNICALLY COMPLETE; B3 owner review is pending. B4 is next and NOT STARTED.** No engineering slice is active. A1 modern text-adventure command play and A1a story/gameplay remain central. B2.5's explicit owner acceptance remains separate and preserved. S05 is a historical unrun prototype review.
+M6 is TECHNICALLY COMPLETE. No engineering slice is active. Public README and core guides describe current play, setup, configuration, architecture, tests, CI, recovery and security without requiring planning history or personal paths. Current player guide fixes stale text-size/Help claims; historical records are indexed separately. Source window title and capture help text no longer show planning labels. Focused source and documentation checks pass. Frozen apps/evidence and staged work are preserved; no commit/push, packaging or signing.
 
-Start from [Launch B3.command](../Launch%20B3.command), [player guide](B3-player-guide.md), [state contract](B3-runtime-contract.md) and [exact source/art and delivery evidence](../evidence/B3/README.md). HEAD alone does not identify B3: implementation and assets are uncommitted. The retained archive/manifest identifies the candidate.
+## Completed source continuation — M5 CI readiness
 
-B3 connects concourse, shared shelter, hub and approach through the existing command/action/follower authorities. Its three optional tasks can be skipped/resumed and produce a one-time bundle, an actual local shortcut and saved survey information. Both supply approaches and the earlier cache retrieval consequence persist. Waiting/rejoining stays in shelter. No B4 spending, B5 ownership/privacy, B6 injury/combat or B7 expedition completion exists.
+M5 is TECHNICALLY COMPLETE: LOCALLY READY — HOSTED UNVERIFIED. One macOS source-check workflow uses pinned Actions/Python/Godot, read-only permissions and existing focused M4 validation. Managed CodeQL remains unchanged. Downloaded-engine local checks and actionlint pass. No engineering slice is active. No commit/push, settings changes, signing or release; a future PR must include accumulated untracked source and CI files. Frozen B9/UI-05 remain unchanged; owner acceptance pending. See repository `docs/ci.md`.
 
-For the next authorized B4 continuation, update the Desktop tracker and one local active slice before work. Extend the same runtime with bounded equipment acquisition/equip/improvement, chosen-power improvement, resource accounting and preparation choices. First reconcile actual B3 rewards with B1's provisional arithmetic: the B3 sealed bundle is not four currency units, and the shortcut/survey do not silently mint materials. Do not make optional work a funding gate or invent a conversion without documenting it as a production default. Provide observable effects and save/reload evidence. Preserve B3 namespace compatibility explicitly; do not scan owner saves or migrate them as a test.
+## Completed source continuation — M4 repository cleanup
 
-Keep ordinary commands, contextual options, narration and direct controls on the same action authority. Extend the bounded language backend only for supported requests; no model migration is required. Retain native-size readability, interruption, cross-room rebinding and truthful failure handling. B3's geometry and SVG assets are editable; mixed raster/vector style, rigid gait, hovering pet, transient actor facing after reload and silence remain known presentation limits for later polish.
+M4 is TECHNICALLY COMPLETE. No engineering slice is active. README and development guidance are consolidated; interface captures share one helper; required synthetic fixtures are tracked outside ignored evidence. Clean-source-export validation passes without pre-existing evidence/cache folders. Four redundant snapshots are removed from the index with local copies/hash identity preserved. Only those removals and the required fixture inputs are staged; prior work remains untouched. No commit, push, package or signing; frozen B9/UI-05 are unchanged and owner acceptance remains pending. See repository `docs/development.md` and `docs/slices/M4-repository-cleanup.md`.
 
-Relevant B3 checks pass, but tests and the moving demonstration are engineering evidence, not an owner verdict. B4 work is not started by this handoff. No commit, push, publication, purchase or external message occurred in B3.
+## Completed source continuation — M3 SSOT enforcement
+
+M3 is TECHNICALLY COMPLETE. No engineering slice is active. Source Run now starts the current player; startup selects one most-derived save handler; expedition owns its numeric validation; unused debug/font probes were removed. Focused checks pass. `docs/ssot.md` in the repository maps current authorities and retained historical modes. Source has advanced beyond frozen UI-05: neither installed app nor its archive was changed or requalified. B10 remains unstarted; owner acceptance remains pending.
+
+## Completed continuation — UI-05 full interface enlargement and updated Mac app
+
+UI-05 is TECHNICALLY COMPLETE. No engineering slice is active. Whole-interface 100%/125% text is available from setup and gameplay and persists between launches. **Space Opera RPG Updated Beta.app** is installed beside preserved B9 with its own save namespace; it includes M1, M2 and UI-04. Final candidate **UI-05-20260924-01**, build **build-20260924T235524Z**, passed exact-package UI, gameplay, restart, error/security and ordinary chapter demonstration checks. Owner acceptance remains pending; B10 is unstarted and its original frozen-B9 handoff is preserved. No owner saves were inspected or migrated.
+
+## Completed source continuation — UI-04 command clarity
+
+UI-04 is TECHNICALLY COMPLETE on source. Setup, command/results and Help are clearer; matched native views and affected B8 checks pass. No engineering slice is active. M1/M2 are complete; frozen B9 and B10 remain preserved. [Scope](slices/UI-04-command-clarity.md).
+
+## Completed source continuation — M2 security hardening
+
+M2 is TECHNICALLY COMPLETE on current source. No engineering slice is active. Linked file paths are refused; commands and preferences are bounded; M2, M1 and affected B8 checks pass. M1 is complete; frozen B9 and B10 remain preserved. [Scope](slices/M2-security-hardening.md). Earlier status below is historical.
+
+## Completed source continuation — M1 error handling
+
+M1 source maintenance is TECHNICALLY COMPLETE. No engineering slice is active. Save recovery, Continue selection, optional-preference diagnostics and boot failures are hardened; isolated M1 and B8 checks pass. Frozen B9 and prepared B10 remain preserved; B10 NOT STARTED. See [M1](slices/M1-error-handling.md). Earlier delivery status below describes the preserved candidate.
+
+# B10 owner-review handoff — prepared, not started
+
+**B9-20260924-01 TECHNICALLY COMPLETE. No engineering slice is active. B10 NOT STARTED.**
+
+Open `/Users/michaelfuscoletti/Applications/Space Opera RPG Personal Beta.app`. [Player guide](B9-player-guide.md) · [Exact candidate](../evidence/B9/candidate.json) · [Packaged evidence](../evidence/B9/README.md).
+
+Neutral starting goal: **Create a character and find your way toward shelter.** Follow [the B10 handoff](B10-owner-review-handoff.md); record actual supplied feedback in [the owner record](playtests/B10-owner-feedback.md). Preparing this handoff does not operate the session or provide a verdict.
+
+B2.5 is explicitly owner accepted; B3–B8 owner acceptance remains pending. B10 owns complete-beta acceptance. S05 remains a separate unrun prototype review. No public distribution readiness: the app is ad-hoc signed, Gatekeeper-rejected and not notarized. Stop here until owner review is requested or actual feedback is supplied.

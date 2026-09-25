@@ -8,4 +8,11 @@ if [[ "$ACTUAL" != "$EXPECTED" ]]; then
   echo "Godot version mismatch: expected $EXPECTED; received $ACTUAL" >&2
   exit 2
 fi
-exec "$BIN" --path "$ROOT/game" "$@"
+HAS_SCENE=false
+for ARG in "$@"; do
+  if [[ "$ARG" == *.tscn ]]; then HAS_SCENE=true; fi
+done
+if [[ "$HAS_SCENE" == false ]]; then
+  set -- res://scenes/visual_sample.tscn "$@"
+fi
+exec "$BIN" --path "$ROOT/game" --resolution 2560x1440 "$@"

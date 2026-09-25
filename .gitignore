@@ -39,9 +39,6 @@ yarn-error.log*
 !/evidence/**/
 !/evidence/B2/README.md
 !/evidence/B2/desktop-tracker-delivery.md
-!/evidence/B2/entry/B2-playable-foundation.md
-!/evidence/B2/entry/chapter-implementation-packet.md
-!/evidence/B2/entry/desktop-tracker-entry.md
 !/evidence/B2/moving-review.md
 !/evidence/B2/native-final/review.md
 !/evidence/B2/review-20260924T020448Z/README.md
@@ -51,7 +48,10 @@ yarn-error.log*
 !/evidence/S02/README.md
 !/evidence/S03/README.md
 !/evidence/S04/README.md
-!/evidence/UI-02/desktop-tracker-before.md
 /assets/b2/review/
 .venv/
 venv/
+
+# Disposable root build/export output; authored packaging inputs stay visible.
+/build/
+/dist/

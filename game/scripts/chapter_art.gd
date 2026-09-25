@@ -1,5 +1,5 @@
 extends Node2D
-## B2 art only. Location collision and chapter state remain controller-owned.
+## Art only. Location collision and chapter state remain controller-owned.
 var controller: Node2D
 var location := ""
 var scenery: Array[Node2D] = []

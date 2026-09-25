@@ -18,7 +18,7 @@ func valid(data:Variant) -> bool:
 	if data.location in ["hub","approach"] or data.tasks.values().any(func(s):return s!="available"):
 		if not data.get("package",false) or data.get("phase","")!="success":return false
 	# Validate all inherited chapter/adventure invariants against a safe coordinate
-	# projection; real B3 coordinates were validated above, never written back.
+	# projection; actual world coordinates were validated above, never written back.
 	var base:Dictionary=data.duplicate(true)
 	if data.location in ["hub","approach"]:
 		base.location="shelter";base.player=[1,5];base.pet_position=[320,638]

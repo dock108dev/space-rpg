@@ -91,4 +91,4 @@ Active interpretation: **A1 — modern command-adventure experience; A1a — sto
 
 Owner: “accepted. ensure docs are updated and send me the next prompt for my lead”
 
-B25-20260923-01 is explicitly accepted. [Acceptance record](playtests/B2.5-owner-acceptance.md) binds this later verdict to the delivered candidate; [B3 work order](slices/B3-world-and-tasks.md) was the subsequent lead handoff and is now technically complete; the [current handoff](next-task.md) identifies B4. No additional play-session details or full-beta acceptance are inferred.
+B25-20260923-01 is explicitly accepted. [Acceptance record](playtests/B2.5-owner-acceptance.md) binds this later verdict to the delivered candidate; [B3 work order](slices/B3-world-and-tasks.md) was the subsequent lead handoff and is now technically complete; the [current handoff](next-task.md) identifies the next engineering scope after the subsequent deliveries. No additional play-session details or full-beta acceptance are inferred.

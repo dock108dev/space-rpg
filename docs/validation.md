@@ -1,77 +1,30 @@
-# Validation and evidence
+# Validation
 
-S02 has a runnable sample and 23 passing technical assertions. Actual-window and engine-movie evidence are separate from owner feedback. See evidence/S02/README.md. Documentation checks are not game tests.
+Run commands from the repository root with Python 3.14.5 and the supported Godot editor available. Tests use disposable synthetic sessions. Do not point test overrides at personal character directories.
 
-## Slice evidence
+| Command | Scope |
+| --- | --- |
+| `bash scripts/validate.sh M4` | Export current game/scripts/tests without local evidence/caches, then run Python orchestration tests and focused source checks. This is the ordinary CI entry. |
+| `bash scripts/validate.sh M3` | Engine version, fresh import, current startup, one save-store factory, schema boundaries, save round-trip, explicit prototype routing and namespace isolation. |
+| `python3 -m unittest discover -s scripts/tests` | Capture routing, isolation, historical-baseline errors and CI installer trust checks; no native windows or network requests. |
+| `python3 -m compileall -q scripts` | Python syntax. |
+| `bash scripts/validate.sh B8` | Broader current chapter journeys, branches, recovery, Save and quit, separate-process Continue and arithmetic checks. Use when affected gameplay requires it. |
+| `bash scripts/validate.sh M1` / `M2` | Focused save-error and local security cases. |
 
-Record slice, date, exact source/build identity, command or reproducible steps, actual environment, pass/fail/not-run, artifact paths, defects, and next action. Once Git exists record commit plus dirty state; before then identify the actual files/artifact with hashes. A later candidate cannot inherit earlier acceptance automatically.
+The selector names are existing script interfaces. A normal documentation change does not require every test selector. Interpret an import/compile failure separately from a failed assertion; logs and result JSON are retained under `evidence/`.
 
-## Relevant functional checks
+## Interface checks
 
-- Navigation: blocked routes, doorways, selection, pet following without obstruction.
-- Combat: costs match display; insufficient AP/invalid targets do not spend resources; canceled/repeated input does not duplicate actions; enemy turns terminate; visible cues are readable.
-- Powers: demonstrate and choose one; blast/shield/dash produce distinct bounded effects.
-- State: fresh start, defined save boundary, load/resume, failed encounter reload, reward applied once, pet learning survives reload; document unsupported mid-turn save behavior.
-- Routine/pause: assigned activity can be observed; manual control resumes predictably; no progression during explicit pause; chosen focus-loss behavior verified.
-- Information: audience reaction cannot feed enemy/character knowledge; no intent-label overlay; shelter does not silently switch privacy.
-- Packaging: local Mac launch from documented setup; report machine/display conditions and measured issues, not invented performance targets.
+`python3 scripts/capture_ui05.py 1152x882` captures representative current screens and checks layout/focus/recovery. It also accepts 1280×980. `capture_ui04.py after 1152x882` selects an older capture harness. Both share `interface_capture.py` and versioned `tests/fixtures/interface-cases.json`; they use a copied project and disposable state.
 
-## Visual evidence
+`capture_ui04.py before 1152x882` is historical replay only. It requires `evidence/UI-04/before-source/game/scripts/player_experience.gd` and fails explicitly without it. Current captures do not require that archive. Required fixture inputs are synthetic and their provenance is recorded in `tests/fixtures/README.md`.
 
-Inspect at actual gameplay scale. Human/pet movement, creature cue, power effect, occlusion and interaction readability. Record first/second matching-asset production and integration effort. Owner visual verdict is distinct from technical function and repeatability.
+## Packaged checks
 
-## Owner session
+`python3 scripts/validate_b9.py /absolute/path/to/retained-build` runs the actual exported executable selected by that build's candidate metadata. `validate_ui05.py` uses the same explicit build-directory argument for packaged interface, resource and hardening checks. These require an existing compatible export and are separate from source validation. The ordinary chapter movie runner is `capture_b9.py /absolute/path/to/retained-build`; it additionally requires `ffmpeg` and `ffprobe` on PATH.
 
-Provide the build and a short neutral goal, observe without coaching, record interventions. Ask what they understood, remembered, disliked, and wanted to do next. Record owner words and continue/revise/stop verdict; do not assume silence is approval. No actual camera/microphone recording required.
+Source tests do not prove an exported application starts correctly, passes Gatekeeper or is accepted by players. A check result applies to its tested files or package. Keep the command, runtime, source/bundle hashes and actual failures with retained evidence; do not transfer success from an older export to changed source.
 
-## Later outside testing
+## Hosted checks
 
-After a working and owner-reviewed loop, define a specific research question and intended testers. Contact/distribution is a separate action. Beta or release readiness requires later complete-playthrough evidence; it is not implied by this experiment.
-
-## Current validation entry points
-
-S01 document-only check: `python3 evidence/S01/check_documents.py` from the project root; results and file hashes live in [S01 evidence](../evidence/S01/README.md). This does not test the game.
-
-S02 entry point: `scripts/validate.sh S02`. It verifies the exact binary, imports a disposable copy excluding `.godot`, then runs the actual-scene tests from an external working directory with bounded timeouts and preserved logs. A zero exit covers technical checks only; it does not establish visual or owner acceptance. `scripts/launch_sample.sh` and `Launch VIS-001.command` run the local sample. See [S02 evidence](../evidence/S02/README.md).
-
-## S03 entry points and limits
-
-`scripts/validate.sh S03` pins Godot 4.6.2, imports a disposable runtime, runs the actual tactical scene and S02 regression suite, and saves each run to a new evidence/S03/run-* directory. Runtime manifests and source archives include PNG import settings, GDScript UID sidecars, project settings, scenes, tests and launch/validation scripts. Generated caches and owner development saves are excluded. The S02 regression output lives in the S03 run and does not overwrite historical S02 results.
-
-`python3 scripts/capture_s03.py` makes a fresh copy with disposable saves and records a visible Compatibility-renderer tour plus gameplay-scale stills. It records an independent manifest/archive and fails visibly on timeout or engine errors. This is an automated engineer tour, not an owner playtest. Consult actual engine logs and media metadata for frame count/dimensions; rendering wall time is not play duration or active authoring effort.
-
-Owner requested continued building and later minor-issue review. Keep technical results, engineer observations and deferred owner-play assessment separate. S03 does not inherit S02 visual acceptance.
-
-## S04 integrated validation and S05 preparation
-
-`scripts/validate.sh S04` pins the same engine, archives/hashes a disposable fresh copy, imports it, runs actual integrated journeys and focused error/pause/persistence checks, starts a separate process to resume saved state, then runs S03/S02 regressions. Results and validation saves live in a unique `evidence/S04/run-*` directory. Test timeouts/errors fail the gate; historical failures remain retained.
-
-`python3 scripts/capture_s04.py` records a fresh visible integrated tour using disposable state, actual scene operations and the existing illustrated actors. The visible tour disables automatic focus pause only for deterministic engineering capture; normal launch retains focus pause. Inspect native launcher input and movie/stills separately. Capture is engineering evidence, never owner play.
-
-The tested runtime is frozen at `builds/S04-20260909-01`, identified by its own `runtime.sha256` and `evidence/S04/candidate.json`. Root `Launch Owner Play.command` is separately hashed and selects this copy with fresh independent practice state. Runtime caches were imported on this Mac and the launcher verified. To restore the archived source, extract it to the candidate folder and import with `/Applications/Godot.app/Contents/MacOS/Godot --headless --path builds/S04-20260909-01/game --import` before launch; compare each source byte against `runtime.sha256`. Generated import caches/UID files do not overwrite recorded source. Validation of the frozen copy can be run with `builds/S04-20260909-01/scripts/validate.sh S04`; it writes its own new evidence beneath that copy.
-
-[S04 evidence](../evidence/S04/README.md) keeps engineering, visual/runtime, historical art repeatability and unrun owner-play status separate. S05 preparation does not complete S05's owner session, revision or verdict tasks.
-
-## B2 entry point
-
-[B2 acceptance cases A–G](slices/B2-playable-foundation.md) governed the completed B2 implementation. [Retained results](../evidence/B2/README.md) identify the technically complete candidate; owner acceptance remains pending. `scripts/validate.sh B2` uses a disposable chapter namespace, actual runtime state/scene methods, retained source/art identity and separate-process resume. The existing S04 command remains the inherited regression route when shared behavior changes. New location/party/art work also requires normal Mac input and normal-speed moving review. Do not run owner launchers or inspect owner saves for validation.
-
-## B2.5 command/story evidence
-
-Validate [B2.5](slices/B2.5-command-adventure.md) as both A1 and A1a: a complete ordinary text/choice-driven journey with visible actions, narrative state, two meaningful approaches and a saved consequence. Cover precise movement, object/context resolution, paraphrases, ordered actions, questions, correction/Stop, text focus, actual rule costs, truthful partial results and process restart. Test any semantic-model interpretation separately from engine execution; backend failure must retain exact commands and choices. Verify character knowledge and descriptions against story/world state. Parsing accuracy alone does not qualify the playable experience or owner enjoyment.
-
-## B2 delivered validation
-
-`./scripts/validate.sh B2` now exists and validates actual chapter-scene journeys, input, party/reward branches, failure/recovery and a real process exit followed by exact new-process Continue. `python3 scripts/capture_b2.py` records the ordinary synthetic moving route at engine time scale1,30fps movie playback. Both retain their exact runtime archive/manifests and every attempt. `./scripts/validate.sh S04` remains the inherited regression route. See [B2 evidence](../evidence/B2/README.md) for exact final runs and native Mac review; passing checks do not confer owner acceptance.
-
-UI-02: `scripts/validate.sh B2` now also runs `run_b2_ui.gd` for keyboard focus, modal containment, mouse activation, recovery and enlarged pause layout. [Exact current result and visual limits](ui-verification.md#ui-02--b2-presentation-cleanup).
-
-## B2.5 command-adventure validation
-
-Run `scripts/validate.sh B2.5`. It uses a copied runtime and synthetic `B25_SAVE_DIR`, checks the bounded parser separately from real game journeys, tests interruption/input binding/save recovery, and executes Save and quit plus new-process Continue. All three powers/rewards and joined/declined/waiting/rejoin branches are covered. Both retrieval methods persist. `scripts/capture_b25.py` retains the normal-speed ordinary-action tour. [Exact evidence and engineering limits](../evidence/B2.5/README.md) remain separate from owner acceptance. B2 and S04/S03/S02 regression checks are retained separately.
-
-## B3 connected-world validation
-
-`scripts/validate.sh B3` runs the real B3 runner in a disposable copied runtime and isolated synthetic save root. Final evidence separates 22 language interpretation/refusal cases from 209 actual-game/branch/control/persistence checks, real Save and quit and three new-process Continue cases. Comparisons normalize JSON position numbers to the exact Godot Vector2 representation; they use no positional tolerance. Failed writes, incomplete/invalid saves, task rollback, shortcut traversal and all new door directions are exercised. The old namespace paths are poisoned and remain absent.
-
-`python3 scripts/capture_b3.py` records the ordinary command journey at time_scale 1 and 30fps, then launches a separate process to verify its final save. Capture-only project dimensions differ from source; the evidence binding enumerates this sole runtime difference. The [B3 evidence](../evidence/B3/README.md) identifies the final attempts, native keyboard/mouse/restart review, original-candidate preservation and known limits. Owner acceptance is separate.
+[CI](ci.md) runs one focused macOS source job and preserves diagnostic logs. Native screenshots, packaged execution, signing and full historical suites are not part of ordinary pull-request CI. Historical test counts and candidate-specific results remain in the designated records, not in this command reference.

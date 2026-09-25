@@ -1,15 +1,13 @@
-# Space Opera RPG UI design
+# Interface conventions
 
-Use the [design requirements](ui-design-requirements.md) and `game/scripts/glass_ui.gd` when changing the interface.
+`game/scripts/glass_ui.gd` defines the shared theme: translucent StyleBoxFlat panels, rounded edges, borders and readable text contrast. These are drawn surfaces, not a screen-reading blur shader. Runtime code and art inside the repository are the styling dependencies.
 
-## Layout and behavior
+The current player uses a fixed 1280×980 logical canvas, with minimum physical content of 1152×882. Keep world positions and movement coordinates independent of interface enlargement.
 
-The primary interface combines readable narrative/action history, bounded natural-language input, contextual choices and the illustrated scene. Direct controls remain available. Text focus must capture typing without sending movement shortcuts to the world; Stop remains accessible.
+The HUD displays the current objective or immediate danger/care task. A combined lower panel holds the outside-audience note when public, current response or History, contextual choices, command input and Stop. Responses begin below the actual audience-note height. Long content remains in History; a concise chapter report distinguishes recorded report conditions from current inventory/health.
 
-The HUD uses cool dark translucent surfaces for contrast over the world. Put the objective first, followed by contextual actions. Save and Continue stay directly available; secondary controls and save details live in Pause. Native surfaces do not use a screen-reading blur shader.
+The 100%/125% control is available during setup and play. It scales Control font sizes from stored baselines, rounded to whole sizes; repeated toggles must not compound. Setup and Help resize/reflow. Pause uses a foreground layer and backdrop, with recovery controls visible above the game. System font objects are reused during toggles and allow system fallback for character names.
 
-`game/scripts/chapter_opening.gd` implements the opening interface; `command_adventure.gd` adds command/story interaction. Preserve illustrated assets, game rules and save compatibility.
+Tab moves focus, Space activates buttons, and Return submits commands. Closing Help restores command focus. Clicking the world returns direct movement controls. Disabled choices communicate prerequisites without replacing the underlying gameplay checks. Stop remains available to cancel future work.
 
-## Visual checks
-
-Check the affected screens at supported sizes, including keyboard focus, long content, disabled actions and error recovery. Existing review records are in [UI verification](ui-verification.md).
+Use the native interface checks in [validation](validation.md) after layout changes. A screenshot or passing layout assertion cannot establish enjoyable play or general accessibility compliance.

@@ -13,13 +13,13 @@ Each screen should make its purpose, current result or state, and next useful ac
 
 ## Appearance and accessibility
 
-Retain the cool, light glass direction: system typography, slate text, blue actions, restrained translucency and depth. Use `game/scripts/glass_ui.gd` for the implemented theme.
+Use the implemented dark glass panels, light controls, system typography and blue action emphasis. Use `game/scripts/glass_ui.gd` for the implemented theme.
 
-Use readable text at the supported game window sizes; primary controls are at least 44px high. Use compact spacing, not tiny type or cramped targets. Compact headers replace giant hero sections. Avoid widespread uppercase, widely spaced labels, and pills for ordinary information.
+Use readable text at the supported game window sizes; 44 logical pixels is a target for primary control height, not a claim that every current control meets it. Use compact spacing, not tiny type or cramped targets. Compact headers replace giant hero sections. Avoid widespread uppercase, widely spaced labels, and pills for ordinary information.
 
 Blue indicates action or selection. Success, caution, and errors have meaningful text as well as color. Preserve negative, zero, unknown, stale, and unavailable states. Essential information must not depend on an unexplained icon, clipped text, color, or hover alone.
 
-Use native semantics, clear labels, visible focus, logical keyboard order, and dialogs that return focus. Maintain readable contrast: at least 4.5:1 for ordinary text and 3:1 for meaningful control boundaries and large text. Check composited colors on translucent surfaces. Respect reduced motion and transparency; supply an opaque fallback.
+Design targets: use native semantics, clear labels, visible focus, logical keyboard order, and dialogs that return focus. Target readable contrast: at least 4.5:1 for ordinary text and 3:1 for meaningful control boundaries and large text. Check composited colors on translucent surfaces. Reduced-motion and transparency preference handling are design targets, not currently implemented settings; no general accessibility-compliance claim has been established.
 
 ## Before calling a screen improved
 

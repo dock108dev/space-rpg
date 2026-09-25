@@ -1,35 +1,29 @@
 # Space Opera RPG
 
-An illustrated single-player command adventure built with Godot. Explore an unfamiliar world with a pet, choose a power, retrieve a package, reach shelter and meet a potential companion. Travel onward through a district hub and expedition approach, recover supplies, restore local access and record a survey. Typed commands, contextual choices and direct movement operate the same game world.
+An offline, single-player Mac command adventure with illustrated spatial play. Create a character, choose a power, find shelter, prepare a private home, care for companions and recover a relay core. Typed commands and contextual choices control movement and turn-based encounters.
 
-The interpreter is offline and deterministic. It supports bounded English requests and exact movement, not unrestricted natural-language plans. No language model or online service runs.
+## Quickstart
 
-## Play from source
-
-Requires Godot **4.6.2 Standard**. On macOS, install it at `/Applications/Godot.app`, then run from the repository root:
+Install [Godot 4.6.2 Standard for macOS](https://github.com/godotengine/godot-builds/releases/tag/4.6.2-stable). Place Godot.app in Applications, then run from this repository:
 
 ```sh
-bash scripts/launch_b3.sh
+bash scripts/launch_b8.sh
 ```
 
-You can also double-click [Launch B3.command](Launch%20B3.command). Set `GODOT_BIN` to use another engine path. This launches the command-adventure opening; it is a source prototype, not a standalone app bundle.
+Alternatively, open `game/project.godot` in Godot and Run. No account, model download or online service is required. Python is needed for development checks, not play.
 
-Type an intention and press Return, or select a contextual choice. WASD/arrows move, E interacts, Enter ends a combat turn and Escape pauses. Leave text input before using movement keys. Stop cancels unfinished work. Save and quit is available in Pause; Continue restores the last successful save.
-
-See the [player guide](docs/B3-player-guide.md) and [command/save contract](docs/B3-runtime-contract.md). Development saves default to `dev-state/B3-practice-v1`; `B3_SAVE_DIR` overrides the location.
+Create a character and try `look around`, `inspect package` or `move 2 up and 3 right`. Help explains commands, Stop cancels queued work, and Escape opens Pause and Save and quit. [Player guide](docs/player-guide.md).
 
 ## Development
 
-Requires Python 3 in addition to Godot:
+With Python 3.14.5 and the same Godot installation:
 
 ```sh
-scripts/validate.sh B3
+bash scripts/validate.sh M4
 ```
 
-The connected-world prototype includes optional tasks and travel between the concourse, shelter, district hub and expedition approach. Equipment progression, an owned home, companion care and the full expedition remain unfinished. No standalone release is provided.
+This checks an isolated source copy with synthetic data. [Setup and configuration](docs/development.md) · [Architecture](docs/ssot.md) · [Testing](docs/validation.md) · [CI](docs/ci.md) · [Documentation index](docs/README.md).
 
-- [Current design](docs/current-design.md) and [world rules](docs/world-rules.md)
-- [UI design](docs/ui-design.md) and [art direction](docs/art-direction.md)
-- [Validation](docs/validation.md)
+## Support limits
 
-Earlier prototypes, delivery records and playtests remain in the repository. Their launchers and save formats are separate from the command-adventure opening.
+The supported target is a personal macOS desktop game with a minimum content window of 1152×882. The command interpreter recognizes defined actions and named targets, not arbitrary goals. Presentation is silent. There is no multiplayer, cloud save, automatic save migration or offline progression. Current CI validates source; it does not publish an installer or establish packaged release readiness.

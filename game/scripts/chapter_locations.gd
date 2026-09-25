@@ -1,5 +1,5 @@
 extends RefCounted
-# B2 production defaults, not additional world canon.
+# Opening-area geometry used by runtime movement and save validation.
 const IDS := ["concourse", "shelter"]
 const PACKAGE := Vector2i(1,3)
 const CONCOURSE_DOOR := Vector2i(11,1)

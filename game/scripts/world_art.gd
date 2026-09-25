@@ -10,7 +10,7 @@ func set_location(id:String) -> void:
 	background.texture=load("res://art/b3/"+id+".svg");background.show()
 	wall_title.text="District hub" if id=="hub" else "Expedition approach"
 	wall_detail.text="Optional work · Shared public arcade" if id=="hub" else "Exploration only · Expedition barrier closed"
-	for destination in controller.World.DOORS[id]:prop("doorway",point(controller.World.DOORS[id][destination])+Vector2(0,30),Vector2(92,110))
+	for destination in controller.world_doors():prop("doorway",point(controller.world_doors()[destination])+Vector2(0,30),Vector2(92,110))
 	if id=="hub":
 		for y in [1,2,4,5]:world_prop("partition",point(Vector2i(5,y))+Vector2(0,25),Vector2(62,92))
 		if controller.tasks.access!="completed":world_prop("gate",point(Vector2i(5,3))+Vector2(0,25),Vector2(62,86))
@@ -25,7 +25,8 @@ func world_prop(asset:String,at:Vector2,size:Vector2) -> Node2D:
 	var anchor:=Node2D.new();anchor.position=at;controller.sorted.add_child(anchor)
 	var picture:=Sprite2D.new();picture.texture=load("res://art/b3/"+asset+".svg");picture.centered=false;picture.scale=Vector2(size.x/picture.texture.get_width(),size.y/picture.texture.get_height());picture.position=Vector2(-size.x/2,-size.y);anchor.add_child(picture);scenery.append(anchor);return anchor
 func _draw() -> void:
+	if location=="home":return
 	if location not in ["hub","approach"]:super._draw();return
-	for destination in controller.World.DOORS[location]:ink_ellipse(point(controller.World.DOORS[location][destination])+Vector2(0,9),Vector2(29,12),Color(0.43,0.70,0.79,0.48))
+	for destination in controller.world_doors():ink_ellipse(point(controller.world_doors()[destination])+Vector2(0,9),Vector2(29,12),Color(0.43,0.70,0.79,0.48))
 	if location=="hub" and controller.tasks.access=="completed":
 		draw_line(point(Vector2i(4,3)),point(Vector2i(6,3)),Color("a8cbb9"),4,true)

@@ -59,6 +59,7 @@ func distance(a:Vector2i,b:Vector2i) -> int:return absi(a.x-b.x)+absi(a.y-b.y)
 func idle_player() -> bool:return phase=="player" and not busy and not get_tree().paused
 func reject(text:String) -> bool:message=text;return false
 func _ready() -> void:
+	get_window().content_scale_size=Vector2i(1280,720)
 	process_mode=Node.PROCESS_MODE_ALWAYS
 	DisplayServer.window_set_title("S03 · Tactical encounter")
 	var path:=OS.get_environment("S03_SAVE_DIR")

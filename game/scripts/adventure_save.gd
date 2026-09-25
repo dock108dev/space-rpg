@@ -1,5 +1,5 @@
 extends "res://scripts/chapter_save.gd"
-# Independent B2.5 namespace; no reading or migration of B2 snapshots.
+# Command-adventure schema; opening-only snapshots are not imported or migrated.
 func valid(data:Variant) -> bool:
 	if not data is Dictionary or data.get("adventure_version",0)!=1:return false
 	if data.get("retrieval",null) not in ["","personal","pet"]:return false

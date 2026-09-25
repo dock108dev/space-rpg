@@ -1,0 +1,50 @@
+name: CI
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.event.pull_request.number || github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  source-checks:
+    name: Source checks (macOS)
+    runs-on: macos-26
+    timeout-minutes: 15
+    steps:
+      - name: Check out source
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+      - name: Set up Python
+        uses: actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97 # v7.0.0
+        with:
+          python-version: '3.14.5'
+      - name: Install pinned Godot
+        run: |
+          python3 scripts/install_ci_godot.py "$RUNNER_TEMP/godot" > "$RUNNER_TEMP/godot-path.txt"
+          printf 'GODOT_BIN=%s\n' "$(cat "$RUNNER_TEMP/godot-path.txt")" >> "$GITHUB_ENV"
+      - name: Check Python syntax
+        run: python3 -m compileall -q scripts
+      - name: Validate isolated current source
+        run: bash scripts/validate.sh M4
+      - name: Retain diagnostics
+        if: ${{ !cancelled() }}
+        uses: actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a # v7.0.1
+        with:
+          name: source-check-diagnostics
+          path: |
+            evidence/M4/run-*/results.json
+            evidence/M4/run-*/*.log
+            evidence/M4/run-*/focused-source-evidence/**/*.log
+            evidence/M4/run-*/focused-source-evidence/**/checks.json
+            evidence/M4/run-*/focused-source-evidence/**/results.json
+          if-no-files-found: ignore
+          retention-days: 7

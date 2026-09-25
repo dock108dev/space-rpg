@@ -8,16 +8,21 @@ var supply_trip:=""
 var supply_elapsed:=0.0
 var world_ready:=false
 
-func _ready() -> void:
-	super._ready()
+func create_save_store() -> RefCounted:
 	var path:=OS.get_environment("B3_SAVE_DIR")
 	if path.is_empty():path=ProjectSettings.globalize_path("res://../dev-state/B3-practice-v1")
-	save_store=WorldSave.new(path)
+	return WorldSave.new(path)
+
+func _ready() -> void:
+	super._ready()
+
 	get_window().title="Space Opera RPG · B3 · Connected world"
 	for node in art.scenery:
 		if is_instance_valid(node):node.hide();node.queue_free()
 	art.queue_free();art=WorldArt.new();add_child(art);art.configure(self)
 	world_ready=true;set_location_art();last_context=""
+
+func world_doors() -> Dictionary:return World.DOORS[location]
 
 func inside(cell:Vector2i) -> bool:return location in World.IDS and cell.x>=0 and cell.x<12 and cell.y>=0 and cell.y<7
 func floor_free(cell:Vector2i) -> bool:return World.cell_ok(location,cell,tasks.access=="completed") and cell not in extra_blocks
@@ -38,8 +43,8 @@ func targets() -> Dictionary:
 	result.erase("doorway")
 	if location in ["hub","approach"]:
 		result.erase("desk");result.erase("package");result.erase("cache");result.erase("control");result.erase("creature")
-	for destination in World.DOORS[location]:
-		result[destination]={"aliases":[destination,"district hub" if destination=="hub" else "expedition approach" if destination=="approach" else destination+" entrance","door","doorway","exit"],"cell":World.DOORS[location][destination],"inspect":"Reach this threshold to travel to "+destination+". Optional work never locks this route."}
+	for destination in world_doors():
+		result[destination]={"aliases":[destination,"district hub" if destination=="hub" else "expedition approach" if destination=="approach" else destination+" entrance","door","doorway","exit"],"cell":world_doors()[destination],"inspect":"Reach this threshold to travel to "+destination+". Optional work never locks this route."}
 	if location=="hub":
 		result.supplies={"aliases":["supplies","salvage","pallet","bundle"],"cell":Vector2i(8,4),"inspect":supply_description()}
 		result.access={"aliases":["access","access panel","panel","release","gate"],"cell":Vector2i(5,2),"inspect":"Manual release beside the partition. Restore it to open the central shortcut; the long route around either end is always usable. Status: "+tasks.access+". No power upgrade or fee required."}
@@ -106,9 +111,9 @@ func world_clause(text:String) -> Dictionary:
 				if destination in ["home","objective"]:return {"error":"That destination is unavailable until "+("B5 ownership." if destination=="home" else "B7 expedition.")}
 				if destination==location:
 					if text.begins_with("leave") or text.begins_with("exit"):
-						return {"error":"Name a destination: "+", ".join(World.DOORS[location].keys())+"."}
+						return {"error":"Name a destination: "+", ".join(world_doors().keys())+"."}
 					return {"error":"You are already in "+location+"."}
-				if not World.DOORS[location].has(destination):return {"error":"No direct doorway to "+destination+". From here choose "+", ".join(World.DOORS[location].keys())+"."}
+				if not world_doors().has(destination):return {"error":"No direct doorway to "+destination+". From here choose "+", ".join(world_doors().keys())+"."}
 				return {"actions":[{"verb":"go","target":destination},{"verb":"travel","destination":destination}]}
 	# Explicit leave shelter retains its accepted westward meaning.
 	if text=="leave shelter":return {"actions":[{"verb":"go","target":"concourse"},{"verb":"travel","destination":"concourse"}]}
@@ -129,14 +134,14 @@ func execute(action:Dictionary) -> bool:
 	if action.verb=="supply_fetch":return start_supply_fetch()
 	if action.verb=="task":return task_action(action.target,action.operation)
 	if action.verb in ["collect","interact"] and action.get("target","") in ["supplies","access","survey"]:return task_action(action.target,"complete")
-	if action.verb=="interact" and World.DOORS[location].has(action.get("target","")):return travel(action.target)
+	if action.verb=="interact" and world_doors().has(action.get("target","")):return travel(action.target)
 	return super.execute(action)
 func travel(destination:String) -> bool:
-	if not safe_idle() or not package_taken or not World.DOORS[location].has(destination):return reject("Travel requires a safe idle moment, the collected package and a connected doorway.")
-	if distance(player_cell,World.DOORS[location][destination])>1:return reject("Walk beside the destination doorway first.")
+	if not safe_idle() or not package_taken or not world_doors().has(destination):return reject("Travel requires a safe idle moment, the collected package and a connected doorway.")
+	if distance(player_cell,world_doors()[destination])>1:return reject("Walk beside the destination doorway first.")
 	var before:=snapshot();var origin:=location
 	location=destination
-	var entry:Vector2i=World.DOORS[location][origin]
+	var entry:Vector2i=world_doors()[origin]
 	player_cell=entry+Vector2i(1 if entry.x==0 else -1,0);human.position=point(player_cell)
 	pet.position=point(player_cell+Vector2i.DOWN);pet.target=human;pet.reset_path()
 	if recruit_status=="joined":recruit.position=point(player_cell+Vector2i.UP)
@@ -146,8 +151,8 @@ func travel(destination:String) -> bool:
 func interact() -> bool:
 	if location=="shelter" and distance(player_cell,World.DOORS.shelter.hub)<=1:return travel("hub")
 	if location not in ["hub","approach"]:return super.interact()
-	for destination in World.DOORS[location]:
-		if distance(player_cell,World.DOORS[location][destination])<=1:return travel(destination)
+	for destination in world_doors():
+		if distance(player_cell,world_doors()[destination])<=1:return travel(destination)
 	for id in ["supplies","access","survey"]:
 		if targets().has(id) and distance(player_cell,targets()[id].cell)<=1:return task_action(id,"complete")
 	return reject("Stand beside a doorway or task object. Read the current choices for actions.")
@@ -223,7 +228,7 @@ func refresh_choices() -> void:
 		for id in clarification:add_world_choice("Inspect "+str(id),"inspect "+str(id))
 		return
 	add_world_choice("Look / work","what work is unfinished?")
-	for destination in World.DOORS[location]:add_world_choice("To "+destination,"go to "+destination)
+	for destination in world_doors():add_world_choice("To "+destination,"go to "+destination)
 	if location=="hub":
 		add_world_choice("Read work board","inspect board")
 		if tasks.supplies!="completed":

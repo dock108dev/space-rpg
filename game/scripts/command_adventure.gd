@@ -31,11 +31,14 @@ func add_button(parent:Node,text:String,callback:Callable) -> Button:
 		if ready_adventure and text not in ["Pause · Esc","Resume · Esc"] and (not work.is_empty() or not current.is_empty()):stop_work("Direct action control reclaimed.")
 		callback.call())
 
-func _ready() -> void:
-	super._ready()
+func create_save_store() -> RefCounted:
 	var path:=OS.get_environment("B25_SAVE_DIR")
 	if path.is_empty():path=ProjectSettings.globalize_path("res://../dev-state/B2.5-practice-v1")
-	save_store=AdventureSave.new(path)
+	return AdventureSave.new(path)
+
+func _ready() -> void:
+	super._ready()
+
 	get_window().content_scale_size=Vector2i(1280,980)
 	get_window().title="Space Opera RPG · B2.5 · Command adventure"
 	var ui:=CanvasLayer.new();ui.layer=3;ui.process_mode=Node.PROCESS_MODE_ALWAYS;add_child(ui)
@@ -98,6 +101,9 @@ func interpret_request(text:String) -> Dictionary:
 	return Language.interpret(text,targets(),recent)
 
 func submit(text:String,request_id:String="",context_epoch:int=-1) -> bool:
+	# Reject whole oversized input before parsing or changing request/queue state.
+	if text.length()>Language.MAX_COMMAND_LENGTH:
+		say("Use at most 1000 characters per request. Nothing was queued.");return false
 	if request_id.is_empty():request_serial+=1;request_id="local-%d" % request_serial
 	if seen.has(request_id):say("Duplicate request ignored; nothing repeated.");return false
 	seen[request_id]=true

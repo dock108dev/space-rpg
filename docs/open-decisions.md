@@ -16,7 +16,7 @@ For current beta planning, resolve consequential first-chapter choices; the S04/
 | O10 | Reward payloads and persistence | S04 | S04 prototype: two recovery kits / visible field lamp / route to existing cache. Exclusive persisted choice verified; owner value/balance unassessed. No full economy. |
 | O11 | Opening geography/shared background | Before story expansion | Test assembly is not permanent canon |
 | O12 | Freedom, employment, identity persistence | Later campaign planning | Preserve direction; no early simulation of full system |
-| O13 | Ownership/guest/privacy exceptions | Before property mechanics | Shelter not assumed private |
+| O13 | Ownership/guest/privacy exceptions | Before property mechanics | B5 own interior/inside threshold private; hub and shelter public. Guests/joint ownership deferred |
 | O14 | Duration, commercial scope, broader platforms | After measured samples | No release date, hours-to-finish, or commercial promise |
 
 Confirmed choices are summarized in current-design.md. Revise a provisional implementation if play evidence warrants it; material creative changes belong to the owner. Numeric tuning and local setup choices may use documented engineering judgment.
@@ -42,3 +42,25 @@ Resolved: modern text-adventure command play is A1; story and gameplay are A1a. 
 ## B3 production defaults — September 24
 
 The connected-world slice is technically complete with owner review pending. [B3 contract](B3-runtime-contract.md) records the implemented one-bundle recovery, manual shortcut and survey discovery, including reversible task refusal and separate world-v1 saves. These are production defaults, not new canon or balanced B4 currency. B4 must explicitly reconcile its arithmetic with actual B3 outcomes; no further broad discovery interview is needed.
+
+## B4 production defaults — September 24
+
+[B4 contract](B4-runtime-contract.md) implements preparation through one equipment slot, three families, earned chosen-power calibration and explicit materials. B1 funding is reconciled to 20 required-route + 4 optional bundle; no access/survey currency. Balance and owner gameplay quality remain unaccepted. B4 is technically complete; B5 must reconcile funding against actual retained balances before adding home spending.
+
+## B5 production defaults — September 24
+
+[Home contract](B5-runtime-contract.md) implements earned ownership, 10 one-time settling material, three 2-material furnishings and a 4-material locker. Maximum B4 spending still leaves 4 total material after all B5 purchases, without optional work. Carried and stored quantities remain distinct. B5 is technically complete; owner gameplay/balance acceptance remains pending. B6 now implements two-material care per patient and free attended assistance; the original one-unit B1 care proposal is superseded by the delivered B6 contract.
+
+## B6 delivered implementation
+
+[Completed work order](slices/B6-companions-and-care.md) delivers autonomous recruit behavior, earned cover fetch, a bounded danger/care loop, retreat and exact persistence. No permanent pet/recruit death; decline/wait remains viable. Paid care costs two carried material per patient; free assistance takes two attended six-second rounds and is repeatable with zero total funds. Stored material must be explicitly withdrawn before paid treatment. B6 is technically complete, with owner acceptance pending; no model selection is implied.
+
+B6 resolves its bounded implementation defaults in [B6-runtime-contract.md](B6-runtime-contract.md): cover fetch after actual retrieval, a single autonomous support shot per turn, recoverable injury/downing, evacuation, two-material care and repeatable attended assistance. No owner scope question was reopened. Owner play/quality acceptance remains a separate gate; B7's full expedition and later balance remain open work.
+
+## B7 delivered implementation
+
+[Relay contract](B7-runtime-contract.md) supplies the complete expedition, two different dangers, surveyed/maintenance/live approaches, core and exactly-once eight-material report. Six-place count is retained; no required duration is invented. All powers and optional-task/recruit skipping remain viable. Names, balance and chapter prose are production choices; owner acceptance remains pending. Character setup, dry-route pacing, text density and companion presentation remain B8 work, not a reason to restart discovery.
+
+## B8 delivered implementation
+
+Bounded name/appearance setup, brief shared shopping opening, contextual help/outcomes, explicit safe dry walking and improved cutout condition/motion presentation are delivered. No broad discovery or model choice was reopened. The [contract](B8-runtime-contract.md) defines schema, separate sessions, Unicode and save recovery; [review](B8-review-and-balance.md) records evidence-backed pacing, unchanged weave balance and silence decision. These production choices do not supply owner acceptance. B9 packaging is technically complete; B10 owner review remains unstarted. See B9-packaging-contract.md.

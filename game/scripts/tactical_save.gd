@@ -2,6 +2,7 @@ extends RefCounted
 # Immutable snapshots: never overwrite or delete an existing development save.
 var directory := ""
 var notice := ""
+var scan_ok := true
 const POWERS := ["blast", "shield", "dash"]
 const BLOCKS := [Vector2i(5,3),Vector2i(5,4),Vector2i(6,3),Vector2i(3,1)]
 func _init(path:String="") -> void:
@@ -32,9 +33,50 @@ func valid(data:Variant) -> bool:
 	if data.phase not in ["player","success"]:return false
 	if (data.phase=="success")!=(data.enemy_hp==0):return false
 	return true
+static func linked(path:String) -> bool:
+	var folder:=DirAccess.open(path.get_base_dir())
+	return folder!=null and folder.is_link(path.get_file())
+static func path_presence(path:String) -> int:
+	# 0 present, 1 confirmed absent from a readable parent, -1 unknown/blocked.
+	# Godot maps missing and inaccessible paths to the same open error on macOS.
+	var candidate:=ProjectSettings.globalize_path(path).simplify_path()
+	while true:
+		var parent:=candidate.get_base_dir()
+		if parent==candidate or parent.is_empty():return -1
+		var folder:=DirAccess.open(parent)
+		if folder:
+			folder.include_hidden=true
+			if folder.list_dir_begin()!=OK:return -1
+			var name:=folder.get_next()
+			while not name.is_empty():
+				if name==candidate.get_file():
+					folder.list_dir_end()
+					return 0 if candidate==ProjectSettings.globalize_path(path).simplify_path() else -1
+				name=folder.get_next()
+			folder.list_dir_end();return 1
+		candidate=parent
+	return -1
 func files() -> PackedStringArray:
-	if not DirAccess.dir_exists_absolute(directory):return PackedStringArray()
-	return DirAccess.get_files_at(directory)
+	scan_ok=true
+	if linked(directory):
+		scan_ok=false;notice="Save failed: linked session folders are not supported. Files preserved."
+		return PackedStringArray()
+	var folder:=DirAccess.open(directory)
+	if folder==null:
+		# A missing namespace is ordinary first use, but an unreadable existing
+		# folder or file in its place must not look like an empty save history.
+		if path_presence(directory)!=1:
+			scan_ok=false;notice="Save failed: cannot inspect the save folder. Restore access and retry; files preserved."
+		return PackedStringArray()
+	if folder.list_dir_begin()!=OK:
+		scan_ok=false;notice="Save failed: cannot list snapshots. Restore folder access and retry."
+		return PackedStringArray()
+	var entries:=PackedStringArray();var entry:=folder.get_next()
+	while not entry.is_empty():
+		# Reserve snapshot-shaped directories too, so they cannot be replaced.
+		entries.append(entry);entry=folder.get_next()
+	folder.list_dir_end()
+	return entries
 func next_sequence() -> int:
 	var next:=1
 	for file in files():
@@ -45,6 +87,7 @@ func next_sequence() -> int:
 	return next
 func write(state:Dictionary,kind:String) -> bool:
 	notice=""
+	if linked(directory):notice="Save failed: linked session folders are not supported.";return false
 	if DirAccess.make_dir_recursive_absolute(directory)!=OK:notice="Save failed: cannot create development folder.";return false
 	# Atomic directory creation serializes writers; never clobber another snapshot.
 	var lock_path:=directory.path_join(".writing")
@@ -52,12 +95,18 @@ func write(state:Dictionary,kind:String) -> bool:
 		notice="Save blocked by another or interrupted writer. Existing saves remain loadable; see save recovery notes."
 		return false
 	var ok:=write_locked(state,kind)
-	DirAccess.remove_absolute(lock_path)
+	var cleanup:=DirAccess.remove_absolute(lock_path)
+	if cleanup!=OK:
+		notice+=" Writer cleanup failed; further saves may be blocked."
+		push_warning("SAVE_WRITER_CLEANUP lock=%d committed=%s" % [cleanup,str(ok)])
 	return ok
 func write_locked(state:Dictionary,kind:String) -> bool:
 	var data:=state.duplicate(true);data.version=1;data.sequence=next_sequence();data.kind=kind
+	if not scan_ok:return false
 	if not valid(data):notice="Save rejected: state is outside supported boundaries.";return false
 	var base:=directory.path_join("snapshot-%09d" % data.sequence)
+	if linked(base+".tmp") or linked(base+".json"):
+		notice="Save rejected: linked snapshot paths are not supported.";return false
 	var file:=FileAccess.open(base+".tmp",FileAccess.WRITE)
 	if file==null:notice="Save failed: cannot write snapshot.";return false
 	file.store_string(JSON.stringify(data));file.flush()
@@ -68,15 +117,20 @@ func write_locked(state:Dictionary,kind:String) -> bool:
 	return true
 func latest() -> Dictionary:
 	var chosen:Dictionary={};var skipped:=0
-	for name in files():
+	var entries:=files()
+	if not scan_ok:return {}
+	for name in entries:
 		if not name.begins_with("snapshot-"):continue
 		if not name.ends_with(".json"):skipped+=1;continue
 		var path:=directory.path_join(name)
+		if linked(path):skipped+=1;continue
 		var file:=FileAccess.open(path,FileAccess.READ)
 		if file==null:skipped+=1;continue
 		if file.get_length()>32768:file.close();skipped+=1;continue
 		var parser:=JSON.new()
-		var error:=parser.parse(file.get_as_text());file.close()
+		var content:=file.get_as_text();var read_error:=file.get_error();file.close()
+		if read_error!=OK and read_error!=ERR_FILE_EOF:skipped+=1;continue
+		var error:=parser.parse(content)
 		if error!=OK:skipped+=1;continue
 		var parsed:Variant=parser.data
 		if not valid(parsed):skipped+=1;continue

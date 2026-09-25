@@ -15,3 +15,11 @@ The protagonist can ultimately die, achieve wealth/freedom, or pursue a negotiat
 ## Defer until relevant
 
 Capture mechanism, guests/joint ownership/rental, precise privacy boundary, pet broadcast status, exact shared background, alien motives, transportation from Earth, initial geography, power delivery, audience-to-character communication, job duties, and replay identity mechanics. No new canon is needed to compare engines or test local movement.
+
+## B5 bounded privacy implementation
+
+The earned arcade dwelling is distinct from shared shelter. The owned interior, including its inside threshold, is private; the hub-side threshold is public. Entry/load suppress outside presentation synchronously; exit restores it. No character, dialogue or interpreter receives audience knowledge; no audience reward is granted. Player command/narration history remains inert and does not contain audience commentary. Guest/joint ownership exceptions remain deferred. These bounds are production defaults for the required home, not a general property-law simulation.
+
+B6 care implementation uses the public shelter desk. Its material charge and free attended assistance are bounded production mechanics, not a new health economy or audience reward. Downed travelers are evacuated with the party and cannot die permanently; injured pets need explicit treatment. Entering owned space suppresses outside presentation but never supplies healing, information or currency.
+
+B7 relay assignment and its eight-material report payment are ordinary district activity, with a physical core delivered at the hub. Broadcast text remains outside-player presentation only. No character can read it and no economy/state reward depends on it. Recoverable injuries, whole-party evacuation and explicit shelter care retain the beta loss boundary. The report closes only the opening chapter, not Earth restoration, ultimate freedom or a wider campaign.

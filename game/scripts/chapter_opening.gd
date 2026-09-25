@@ -1,5 +1,5 @@
 extends "res://scripts/tactical_encounter.gd"
-# B2 owns chapter transitions. The assessment still uses the existing tactical actions,
+# Chapter transitions wrap the assessment, which uses the shared tactical actions,
 # actor rig and animation loop; historical scenes and validators remain unchanged.
 const ChapterSave=preload("res://scripts/chapter_save.gd")
 const Locations=preload("res://scripts/chapter_locations.gd")
@@ -50,16 +50,20 @@ var pause_reset:Button
 var focus_before_pause:Control
 var was_paused:=false
 
+func create_save_store() -> RefCounted:
+	var path:=OS.get_environment("B2_SAVE_DIR")
+	if path.is_empty():path=ProjectSettings.globalize_path("res://../dev-state/B2-practice-v1")
+	return ChapterSave.new(path)
+
 func _ready() -> void:
+	get_window().content_scale_size=Vector2i(1280,720)
 	process_mode=Node.PROCESS_MODE_ALWAYS
 	# The chapter supplies its own pause menu instead of the inherited bare label.
 	pause_label.free()
 	DisplayServer.window_set_title("Space Opera RPG · B2 · Opening & shelter")
 	get_window().title="Space Opera RPG · B2 · Opening & shelter"
 	get_tree().auto_accept_quit=false
-	var path:=OS.get_environment("B2_SAVE_DIR")
-	if path.is_empty():path=ProjectSettings.globalize_path("res://../dev-state/B2-practice-v1")
-	save_store=ChapterSave.new(path)
+	save_store=create_save_store()
 	sorted.y_sort_enabled=true;sorted.process_mode=Node.PROCESS_MODE_PAUSABLE;add_child(sorted)
 	art=ChapterArt.new();art.process_mode=Node.PROCESS_MODE_PAUSABLE;add_child(art);art.configure(self)
 	human=load("res://scripts/human_controller.gd").new();human.position=point(player_cell);human.automated=true;sorted.add_child(human);human.set_physics_process(false)
@@ -135,7 +139,7 @@ New practice starts over. Continue uses earlier progress until you save the new 
 	save_details.autowrap_mode=TextServer.AUTOWRAP_WORD_SMART;save_details.custom_minimum_size.x=580;save_details.add_theme_font_size_override("font_size",16);box.add_child(save_details);save_details.hide()
 	pause_reset=add_button(box,"New practice",reset_demo);pause_reset.hide();buttons.reset=pause_reset
 
-# Keep keyboard access local to B2; historical prototype controls are unchanged.
+# Chapter keyboard access is separate from the standalone tactical controls.
 func add_button(parent:Node,text:String,callback:Callable) -> Button:
 	var button:=super.add_button(parent,text,callback)
 	button.custom_minimum_size.y=44;button.focus_mode=Control.FOCUS_ALL

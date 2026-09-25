@@ -1,0 +1,23 @@
+config_version=5
+[application]
+config/name="Space Opera RPG Personal Beta"
+config/version="0.9.0"
+config/icon="res://art/b9/icon.svg"
+run/main_scene="res://scenes/b9_start.tscn"
+config/use_custom_user_dir=true
+config/custom_user_dir_name="Space Opera RPG Personal Beta"
+[display]
+window/size/viewport_width=1280
+window/size/viewport_height=980
+window/size/window_width_override=1152
+window/size/window_height_override=882
+window/stretch/mode="canvas_items"
+[audio]
+driver/driver="Dummy"
+[rendering]
+textures/vram_compression/import_etc2_astc=true
+renderer/rendering_method="gl_compatibility"
+renderer/rendering_method.mobile="gl_compatibility"
+textures/default_filters/use_nearest_mipmap_filter=false
+textures/canvas_textures/default_texture_filter=2
+environment/defaults/default_clear_color=Color(0.13,0.15,0.14,1)

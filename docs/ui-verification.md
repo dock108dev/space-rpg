@@ -46,3 +46,15 @@ Native Mac operation exercised all three previews, power choice, Escape, Tab, Sp
 ## B2.5 command/story interface
 
 The command candidate extends the unchanged UI-02 chapter scene with a visible history, input, contextual actions, activity and Stop below the illustrated world. Logical canvas 1280×980; default native window 1152×882. The original B2 launcher and historical prototypes retain their previous layouts. [B2.5 evidence](../evidence/B2.5/README.md) records native keyboard/mouse checks, final moving review, exact source identity and limitations. Owner acceptance and accessibility qualification remain separate. UI-03 was interrupted after before captures and superseded before runtime implementation; its evidence is preserved.
+
+## B8 character and chapter experience
+
+Current objective/outcome, History, Help, scrollable choices and larger main text are integrated with setup, actual illustrated appearance and separate sessions. Native 1152×882 content and enlarged main text were reviewed with long Unicode names, power/destination commands, focus/Stop/help, pause, Save and quit, new-process Continue and Earlier characters. Matched chapter fixtures include conditions/rescue, home/furniture, inventory, result, help/pause and save failure. [B8 review](B8-review-and-balance.md) records repairs and exact limits; [evidence](../evidence/B8/README.md) binds source and captures. No screen-reader or owner acceptance claim.
+
+## UI-04 — Command adventure clarity
+
+Source presentation cleanup after M1/M2 is technically complete. [Matched screens, measurements, checks and two separate suggestions](../evidence/UI-04/README.md). The ordinary player scene now has one lower working area, an objective at the top, concise result copy with full History, clear setup emphasis and grouped Help. Nine home choices fit without scroll in the tested ordinary/larger-text state. All 58 native UI checks across 1152×882/1280×980 and affected B8 gameplay/restart checks pass. Illustrated world bounds and gameplay fields remain unchanged; narrative history reflects revised display copy. B9 and B10 are preserved; no owner acceptance or new release.
+
+## UI-05 native package review
+
+Uniform 125% fonts verified across setup, HUD, command input, dynamic choices, menus, Help, Pause and actor labels. Setup/restored preference, empty Continue, opening, yard, home, result, Help, History and expanded save recovery captured at 1152×882 and 1280×980. Audience overlap and Pause layering discovered on initial captures were repaired before final package qualification. See [exact evidence](../evidence/UI-05/README.md). Owner acceptance is not inferred.

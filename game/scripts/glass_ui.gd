@@ -1,4 +1,4 @@
-# Native Godot adaptation of Glass UI Starter 01.
+# Shared native Godot panel and control styling.
 # Uses translucent StyleBoxFlat surfaces, not a screen-reading blur shader.
 extends RefCounted
 

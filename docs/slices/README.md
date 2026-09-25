@@ -1,14 +1,12 @@
+# Current delivery — B9 technically complete
+
+[B9 standalone personal Mac delivery](B9-standalone-mac.md), B9-20260924-01, is technically complete. No engineering slice is active. B10 owner review is prepared but NOT STARTED. [Exact evidence](../../evidence/B9/README.md). B2.5 remains owner accepted; B3–B8 owner verdicts remain pending. Prior records below are historical.
+
 # Prototype slice board and beta route
 
-## Current chapter route — September 23, 2026
+B1 planning and B2–B7 engineering are complete. **[B7](B7-expedition-and-resolution.md) is TECHNICALLY COMPLETE; owner acceptance pending. B8 was the next unstarted scope at that historical B7 delivery; its completed record is above.** B2.5 is explicitly owner accepted; B3–B7 owner verdicts remain pending. [B7 exact delivery](../../evidence/B7/README.md) · [Current engineering handoff](../next-task.md).
 
-[B1 chapter packet](../chapter-implementation-packet.md) is **COMPLETE — planning only**. [B2 playable foundation](B2-playable-foundation.md) is **TECHNICALLY COMPLETE — owner review pending**. [B2 evidence](../../evidence/B2/README.md) identifies the verified candidate. [Current handoff](../next-task.md) preserves A1/A1a priority and defines the following B4 scope; B2.5 is technically complete and owner-accepted; [B3](B3-world-and-tasks.md) is technically complete with owner review pending; B4 is IN PROGRESS. [B2.5 command adventure](B2.5-command-adventure.md) is TECHNICALLY COMPLETE AND OWNER ACCEPTED after B2, before B3–B10 under the [Desktop beta path](../../../space_opera_rpg_next_steps.md).
-
-B2 is closed at its delivery. UI-02 is complete. UI-03 was interrupted before runtime edits and is superseded by the B2.5 request. B2.5 is TECHNICALLY COMPLETE — OWNER ACCEPTED; see [acceptance](../playtests/B2.5-owner-acceptance.md). B3 is technically complete; [evidence](../../evidence/B3/README.md) records its exact candidate. B4 is the sole active engineering slice. S05 is a separately prepared historical prototype review, not an active engineering slice or a blocking requirement for B2. Use actual feedback if received; do not infer a verdict.
-
-## Product priority
-
-**A1: modern text-adventure command experience. A1a: story and gameplay.** B2's bounded delivery is complete. B2.5 supplies narrative/choice gameplay in the existing two places; B3 now extends that interface across four places and three optional tasks; B4 must continue it for progression and preparation. B2.5 now implements the command/story scope with an offline interpreter. The local-model option was assessed from documentation and remains untested in inference.
+**A1: modern text-adventure command play. A1a: story and gameplay.** B5 extends the same illustrated world with earned ownership, furnishings, storage and privacy. No full-beta readiness is asserted. S05 remains an independent unrun historical review. Keep one engineering slice active and record owner verdicts separately from technical evidence.
 
 ## Retained prototype and UI status
 
@@ -37,3 +35,21 @@ Keep one active slice. READY means dependencies are met, not that work has start
 | Release planning | Separate owner intent | Distribution plan; not implied by prototype or beta |
 
 Freedom, organizational employment and replay identities are retained long-term directions. Their delivery boundaries must be decided when the campaign is scoped. Do not silently drop them or build them before the foundational play/visual test.
+
+B7 completed its September 24 authorized work order. [Completed slice](B7-expedition-and-resolution.md) and [contract](../B7-runtime-contract.md). B8 has since completed as recorded above.
+
+[M1 error-handling maintenance](M1-error-handling.md) is technically complete on current source; frozen B9 remains unchanged and B10 is unstarted.
+
+[M2 local security hardening](M2-security-hardening.md) is technically complete on source; frozen B9 and B10 status are preserved.
+
+[UI-04 command clarity](UI-04-command-clarity.md) is technically complete on source; [matched review](../../evidence/UI-04/README.md). Frozen B9 and unstarted B10 remain separate.
+
+UI-05 — [Whole-interface enlargement and updated Mac app](UI-05-accessible-mac-update.md). Separate from preserved B9 and unstarted B10.
+
+M3 — [SSOT enforcement](M3-ssot-enforcement.md), source maintenance after frozen UI-05.
+
+M4 — [Repository cleanup](M4-repository-cleanup.md): portable fixtures, common capture tooling, concise docs and narrow index cleanup.
+
+M5 — [CI readiness](M5-ci-readiness.md), local verification with hosted execution pending.
+
+M6 — [Documentation accuracy](M6-documentation-accuracy.md): standalone current references, contextual comment cleanup and preserved history.
