@@ -22,6 +22,6 @@ M3 SSOT enforcement is technically complete on source; see `docs/ssot.md`, `docs
 
 M4 repository cleanup is technically complete. Use `docs/development.md` and `docs/README.md`; required synthetic inputs live in tracked `tests/fixtures`, not ignored evidence. Interface capture orchestration is shared in `scripts/interface_capture.py`. `bash scripts/validate.sh M4` verifies an evidence-free export of the current working source. No engineering slice is active; packages remain frozen.
 
-M5 CI readiness is locally complete and hosted-unverified; see `docs/ci.md`. Preserve managed CodeQL and stable `Source checks (macOS)` job name. Ordinary PR CI runs focused M4 source checks, never packaging/signing. No engineering slice is active.
+M5 CI readiness is complete; hosted CI passed for `3bd7d5ac499c1e3e2922f4a8bad6602930749b59` (run `36079157238`). See `docs/ci.md` and `docs/next-task.md`; that source result is not package qualification. Preserve managed CodeQL and stable `Source checks (macOS)` job name. Ordinary PR CI runs focused M4 source checks, never packaging/signing. No engineering slice is active.
 
 M6 documentation accuracy is complete. Public setup and current behavior live in README and the guides linked by `docs/README.md`; `docs/history/README.md` indexes planning/candidate records. Keep chronology and private workspace routines out of public-facing guidance while preserving existing records and actual API/config identifiers. No engineering slice is active.

@@ -1,14 +1,20 @@
+# Current continuation status — September 24, 2026 audit
+
+No engineering slice is active. B2–B9, UI-05 and M1–M6 are technically complete; B10 is unstarted and full-beta owner acceptance remains pending. Latest packaged delivery is UI-05; the original B9/B10 review handoff below remains separately preserved. Select and record the exact package before owner review; do not transfer evidence or acceptance between packages or current source.
+
+Audited source `3bd7d5ac499c1e3e2922f4a8bad6602930749b59` was clean and matched remote main. [Hosted CI](https://github.com/dock108dev/space-rpg/actions/runs/36079157238) and [Push on main](https://github.com/dock108dev/space-rpg/actions/runs/36079155485) passed for that commit. M5 hosted source validation is now verified for that revision. The documentation edits from this audit are not covered by those earlier runs. Earlier staged/untracked and no-commit/push wording records the delivery sessions, not the current checkout. Source after UI-05 remains distinct from both frozen apps. This audit launched no app and inspected no saves.
+
 ## Completed source continuation — M6 documentation accuracy
 
 M6 is TECHNICALLY COMPLETE. No engineering slice is active. Public README and core guides describe current play, setup, configuration, architecture, tests, CI, recovery and security without requiring planning history or personal paths. Current player guide fixes stale text-size/Help claims; historical records are indexed separately. Source window title and capture help text no longer show planning labels. Focused source and documentation checks pass. Frozen apps/evidence and staged work are preserved; no commit/push, packaging or signing.
 
 ## Completed source continuation — M5 CI readiness
 
-M5 is TECHNICALLY COMPLETE: LOCALLY READY — HOSTED UNVERIFIED. One macOS source-check workflow uses pinned Actions/Python/Godot, read-only permissions and existing focused M4 validation. Managed CodeQL remains unchanged. Downloaded-engine local checks and actionlint pass. No engineering slice is active. No commit/push, settings changes, signing or release; a future PR must include accumulated untracked source and CI files. Frozen B9/UI-05 remain unchanged; owner acceptance pending. See repository `docs/ci.md`.
+M5 is TECHNICALLY COMPLETE; hosted CI passed for audited source `3bd7d5a` (run `36079157238`). At the original M5 delivery, hosted execution was still unverified. One macOS source-check workflow uses pinned Actions/Python/Godot, read-only permissions and existing focused M4 validation. Managed CodeQL remains unchanged. Downloaded-engine local checks and actionlint pass. No engineering slice is active. No commit/push, settings changes, signing or release; the delivery originally required inclusion of accumulated untracked source and CI files. Those files are now committed in the audited checkout. Frozen B9/UI-05 remain unchanged; owner acceptance pending. See repository `docs/ci.md`.
 
 ## Completed source continuation — M4 repository cleanup
 
-M4 is TECHNICALLY COMPLETE. No engineering slice is active. README and development guidance are consolidated; interface captures share one helper; required synthetic fixtures are tracked outside ignored evidence. Clean-source-export validation passes without pre-existing evidence/cache folders. Four redundant snapshots are removed from the index with local copies/hash identity preserved. Only those removals and the required fixture inputs are staged; prior work remains untouched. No commit, push, package or signing; frozen B9/UI-05 are unchanged and owner acceptance remains pending. See repository `docs/development.md` and `docs/slices/M4-repository-cleanup.md`.
+M4 is TECHNICALLY COMPLETE. No engineering slice is active. README and development guidance are consolidated; interface captures share one helper; required synthetic fixtures are tracked outside ignored evidence. Clean-source-export validation passes without pre-existing evidence/cache folders. Four redundant snapshots are removed from the index with local copies/hash identity preserved. At that delivery, only those removals and the required fixture inputs were staged; the audited checkout now includes the committed work. No commit, push, package or signing; frozen B9/UI-05 are unchanged and owner acceptance remains pending. See repository `docs/development.md` and `docs/slices/M4-repository-cleanup.md`.
 
 ## Completed source continuation — M3 SSOT enforcement
 
