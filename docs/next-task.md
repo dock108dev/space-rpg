@@ -1,8 +1,8 @@
-# Current continuation status — September 24, 2026 audit
+# Current continuation status — September 26, 2026 audit
 
 No engineering slice is active. B2–B9, UI-05 and M1–M6 are technically complete; B10 is unstarted and full-beta owner acceptance remains pending. Latest packaged delivery is UI-05; the original B9/B10 review handoff below remains separately preserved. Select and record the exact package before owner review; do not transfer evidence or acceptance between packages or current source.
 
-Audited source `3bd7d5ac499c1e3e2922f4a8bad6602930749b59` was clean and matched remote main. [Hosted CI](https://github.com/dock108dev/space-rpg/actions/runs/36079157238) and [Push on main](https://github.com/dock108dev/space-rpg/actions/runs/36079155485) passed for that commit. M5 hosted source validation is now verified for that revision. The documentation edits from this audit are not covered by those earlier runs. Earlier staged/untracked and no-commit/push wording records the delivery sessions, not the current checkout. Source after UI-05 remains distinct from both frozen apps. This audit launched no app and inspected no saves.
+Audited source `1080d9e1c493fadf53d0ee83ce1b907b45b20834` was clean and matched remote main. [Hosted CI](https://github.com/dock108dev/space-rpg/actions/runs/36209364305) and [Push on main](https://github.com/dock108dev/space-rpg/actions/runs/36209364116) passed for that commit. M5 hosted source validation is now verified for that revision. That commit includes the September 24 audit corrections; only AGENTS.md and this handoff changed since `3bd7d5a`. This September 26 documentation refresh is not covered by those hosted runs. Earlier staged/untracked and no-commit/push wording records the delivery sessions, not the current checkout. Source after UI-05 remains distinct from both frozen apps. This audit launched no app and inspected no saves.
 
 ## Completed source continuation — M6 documentation accuracy
 
